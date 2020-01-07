@@ -1,0 +1,1318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D3E8DBD6C2A82E411793750 /* Pods_e_sleep_e_sleepUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2DA78011984FFBF3F09F3F /* Pods_e_sleep_e_sleepUITests.framework */; };
+		C1006FD8238564A200921E3B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1006FD7238564A200921E3B /* SettingsViewController.swift */; };
+		C1006FDA238565F300921E3B /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1006FD9238565F300921E3B /* AlarmViewController.swift */; };
+		C1006FDC238566A700921E3B /* AddAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1006FDB238566A700921E3B /* AddAlarmViewController.swift */; };
+		C1006FDF238566DD00921E3B /* AddAlarm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1006FDE238566DD00921E3B /* AddAlarm.storyboard */; };
+		C1006FE123856A8600921E3B /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1006FE023856A8600921E3B /* RankingViewController.swift */; };
+		C1006FE323856ADF00921E3B /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1006FE223856ADF00921E3B /* RoomsViewController.swift */; };
+		C10300F22369BFEF00939C91 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10300E92369BFEE00939C91 /* RxSwift.framework */; };
+		C10300F32369BFEF00939C91 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C10300E92369BFEE00939C91 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C10300F42369BFEF00939C91 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10300EA2369BFEE00939C91 /* RealmSwift.framework */; };
+		C10300F52369BFEF00939C91 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C10300EA2369BFEE00939C91 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C10300F62369BFEF00939C91 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10300EB2369BFEE00939C91 /* RxRelay.framework */; };
+		C10300F72369BFEF00939C91 /* RxRelay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C10300EB2369BFEE00939C91 /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C10300FA2369BFEF00939C91 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10300ED2369BFEE00939C91 /* Reachability.framework */; };
+		C10300FB2369BFEF00939C91 /* Reachability.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C10300ED2369BFEE00939C91 /* Reachability.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C10300FC2369BFEF00939C91 /* RxOptional.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10300EE2369BFEE00939C91 /* RxOptional.framework */; };
+		C10300FD2369BFEF00939C91 /* RxOptional.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C10300EE2369BFEE00939C91 /* RxOptional.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C10300FE2369BFEF00939C91 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10300EF2369BFEE00939C91 /* RxCocoa.framework */; };
+		C10300FF2369BFEF00939C91 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C10300EF2369BFEE00939C91 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C10301002369BFEF00939C91 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10300F02369BFEE00939C91 /* Realm.framework */; };
+		C10301012369BFEF00939C91 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C10300F02369BFEE00939C91 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C105DA2423793F8200607832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C105DA2323793F8200607832 /* Assets.xcassets */; };
+		C12D1F15236FD83500A5A6FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F14236FD83500A5A6FB /* GoogleService-Info.plist */; };
+		C12D1F2B236FE0E200A5A6FB /* RegisterName.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F2A236FE0E200A5A6FB /* RegisterName.storyboard */; };
+		C12D1F2E236FE12700A5A6FB /* RegisterIcon.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F2D236FE12700A5A6FB /* RegisterIcon.storyboard */; };
+		C12D1F30236FE13500A5A6FB /* Ranking.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F2F236FE13500A5A6FB /* Ranking.storyboard */; };
+		C12D1F32236FE14B00A5A6FB /* Rooms.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F31236FE14B00A5A6FB /* Rooms.storyboard */; };
+		C12D1F34236FE15200A5A6FB /* Room.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F33236FE15200A5A6FB /* Room.storyboard */; };
+		C12D1F36236FE15A00A5A6FB /* CreateRoom.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F35236FE15A00A5A6FB /* CreateRoom.storyboard */; };
+		C12D1F38236FE16300A5A6FB /* JoinRoom.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F37236FE16300A5A6FB /* JoinRoom.storyboard */; };
+		C12D1F3A236FE16B00A5A6FB /* RoomSettings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F39236FE16B00A5A6FB /* RoomSettings.storyboard */; };
+		C12D1F3C236FE17100A5A6FB /* Alarm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F3B236FE17100A5A6FB /* Alarm.storyboard */; };
+		C12D1F3E236FE17800A5A6FB /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F3D236FE17800A5A6FB /* Settings.storyboard */; };
+		C12D1F41236FE1F500A5A6FB /* CreateRoomSetIcon.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F40236FE1F500A5A6FB /* CreateRoomSetIcon.storyboard */; };
+		C12D1F45236FE28400A5A6FB /* WakeUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D1F44236FE28400A5A6FB /* WakeUpButton.swift */; };
+		C12D1F47236FE2CD00A5A6FB /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D1F46236FE2CD00A5A6FB /* ResultView.swift */; };
+		C12D1F49236FE34700A5A6FB /* RegisterNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D1F48236FE34700A5A6FB /* RegisterNameViewController.swift */; };
+		C12D1F4D236FEC7500A5A6FB /* RegisterIconViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D1F4C236FEC7500A5A6FB /* RegisterIconViewController.swift */; };
+		C12D1F4F236FF15800A5A6FB /* LevelBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D1F4E236FF15800A5A6FB /* LevelBar.swift */; };
+		C12D1F52236FF3E600A5A6FB /* RankingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D1F50236FF3E600A5A6FB /* RankingTableViewCell.swift */; };
+		C12D1F53236FF3E600A5A6FB /* RankingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F51236FF3E600A5A6FB /* RankingTableViewCell.xib */; };
+		C12D1F56236FFAE400A5A6FB /* RoomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D1F54236FFAE400A5A6FB /* RoomCollectionViewCell.swift */; };
+		C12D1F57236FFAE400A5A6FB /* RoomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F55236FFAE400A5A6FB /* RoomCollectionViewCell.xib */; };
+		C12D1F5F2370023900A5A6FB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D1F5E2370023900A5A6FB /* Colors.swift */; };
+		C12D1F6323700ED100A5A6FB /* Alertift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12D1F6223700ED100A5A6FB /* Alertift.framework */; };
+		C12D1F6423700ED100A5A6FB /* Alertift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C12D1F6223700ED100A5A6FB /* Alertift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C12D1F662370107000A5A6FB /* RegisterIconViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D1F652370107000A5A6FB /* RegisterIconViewModel.swift */; };
+		C12D1F682370113D00A5A6FB /* RegisterIconModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D1F672370113D00A5A6FB /* RegisterIconModel.swift */; };
+		C12D1F6A2370129500A5A6FB /* RegisterErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D1F692370129500A5A6FB /* RegisterErrors.swift */; };
+		C152F95023AA066C00719044 /* LevelBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C152F94F23AA066C00719044 /* LevelBarViewModel.swift */; };
+		C152F95223AA067A00719044 /* LevelBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C152F95123AA067A00719044 /* LevelBarModel.swift */; };
+		C15F94412369BAC8007F3B68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F94402369BAC8007F3B68 /* AppDelegate.swift */; };
+		C15F944D2369BAC9007F3B68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C15F944B2369BAC9007F3B68 /* LaunchScreen.storyboard */; };
+		C15F94582369BAC9007F3B68 /* e_sleepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F94572369BAC9007F3B68 /* e_sleepTests.swift */; };
+		C15F94632369BAC9007F3B68 /* e_sleepUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F94622369BAC9007F3B68 /* e_sleepUITests.swift */; };
+		C16D938E2377B53B00DFC21A /* ExperiencePointTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16D938D2377B53B00DFC21A /* ExperiencePointTable.swift */; };
+		C16D93902377B87300DFC21A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16D938F2377B87300DFC21A /* User.swift */; };
+		C16D93922377DB0E00DFC21A /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16D93912377DB0E00DFC21A /* Room.swift */; };
+		C17B614423862C7D00B0221D /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17B614323862C7D00B0221D /* Images.swift */; };
+		C17B614623865B2300B0221D /* RegisterNameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17B614523865B2300B0221D /* RegisterNameViewModel.swift */; };
+		C17B614823865E8000B0221D /* RegisterNameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17B614723865E8000B0221D /* RegisterNameModel.swift */; };
+		C189240823A249D5001D3F54 /* ChangeThemaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C189240723A249D5001D3F54 /* ChangeThemaViewController.swift */; };
+		C189240A23A249DE001D3F54 /* EditAcountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C189240923A249DE001D3F54 /* EditAcountViewController.swift */; };
+		C189240C23A24A0F001D3F54 /* About_e-sleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C189240B23A24A0F001D3F54 /* About_e-sleepViewController.swift */; };
+		C189240E23A24A1B001D3F54 /* Usage_e-sleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C189240D23A24A1B001D3F54 /* Usage_e-sleepViewController.swift */; };
+		C189241223A24B6F001D3F54 /* EditAcountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C189241123A24B6F001D3F54 /* EditAcountViewModel.swift */; };
+		C19C386523792B9F00216A3F /* UITextFieldExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19C386423792B9F00216A3F /* UITextFieldExtensions.swift */; };
+		C19C38672379376800216A3F /* PaddingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19C38662379376800216A3F /* PaddingTextField.swift */; };
+		C1BF61F52384EA8F00B58578 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF61F42384EA8F00B58578 /* TabBarController.swift */; };
+		C1E1AF26238B7949008BFBFB /* UIImagePickerSourceType+ErrorText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1AF25238B7949008BFBFB /* UIImagePickerSourceType+ErrorText.swift */; };
+		C1E1AF2B238B7FBA008BFBFB /* RxGesture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E1AF29238B7FBA008BFBFB /* RxGesture.framework */; };
+		C1E1AF2C238B7FBA008BFBFB /* RxGesture.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C1E1AF29238B7FBA008BFBFB /* RxGesture.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C1E1AF2D238B7FBA008BFBFB /* TransitionButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E1AF2A238B7FBA008BFBFB /* TransitionButton.framework */; };
+		C1E1AF2E238B7FBA008BFBFB /* TransitionButton.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C1E1AF2A238B7FBA008BFBFB /* TransitionButton.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C1E1AF30238BAD8E008BFBFB /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E1AF2F238BAD8E008BFBFB /* SnapKit.framework */; };
+		C1E1AF31238BAD8E008BFBFB /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C1E1AF2F238BAD8E008BFBFB /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C1E1AF33238D2766008BFBFB /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1AF32238D2766008BFBFB /* Data.swift */; };
+		C1EB0F9B23728428008A042B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C1EB0F9A23728428008A042B /* Settings.bundle */; };
+		C1EBFF322386255300F8C4D7 /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EBFF312386255300F8C4D7 /* RoomViewController.swift */; };
+		D5767A8D1AD41140D56C6658 /* Pods_e_sleepTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD1025E8F4B37465FC16FC4 /* Pods_e_sleepTests.framework */; };
+		F6418E09A005E84AF65DCDE8 /* Pods_e_sleep.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5359C7D0AB564D83F55C91D1 /* Pods_e_sleep.framework */; };
+		FA5E726D2399FE1400AC435C /* AddAlarmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E726C2399FE1400AC435C /* AddAlarmViewModel.swift */; };
+		FA5E726F239A039A00AC435C /* AddAlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E726E239A039A00AC435C /* AddAlarmModel.swift */; };
+		FA894B132398E1A100077616 /* AlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA894B112398E1A100077616 /* AlarmTableViewCell.swift */; };
+		FA894B142398E1A100077616 /* AlarmTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA894B122398E1A100077616 /* AlarmTableViewCell.xib */; };
+		FA894B182398EC0500077616 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA894B172398EC0500077616 /* Alarm.swift */; };
+		FA894B1A2398ED0500077616 /* AlarmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA894B192398ED0500077616 /* AlarmController.swift */; };
+		FA894B1C2398F4CD00077616 /* AlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA894B1B2398F4CD00077616 /* AlarmModel.swift */; };
+		FA894B1E2398F4DE00077616 /* AlarmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA894B1D2398F4DE00077616 /* AlarmViewModel.swift */; };
+		FA894B202398F4ED00077616 /* AlarmDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA894B1F2398F4ED00077616 /* AlarmDataSource.swift */; };
+		FA894B222398FFA300077616 /* WakeUpResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA894B212398FFA300077616 /* WakeUpResult.swift */; };
+		FA894B2423990EF100077616 /* RxRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA894B2323990EF100077616 /* RxRealm.framework */; };
+		FA894B2523990EF100077616 /* RxRealm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA894B2323990EF100077616 /* RxRealm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA894B2723990F0300077616 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA894B2623990F0300077616 /* Kingfisher.framework */; };
+		FA894B2823990F0300077616 /* Kingfisher.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA894B2623990F0300077616 /* Kingfisher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FAD8A2AA2398CFA7007AFC3F /* RankingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8A2A92398CFA7007AFC3F /* RankingModel.swift */; };
+		FAD8A2AC2398D072007AFC3F /* RankingDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8A2AB2398D072007AFC3F /* RankingDetailData.swift */; };
+		FAD8A2AE2398D3BF007AFC3F /* RankingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8A2AD2398D3BF007AFC3F /* RankingViewModel.swift */; };
+		FAD8A2B02398D6C6007AFC3F /* RankingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8A2AF2398D6C6007AFC3F /* RankingDataSource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C15F94542369BAC9007F3B68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C15F94352369BAC8007F3B68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C15F943C2369BAC8007F3B68;
+			remoteInfo = "e-sleep";
+		};
+		C15F945F2369BAC9007F3B68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C15F94352369BAC8007F3B68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C15F943C2369BAC8007F3B68;
+			remoteInfo = "e-sleep";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C10301042369BFEF00939C91 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C10300F52369BFEF00939C91 /* RealmSwift.framework in Embed Frameworks */,
+				C1E1AF2E238B7FBA008BFBFB /* TransitionButton.framework in Embed Frameworks */,
+				C12D1F6423700ED100A5A6FB /* Alertift.framework in Embed Frameworks */,
+				C1E1AF2C238B7FBA008BFBFB /* RxGesture.framework in Embed Frameworks */,
+				FA894B2823990F0300077616 /* Kingfisher.framework in Embed Frameworks */,
+				FA894B2523990EF100077616 /* RxRealm.framework in Embed Frameworks */,
+				C10300F32369BFEF00939C91 /* RxSwift.framework in Embed Frameworks */,
+				C10300FF2369BFEF00939C91 /* RxCocoa.framework in Embed Frameworks */,
+				C10300FB2369BFEF00939C91 /* Reachability.framework in Embed Frameworks */,
+				C10301012369BFEF00939C91 /* Realm.framework in Embed Frameworks */,
+				C10300FD2369BFEF00939C91 /* RxOptional.framework in Embed Frameworks */,
+				C10300F72369BFEF00939C91 /* RxRelay.framework in Embed Frameworks */,
+				C1E1AF31238BAD8E008BFBFB /* SnapKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1C25825A99A218CB43F1612D /* Pods-e-sleepTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-sleepTests.debug.xcconfig"; path = "Target Support Files/Pods-e-sleepTests/Pods-e-sleepTests.debug.xcconfig"; sourceTree = "<group>"; };
+		33A83FCBD641211BE907D47E /* Pods-e-sleep-e-sleepUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-sleep-e-sleepUITests.debug.xcconfig"; path = "Target Support Files/Pods-e-sleep-e-sleepUITests/Pods-e-sleep-e-sleepUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5359C7D0AB564D83F55C91D1 /* Pods_e_sleep.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_e_sleep.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8171244B12C41C62CF773B21 /* Pods-e-sleep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-sleep.release.xcconfig"; path = "Target Support Files/Pods-e-sleep/Pods-e-sleep.release.xcconfig"; sourceTree = "<group>"; };
+		82791FFFA7A4D195D6C478BD /* Pods-e-sleep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-sleep.debug.xcconfig"; path = "Target Support Files/Pods-e-sleep/Pods-e-sleep.debug.xcconfig"; sourceTree = "<group>"; };
+		8F2DA78011984FFBF3F09F3F /* Pods_e_sleep_e_sleepUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_e_sleep_e_sleepUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1006FD7238564A200921E3B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C1006FD9238565F300921E3B /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		C1006FDB238566A700921E3B /* AddAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmViewController.swift; sourceTree = "<group>"; };
+		C1006FDE238566DD00921E3B /* AddAlarm.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddAlarm.storyboard; sourceTree = "<group>"; };
+		C1006FE023856A8600921E3B /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+		C1006FE223856ADF00921E3B /* RoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
+		C10300E92369BFEE00939C91 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		C10300EA2369BFEE00939C91 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		C10300EB2369BFEE00939C91 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
+		C10300EC2369BFEE00939C91 /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NVActivityIndicatorView.framework; path = Carthage/Build/iOS/NVActivityIndicatorView.framework; sourceTree = "<group>"; };
+		C10300ED2369BFEE00939C91 /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = Carthage/Build/iOS/Reachability.framework; sourceTree = "<group>"; };
+		C10300EE2369BFEE00939C91 /* RxOptional.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxOptional.framework; path = Carthage/Build/iOS/RxOptional.framework; sourceTree = "<group>"; };
+		C10300EF2369BFEE00939C91 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		C10300F02369BFEE00939C91 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		C10300F12369BFEF00939C91 /* NVActivityIndicatorViewAppExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NVActivityIndicatorViewAppExtension.framework; path = Carthage/Build/iOS/NVActivityIndicatorViewAppExtension.framework; sourceTree = "<group>"; };
+		C105DA2323793F8200607832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C12D1F14236FD83500A5A6FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C12D1F2A236FE0E200A5A6FB /* RegisterName.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegisterName.storyboard; sourceTree = "<group>"; };
+		C12D1F2D236FE12700A5A6FB /* RegisterIcon.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegisterIcon.storyboard; sourceTree = "<group>"; };
+		C12D1F2F236FE13500A5A6FB /* Ranking.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Ranking.storyboard; sourceTree = "<group>"; };
+		C12D1F31236FE14B00A5A6FB /* Rooms.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Rooms.storyboard; sourceTree = "<group>"; };
+		C12D1F33236FE15200A5A6FB /* Room.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Room.storyboard; sourceTree = "<group>"; };
+		C12D1F35236FE15A00A5A6FB /* CreateRoom.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateRoom.storyboard; sourceTree = "<group>"; };
+		C12D1F37236FE16300A5A6FB /* JoinRoom.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JoinRoom.storyboard; sourceTree = "<group>"; };
+		C12D1F39236FE16B00A5A6FB /* RoomSettings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RoomSettings.storyboard; sourceTree = "<group>"; };
+		C12D1F3B236FE17100A5A6FB /* Alarm.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alarm.storyboard; sourceTree = "<group>"; };
+		C12D1F3D236FE17800A5A6FB /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		C12D1F40236FE1F500A5A6FB /* CreateRoomSetIcon.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateRoomSetIcon.storyboard; sourceTree = "<group>"; };
+		C12D1F44236FE28400A5A6FB /* WakeUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeUpButton.swift; sourceTree = "<group>"; };
+		C12D1F46236FE2CD00A5A6FB /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		C12D1F48236FE34700A5A6FB /* RegisterNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterNameViewController.swift; sourceTree = "<group>"; };
+		C12D1F4C236FEC7500A5A6FB /* RegisterIconViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterIconViewController.swift; sourceTree = "<group>"; };
+		C12D1F4E236FF15800A5A6FB /* LevelBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelBar.swift; sourceTree = "<group>"; };
+		C12D1F50236FF3E600A5A6FB /* RankingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingTableViewCell.swift; sourceTree = "<group>"; };
+		C12D1F51236FF3E600A5A6FB /* RankingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RankingTableViewCell.xib; sourceTree = "<group>"; };
+		C12D1F54236FFAE400A5A6FB /* RoomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCollectionViewCell.swift; sourceTree = "<group>"; };
+		C12D1F55236FFAE400A5A6FB /* RoomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoomCollectionViewCell.xib; sourceTree = "<group>"; };
+		C12D1F5E2370023900A5A6FB /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		C12D1F6223700ED100A5A6FB /* Alertift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alertift.framework; path = Carthage/Build/iOS/Alertift.framework; sourceTree = "<group>"; };
+		C12D1F652370107000A5A6FB /* RegisterIconViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterIconViewModel.swift; sourceTree = "<group>"; };
+		C12D1F672370113D00A5A6FB /* RegisterIconModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterIconModel.swift; sourceTree = "<group>"; };
+		C12D1F692370129500A5A6FB /* RegisterErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterErrors.swift; sourceTree = "<group>"; };
+		C152F94F23AA066C00719044 /* LevelBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelBarViewModel.swift; sourceTree = "<group>"; };
+		C152F95123AA067A00719044 /* LevelBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelBarModel.swift; sourceTree = "<group>"; };
+		C15F943D2369BAC8007F3B68 /* e-sleep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "e-sleep.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C15F94402369BAC8007F3B68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C15F944C2369BAC9007F3B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C15F944E2369BAC9007F3B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C15F94532369BAC9007F3B68 /* e-sleepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "e-sleepTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C15F94572369BAC9007F3B68 /* e_sleepTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = e_sleepTests.swift; sourceTree = "<group>"; };
+		C15F94592369BAC9007F3B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C15F945E2369BAC9007F3B68 /* e-sleepUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "e-sleepUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C15F94622369BAC9007F3B68 /* e_sleepUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = e_sleepUITests.swift; sourceTree = "<group>"; };
+		C15F94642369BAC9007F3B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C16D938D2377B53B00DFC21A /* ExperiencePointTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperiencePointTable.swift; sourceTree = "<group>"; };
+		C16D938F2377B87300DFC21A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C16D93912377DB0E00DFC21A /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		C17B614323862C7D00B0221D /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		C17B614523865B2300B0221D /* RegisterNameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterNameViewModel.swift; sourceTree = "<group>"; };
+		C17B614723865E8000B0221D /* RegisterNameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterNameModel.swift; sourceTree = "<group>"; };
+		C189240723A249D5001D3F54 /* ChangeThemaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeThemaViewController.swift; sourceTree = "<group>"; };
+		C189240923A249DE001D3F54 /* EditAcountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAcountViewController.swift; sourceTree = "<group>"; };
+		C189240B23A24A0F001D3F54 /* About_e-sleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "About_e-sleepViewController.swift"; sourceTree = "<group>"; };
+		C189240D23A24A1B001D3F54 /* Usage_e-sleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Usage_e-sleepViewController.swift"; sourceTree = "<group>"; };
+		C189241123A24B6F001D3F54 /* EditAcountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAcountViewModel.swift; sourceTree = "<group>"; };
+		C19C386423792B9F00216A3F /* UITextFieldExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtensions.swift; sourceTree = "<group>"; };
+		C19C38662379376800216A3F /* PaddingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTextField.swift; sourceTree = "<group>"; };
+		C1BF61F42384EA8F00B58578 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		C1E1AF25238B7949008BFBFB /* UIImagePickerSourceType+ErrorText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImagePickerSourceType+ErrorText.swift"; sourceTree = "<group>"; };
+		C1E1AF29238B7FBA008BFBFB /* RxGesture.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxGesture.framework; path = Carthage/Build/iOS/RxGesture.framework; sourceTree = "<group>"; };
+		C1E1AF2A238B7FBA008BFBFB /* TransitionButton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TransitionButton.framework; path = Carthage/Build/iOS/TransitionButton.framework; sourceTree = "<group>"; };
+		C1E1AF2F238BAD8E008BFBFB /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		C1E1AF32238D2766008BFBFB /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		C1EB0F9A23728428008A042B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		C1EBFF312386255300F8C4D7 /* RoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
+		CCC0B5E3214DACFA584422C8 /* Pods-e-sleepTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-sleepTests.release.xcconfig"; path = "Target Support Files/Pods-e-sleepTests/Pods-e-sleepTests.release.xcconfig"; sourceTree = "<group>"; };
+		CDD1025E8F4B37465FC16FC4 /* Pods_e_sleepTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_e_sleepTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5E726C2399FE1400AC435C /* AddAlarmViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmViewModel.swift; sourceTree = "<group>"; };
+		FA5E726E239A039A00AC435C /* AddAlarmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmModel.swift; sourceTree = "<group>"; };
+		FA894B112398E1A100077616 /* AlarmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTableViewCell.swift; sourceTree = "<group>"; };
+		FA894B122398E1A100077616 /* AlarmTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlarmTableViewCell.xib; sourceTree = "<group>"; };
+		FA894B172398EC0500077616 /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		FA894B192398ED0500077616 /* AlarmController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmController.swift; sourceTree = "<group>"; };
+		FA894B1B2398F4CD00077616 /* AlarmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmModel.swift; sourceTree = "<group>"; };
+		FA894B1D2398F4DE00077616 /* AlarmViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewModel.swift; sourceTree = "<group>"; };
+		FA894B1F2398F4ED00077616 /* AlarmDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmDataSource.swift; sourceTree = "<group>"; };
+		FA894B212398FFA300077616 /* WakeUpResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WakeUpResult.swift; path = "e-sleep/Views/Alarm/WakeUpResult.swift"; sourceTree = SOURCE_ROOT; };
+		FA894B2323990EF100077616 /* RxRealm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRealm.framework; path = Carthage/Build/iOS/RxRealm.framework; sourceTree = "<group>"; };
+		FA894B2623990F0300077616 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		FAD8A2A92398CFA7007AFC3F /* RankingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingModel.swift; sourceTree = "<group>"; };
+		FAD8A2AB2398D072007AFC3F /* RankingDetailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RankingDetailData.swift; path = "e-sleep/Views/Ranking/RankingDetailData.swift"; sourceTree = SOURCE_ROOT; };
+		FAD8A2AD2398D3BF007AFC3F /* RankingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewModel.swift; sourceTree = "<group>"; };
+		FAD8A2AF2398D6C6007AFC3F /* RankingDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingDataSource.swift; sourceTree = "<group>"; };
+		FD1D75DD87975FFDA139667F /* Pods-e-sleep-e-sleepUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-sleep-e-sleepUITests.release.xcconfig"; path = "Target Support Files/Pods-e-sleep-e-sleepUITests/Pods-e-sleep-e-sleepUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C15F943A2369BAC8007F3B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10301002369BFEF00939C91 /* Realm.framework in Frameworks */,
+				C10300FC2369BFEF00939C91 /* RxOptional.framework in Frameworks */,
+				FA894B2423990EF100077616 /* RxRealm.framework in Frameworks */,
+				C12D1F6323700ED100A5A6FB /* Alertift.framework in Frameworks */,
+				C1E1AF30238BAD8E008BFBFB /* SnapKit.framework in Frameworks */,
+				C10300F62369BFEF00939C91 /* RxRelay.framework in Frameworks */,
+				C10300FA2369BFEF00939C91 /* Reachability.framework in Frameworks */,
+				C10300F22369BFEF00939C91 /* RxSwift.framework in Frameworks */,
+				FA894B2723990F0300077616 /* Kingfisher.framework in Frameworks */,
+				C1E1AF2B238B7FBA008BFBFB /* RxGesture.framework in Frameworks */,
+				C10300FE2369BFEF00939C91 /* RxCocoa.framework in Frameworks */,
+				C10300F42369BFEF00939C91 /* RealmSwift.framework in Frameworks */,
+				C1E1AF2D238B7FBA008BFBFB /* TransitionButton.framework in Frameworks */,
+				F6418E09A005E84AF65DCDE8 /* Pods_e_sleep.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15F94502369BAC9007F3B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5767A8D1AD41140D56C6658 /* Pods_e_sleepTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15F945B2369BAC9007F3B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3E8DBD6C2A82E411793750 /* Pods_e_sleep_e_sleepUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B68BFC16B7E7260031CED4BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA894B2623990F0300077616 /* Kingfisher.framework */,
+				FA894B2323990EF100077616 /* RxRealm.framework */,
+				C1E1AF2F238BAD8E008BFBFB /* SnapKit.framework */,
+				C1E1AF29238B7FBA008BFBFB /* RxGesture.framework */,
+				C1E1AF2A238B7FBA008BFBFB /* TransitionButton.framework */,
+				C12D1F6223700ED100A5A6FB /* Alertift.framework */,
+				C10300EC2369BFEE00939C91 /* NVActivityIndicatorView.framework */,
+				C10300F12369BFEF00939C91 /* NVActivityIndicatorViewAppExtension.framework */,
+				C10300ED2369BFEE00939C91 /* Reachability.framework */,
+				C10300F02369BFEE00939C91 /* Realm.framework */,
+				C10300EA2369BFEE00939C91 /* RealmSwift.framework */,
+				C10300EF2369BFEE00939C91 /* RxCocoa.framework */,
+				C10300EE2369BFEE00939C91 /* RxOptional.framework */,
+				C10300EB2369BFEE00939C91 /* RxRelay.framework */,
+				C10300E92369BFEE00939C91 /* RxSwift.framework */,
+				5359C7D0AB564D83F55C91D1 /* Pods_e_sleep.framework */,
+				8F2DA78011984FFBF3F09F3F /* Pods_e_sleep_e_sleepUITests.framework */,
+				CDD1025E8F4B37465FC16FC4 /* Pods_e_sleepTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFCBF5EC98E2F0B324E7507F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82791FFFA7A4D195D6C478BD /* Pods-e-sleep.debug.xcconfig */,
+				8171244B12C41C62CF773B21 /* Pods-e-sleep.release.xcconfig */,
+				33A83FCBD641211BE907D47E /* Pods-e-sleep-e-sleepUITests.debug.xcconfig */,
+				FD1D75DD87975FFDA139667F /* Pods-e-sleep-e-sleepUITests.release.xcconfig */,
+				1C25825A99A218CB43F1612D /* Pods-e-sleepTests.debug.xcconfig */,
+				CCC0B5E3214DACFA584422C8 /* Pods-e-sleepTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C1006FDD238566AF00921E3B /* AddAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				C1006FDE238566DD00921E3B /* AddAlarm.storyboard */,
+				C1006FDB238566A700921E3B /* AddAlarmViewController.swift */,
+				FA5E726C2399FE1400AC435C /* AddAlarmViewModel.swift */,
+				FA5E726E239A039A00AC435C /* AddAlarmModel.swift */,
+			);
+			path = AddAlarm;
+			sourceTree = "<group>";
+		};
+		C114CDCA237589EA00634805 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				C16D938D2377B53B00DFC21A /* ExperiencePointTable.swift */,
+				C16D938F2377B87300DFC21A /* User.swift */,
+				C16D93912377DB0E00DFC21A /* Room.swift */,
+				FA894B172398EC0500077616 /* Alarm.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		C12D1F16236FDB0500A5A6FB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C1BF61F32384EA6700B58578 /* TabBarController */,
+				C19C38682379390600216A3F /* Designable */,
+				C12D1F1E236FE02D00A5A6FB /* RegisterName */,
+				C12D1F1F236FE03400A5A6FB /* RegisterIcon */,
+				C12D1F21236FE04700A5A6FB /* Ranking */,
+				C12D1F23236FE04E00A5A6FB /* Rooms */,
+				C12D1F24236FE05200A5A6FB /* Room */,
+				C12D1F25236FE05400A5A6FB /* CreateRoom */,
+				C12D1F3F236FE1D300A5A6FB /* CreateRoomSetIcon */,
+				C12D1F26236FE05900A5A6FB /* JoinRoom */,
+				C12D1F27236FE06900A5A6FB /* RoomSettings */,
+				C12D1F22236FE04B00A5A6FB /* Alarm */,
+				C1006FDD238566AF00921E3B /* AddAlarm */,
+				C12D1F28236FE06F00A5A6FB /* Settings */,
+				C1589AE523A42498001F0AA3 /* CustomViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C12D1F17236FDB0900A5A6FB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C15F94402369BAC8007F3B68 /* AppDelegate.swift */,
+				C12D1F5E2370023900A5A6FB /* Colors.swift */,
+				C17B614323862C7D00B0221D /* Images.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C12D1F18236FDBEB00A5A6FB /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				FAD8A2AB2398D072007AFC3F /* RankingDetailData.swift */,
+				FA894B212398FFA300077616 /* WakeUpResult.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		C12D1F1A236FDBFA00A5A6FB /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				C114CDCA237589EA00634805 /* Entity */,
+				FA894B192398ED0500077616 /* AlarmController.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		C12D1F1B236FDBFD00A5A6FB /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				C12D1F692370129500A5A6FB /* RegisterErrors.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		C12D1F1C236FDC0300A5A6FB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C1E1AF32238D2766008BFBFB /* Data.swift */,
+				C1E1AF25238B7949008BFBFB /* UIImagePickerSourceType+ErrorText.swift */,
+				C19C386423792B9F00216A3F /* UITextFieldExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C12D1F1D236FDC0700A5A6FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C15F944B2369BAC9007F3B68 /* LaunchScreen.storyboard */,
+				C105DA2323793F8200607832 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C12D1F1E236FE02D00A5A6FB /* RegisterName */ = {
+			isa = PBXGroup;
+			children = (
+				C12D1F2A236FE0E200A5A6FB /* RegisterName.storyboard */,
+				C12D1F48236FE34700A5A6FB /* RegisterNameViewController.swift */,
+				C17B614523865B2300B0221D /* RegisterNameViewModel.swift */,
+				C17B614723865E8000B0221D /* RegisterNameModel.swift */,
+			);
+			path = RegisterName;
+			sourceTree = "<group>";
+		};
+		C12D1F1F236FE03400A5A6FB /* RegisterIcon */ = {
+			isa = PBXGroup;
+			children = (
+				C12D1F2D236FE12700A5A6FB /* RegisterIcon.storyboard */,
+				C12D1F4C236FEC7500A5A6FB /* RegisterIconViewController.swift */,
+				C12D1F652370107000A5A6FB /* RegisterIconViewModel.swift */,
+				C12D1F672370113D00A5A6FB /* RegisterIconModel.swift */,
+			);
+			path = RegisterIcon;
+			sourceTree = "<group>";
+		};
+		C12D1F21236FE04700A5A6FB /* Ranking */ = {
+			isa = PBXGroup;
+			children = (
+				C12D1F2F236FE13500A5A6FB /* Ranking.storyboard */,
+				C1006FE023856A8600921E3B /* RankingViewController.swift */,
+				FAD8A2AD2398D3BF007AFC3F /* RankingViewModel.swift */,
+				FAD8A2A92398CFA7007AFC3F /* RankingModel.swift */,
+				FAD8A2AF2398D6C6007AFC3F /* RankingDataSource.swift */,
+				C12D1F51236FF3E600A5A6FB /* RankingTableViewCell.xib */,
+				C12D1F50236FF3E600A5A6FB /* RankingTableViewCell.swift */,
+			);
+			path = Ranking;
+			sourceTree = "<group>";
+		};
+		C12D1F22236FE04B00A5A6FB /* Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				C12D1F3B236FE17100A5A6FB /* Alarm.storyboard */,
+				C1006FD9238565F300921E3B /* AlarmViewController.swift */,
+				FA894B1D2398F4DE00077616 /* AlarmViewModel.swift */,
+				FA894B1B2398F4CD00077616 /* AlarmModel.swift */,
+				FA894B1F2398F4ED00077616 /* AlarmDataSource.swift */,
+				FA894B122398E1A100077616 /* AlarmTableViewCell.xib */,
+				FA894B112398E1A100077616 /* AlarmTableViewCell.swift */,
+			);
+			path = Alarm;
+			sourceTree = "<group>";
+		};
+		C12D1F23236FE04E00A5A6FB /* Rooms */ = {
+			isa = PBXGroup;
+			children = (
+				C12D1F31236FE14B00A5A6FB /* Rooms.storyboard */,
+				C1006FE223856ADF00921E3B /* RoomsViewController.swift */,
+				C12D1F55236FFAE400A5A6FB /* RoomCollectionViewCell.xib */,
+				C12D1F54236FFAE400A5A6FB /* RoomCollectionViewCell.swift */,
+			);
+			path = Rooms;
+			sourceTree = "<group>";
+		};
+		C12D1F24236FE05200A5A6FB /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				C12D1F33236FE15200A5A6FB /* Room.storyboard */,
+				C1EBFF312386255300F8C4D7 /* RoomViewController.swift */,
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
+		C12D1F25236FE05400A5A6FB /* CreateRoom */ = {
+			isa = PBXGroup;
+			children = (
+				C12D1F35236FE15A00A5A6FB /* CreateRoom.storyboard */,
+			);
+			path = CreateRoom;
+			sourceTree = "<group>";
+		};
+		C12D1F26236FE05900A5A6FB /* JoinRoom */ = {
+			isa = PBXGroup;
+			children = (
+				C12D1F37236FE16300A5A6FB /* JoinRoom.storyboard */,
+			);
+			path = JoinRoom;
+			sourceTree = "<group>";
+		};
+		C12D1F27236FE06900A5A6FB /* RoomSettings */ = {
+			isa = PBXGroup;
+			children = (
+				C12D1F39236FE16B00A5A6FB /* RoomSettings.storyboard */,
+			);
+			path = RoomSettings;
+			sourceTree = "<group>";
+		};
+		C12D1F28236FE06F00A5A6FB /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				C12D1F3D236FE17800A5A6FB /* Settings.storyboard */,
+				C1006FD7238564A200921E3B /* SettingsViewController.swift */,
+				C189240F23A24B0F001D3F54 /* EditAcount */,
+				C189241023A24B17001D3F54 /* ChangeThema */,
+				C189240B23A24A0F001D3F54 /* About_e-sleepViewController.swift */,
+				C189240D23A24A1B001D3F54 /* Usage_e-sleepViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		C12D1F3F236FE1D300A5A6FB /* CreateRoomSetIcon */ = {
+			isa = PBXGroup;
+			children = (
+				C12D1F40236FE1F500A5A6FB /* CreateRoomSetIcon.storyboard */,
+			);
+			path = CreateRoomSetIcon;
+			sourceTree = "<group>";
+		};
+		C142B16C23C46F2B006860F5 /* WakeUpResultView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WakeUpResultView;
+			sourceTree = "<group>";
+		};
+		C1589AE523A42498001F0AA3 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				C142B16C23C46F2B006860F5 /* WakeUpResultView */,
+				C12D1F46236FE2CD00A5A6FB /* ResultView.swift */,
+				C12D1F44236FE28400A5A6FB /* WakeUpButton.swift */,
+				C12D1F4E236FF15800A5A6FB /* LevelBar.swift */,
+				C152F94F23AA066C00719044 /* LevelBarViewModel.swift */,
+				C152F95123AA067A00719044 /* LevelBarModel.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		C15F94342369BAC8007F3B68 = {
+			isa = PBXGroup;
+			children = (
+				C15F943F2369BAC8007F3B68 /* e-sleep */,
+				C15F94562369BAC9007F3B68 /* e-sleepTests */,
+				C15F94612369BAC9007F3B68 /* e-sleepUITests */,
+				C15F943E2369BAC8007F3B68 /* Products */,
+				BFCBF5EC98E2F0B324E7507F /* Pods */,
+				B68BFC16B7E7260031CED4BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C15F943E2369BAC8007F3B68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C15F943D2369BAC8007F3B68 /* e-sleep.app */,
+				C15F94532369BAC9007F3B68 /* e-sleepTests.xctest */,
+				C15F945E2369BAC9007F3B68 /* e-sleepUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C15F943F2369BAC8007F3B68 /* e-sleep */ = {
+			isa = PBXGroup;
+			children = (
+				C12D1F17236FDB0900A5A6FB /* App */,
+				C12D1F16236FDB0500A5A6FB /* Views */,
+				C12D1F18236FDBEB00A5A6FB /* Entity */,
+				C12D1F1A236FDBFA00A5A6FB /* Realm */,
+				C12D1F1B236FDBFD00A5A6FB /* Errors */,
+				C12D1F1C236FDC0300A5A6FB /* Extensions */,
+				C12D1F1D236FDC0700A5A6FB /* Resources */,
+				C15F944E2369BAC9007F3B68 /* Info.plist */,
+				C12D1F14236FD83500A5A6FB /* GoogleService-Info.plist */,
+				C1EB0F9A23728428008A042B /* Settings.bundle */,
+			);
+			path = "e-sleep";
+			sourceTree = "<group>";
+		};
+		C15F94562369BAC9007F3B68 /* e-sleepTests */ = {
+			isa = PBXGroup;
+			children = (
+				C15F94572369BAC9007F3B68 /* e_sleepTests.swift */,
+				C15F94592369BAC9007F3B68 /* Info.plist */,
+			);
+			path = "e-sleepTests";
+			sourceTree = "<group>";
+		};
+		C15F94612369BAC9007F3B68 /* e-sleepUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C15F94622369BAC9007F3B68 /* e_sleepUITests.swift */,
+				C15F94642369BAC9007F3B68 /* Info.plist */,
+			);
+			path = "e-sleepUITests";
+			sourceTree = "<group>";
+		};
+		C189240F23A24B0F001D3F54 /* EditAcount */ = {
+			isa = PBXGroup;
+			children = (
+				C189240923A249DE001D3F54 /* EditAcountViewController.swift */,
+				C189241123A24B6F001D3F54 /* EditAcountViewModel.swift */,
+			);
+			path = EditAcount;
+			sourceTree = "<group>";
+		};
+		C189241023A24B17001D3F54 /* ChangeThema */ = {
+			isa = PBXGroup;
+			children = (
+				C189240723A249D5001D3F54 /* ChangeThemaViewController.swift */,
+			);
+			path = ChangeThema;
+			sourceTree = "<group>";
+		};
+		C19C38682379390600216A3F /* Designable */ = {
+			isa = PBXGroup;
+			children = (
+				C19C38662379376800216A3F /* PaddingTextField.swift */,
+			);
+			path = Designable;
+			sourceTree = "<group>";
+		};
+		C1BF61F32384EA6700B58578 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				C1BF61F42384EA8F00B58578 /* TabBarController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C15F943C2369BAC8007F3B68 /* e-sleep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C15F94672369BAC9007F3B68 /* Build configuration list for PBXNativeTarget "e-sleep" */;
+			buildPhases = (
+				D9D57C64C343601C1CF9F55F /* [CP] Check Pods Manifest.lock */,
+				C15F94392369BAC8007F3B68 /* Sources */,
+				C15F943A2369BAC8007F3B68 /* Frameworks */,
+				C15F943B2369BAC8007F3B68 /* Resources */,
+				C10301042369BFEF00939C91 /* Embed Frameworks */,
+				C10301052369BFF800939C91 /* Carthage Run Script */,
+				C12D1F7D23705B6B00A5A6FB /* License Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "e-sleep";
+			productName = "e-sleep";
+			productReference = C15F943D2369BAC8007F3B68 /* e-sleep.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C15F94522369BAC9007F3B68 /* e-sleepTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C15F946A2369BAC9007F3B68 /* Build configuration list for PBXNativeTarget "e-sleepTests" */;
+			buildPhases = (
+				190FDBE7BCFDC8094496B30B /* [CP] Check Pods Manifest.lock */,
+				C15F944F2369BAC9007F3B68 /* Sources */,
+				C15F94502369BAC9007F3B68 /* Frameworks */,
+				C15F94512369BAC9007F3B68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C15F94552369BAC9007F3B68 /* PBXTargetDependency */,
+			);
+			name = "e-sleepTests";
+			productName = "e-sleepTests";
+			productReference = C15F94532369BAC9007F3B68 /* e-sleepTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C15F945D2369BAC9007F3B68 /* e-sleepUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C15F946D2369BAC9007F3B68 /* Build configuration list for PBXNativeTarget "e-sleepUITests" */;
+			buildPhases = (
+				1ABA138D24430BB7FCED459D /* [CP] Check Pods Manifest.lock */,
+				C15F945A2369BAC9007F3B68 /* Sources */,
+				C15F945B2369BAC9007F3B68 /* Frameworks */,
+				C15F945C2369BAC9007F3B68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C15F94602369BAC9007F3B68 /* PBXTargetDependency */,
+			);
+			name = "e-sleepUITests";
+			productName = "e-sleepUITests";
+			productReference = C15F945E2369BAC9007F3B68 /* e-sleepUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C15F94352369BAC8007F3B68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Ren Matsushita";
+				TargetAttributes = {
+					C15F943C2369BAC8007F3B68 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					C15F94522369BAC9007F3B68 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = C15F943C2369BAC8007F3B68;
+					};
+					C15F945D2369BAC9007F3B68 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = C15F943C2369BAC8007F3B68;
+					};
+				};
+			};
+			buildConfigurationList = C15F94382369BAC8007F3B68 /* Build configuration list for PBXProject "e-sleep" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C15F94342369BAC8007F3B68;
+			productRefGroup = C15F943E2369BAC8007F3B68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C15F943C2369BAC8007F3B68 /* e-sleep */,
+				C15F94522369BAC9007F3B68 /* e-sleepTests */,
+				C15F945D2369BAC9007F3B68 /* e-sleepUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C15F943B2369BAC8007F3B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15F944D2369BAC9007F3B68 /* LaunchScreen.storyboard in Resources */,
+				C12D1F2B236FE0E200A5A6FB /* RegisterName.storyboard in Resources */,
+				C12D1F41236FE1F500A5A6FB /* CreateRoomSetIcon.storyboard in Resources */,
+				C12D1F15236FD83500A5A6FB /* GoogleService-Info.plist in Resources */,
+				C12D1F57236FFAE400A5A6FB /* RoomCollectionViewCell.xib in Resources */,
+				C12D1F3C236FE17100A5A6FB /* Alarm.storyboard in Resources */,
+				C12D1F34236FE15200A5A6FB /* Room.storyboard in Resources */,
+				C1006FDF238566DD00921E3B /* AddAlarm.storyboard in Resources */,
+				C12D1F53236FF3E600A5A6FB /* RankingTableViewCell.xib in Resources */,
+				C12D1F3E236FE17800A5A6FB /* Settings.storyboard in Resources */,
+				C12D1F3A236FE16B00A5A6FB /* RoomSettings.storyboard in Resources */,
+				C12D1F36236FE15A00A5A6FB /* CreateRoom.storyboard in Resources */,
+				C12D1F30236FE13500A5A6FB /* Ranking.storyboard in Resources */,
+				C12D1F2E236FE12700A5A6FB /* RegisterIcon.storyboard in Resources */,
+				FA894B142398E1A100077616 /* AlarmTableViewCell.xib in Resources */,
+				C12D1F32236FE14B00A5A6FB /* Rooms.storyboard in Resources */,
+				C1EB0F9B23728428008A042B /* Settings.bundle in Resources */,
+				C105DA2423793F8200607832 /* Assets.xcassets in Resources */,
+				C12D1F38236FE16300A5A6FB /* JoinRoom.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15F94512369BAC9007F3B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15F945C2369BAC9007F3B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		190FDBE7BCFDC8094496B30B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-e-sleepTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1ABA138D24430BB7FCED459D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-e-sleep-e-sleepUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C10301052369BFF800939C91 /* Carthage Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Reachability.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxOptional.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxRelay.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alertift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/TransitionButton.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxGesture.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxRealm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+			);
+			name = "Carthage Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+		C12D1F7D23705B6B00A5A6FB /* License Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "License Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [ $CONFIGURATION = \"Debug\" ]; then\n${PODS_ROOT}/LicensePlist/license-plist --output-path $PRODUCT_NAME/Settings.bundle\nfi\n\n";
+		};
+		D9D57C64C343601C1CF9F55F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-e-sleep-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C15F94392369BAC8007F3B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA894B202398F4ED00077616 /* AlarmDataSource.swift in Sources */,
+				C12D1F4D236FEC7500A5A6FB /* RegisterIconViewController.swift in Sources */,
+				C12D1F56236FFAE400A5A6FB /* RoomCollectionViewCell.swift in Sources */,
+				C19C38672379376800216A3F /* PaddingTextField.swift in Sources */,
+				C152F95023AA066C00719044 /* LevelBarViewModel.swift in Sources */,
+				C16D93922377DB0E00DFC21A /* Room.swift in Sources */,
+				FA894B1E2398F4DE00077616 /* AlarmViewModel.swift in Sources */,
+				C189240E23A24A1B001D3F54 /* Usage_e-sleepViewController.swift in Sources */,
+				C1E1AF33238D2766008BFBFB /* Data.swift in Sources */,
+				FA894B132398E1A100077616 /* AlarmTableViewCell.swift in Sources */,
+				C152F95223AA067A00719044 /* LevelBarModel.swift in Sources */,
+				FAD8A2AA2398CFA7007AFC3F /* RankingModel.swift in Sources */,
+				C17B614823865E8000B0221D /* RegisterNameModel.swift in Sources */,
+				C19C386523792B9F00216A3F /* UITextFieldExtensions.swift in Sources */,
+				C12D1F662370107000A5A6FB /* RegisterIconViewModel.swift in Sources */,
+				C12D1F49236FE34700A5A6FB /* RegisterNameViewController.swift in Sources */,
+				C15F94412369BAC8007F3B68 /* AppDelegate.swift in Sources */,
+				FAD8A2AE2398D3BF007AFC3F /* RankingViewModel.swift in Sources */,
+				FA894B1C2398F4CD00077616 /* AlarmModel.swift in Sources */,
+				C189240A23A249DE001D3F54 /* EditAcountViewController.swift in Sources */,
+				FA5E726D2399FE1400AC435C /* AddAlarmViewModel.swift in Sources */,
+				C12D1F6A2370129500A5A6FB /* RegisterErrors.swift in Sources */,
+				C1BF61F52384EA8F00B58578 /* TabBarController.swift in Sources */,
+				C17B614423862C7D00B0221D /* Images.swift in Sources */,
+				C12D1F682370113D00A5A6FB /* RegisterIconModel.swift in Sources */,
+				C1E1AF26238B7949008BFBFB /* UIImagePickerSourceType+ErrorText.swift in Sources */,
+				C1006FDC238566A700921E3B /* AddAlarmViewController.swift in Sources */,
+				C1006FE323856ADF00921E3B /* RoomsViewController.swift in Sources */,
+				FAD8A2AC2398D072007AFC3F /* RankingDetailData.swift in Sources */,
+				C1006FDA238565F300921E3B /* AlarmViewController.swift in Sources */,
+				FA894B182398EC0500077616 /* Alarm.swift in Sources */,
+				C16D938E2377B53B00DFC21A /* ExperiencePointTable.swift in Sources */,
+				C1006FE123856A8600921E3B /* RankingViewController.swift in Sources */,
+				C12D1F52236FF3E600A5A6FB /* RankingTableViewCell.swift in Sources */,
+				C189241223A24B6F001D3F54 /* EditAcountViewModel.swift in Sources */,
+				FAD8A2B02398D6C6007AFC3F /* RankingDataSource.swift in Sources */,
+				C12D1F4F236FF15800A5A6FB /* LevelBar.swift in Sources */,
+				C12D1F5F2370023900A5A6FB /* Colors.swift in Sources */,
+				FA894B1A2398ED0500077616 /* AlarmController.swift in Sources */,
+				C189240823A249D5001D3F54 /* ChangeThemaViewController.swift in Sources */,
+				C12D1F45236FE28400A5A6FB /* WakeUpButton.swift in Sources */,
+				FA5E726F239A039A00AC435C /* AddAlarmModel.swift in Sources */,
+				C17B614623865B2300B0221D /* RegisterNameViewModel.swift in Sources */,
+				C1EBFF322386255300F8C4D7 /* RoomViewController.swift in Sources */,
+				C12D1F47236FE2CD00A5A6FB /* ResultView.swift in Sources */,
+				FA894B222398FFA300077616 /* WakeUpResult.swift in Sources */,
+				C16D93902377B87300DFC21A /* User.swift in Sources */,
+				C189240C23A24A0F001D3F54 /* About_e-sleepViewController.swift in Sources */,
+				C1006FD8238564A200921E3B /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15F944F2369BAC9007F3B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15F94582369BAC9007F3B68 /* e_sleepTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C15F945A2369BAC9007F3B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15F94632369BAC9007F3B68 /* e_sleepUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C15F94552369BAC9007F3B68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C15F943C2369BAC8007F3B68 /* e-sleep */;
+			targetProxy = C15F94542369BAC9007F3B68 /* PBXContainerItemProxy */;
+		};
+		C15F94602369BAC9007F3B68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C15F943C2369BAC8007F3B68 /* e-sleep */;
+			targetProxy = C15F945F2369BAC9007F3B68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C15F944B2369BAC9007F3B68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C15F944C2369BAC9007F3B68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C15F94652369BAC9007F3B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C15F94662369BAC9007F3B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C15F94682369BAC9007F3B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82791FFFA7A4D195D6C478BD /* Pods-e-sleep.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3WSFBFNGQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "e-sleep/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ren.sakurako.e-sleep";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C15F94692369BAC9007F3B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8171244B12C41C62CF773B21 /* Pods-e-sleep.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3WSFBFNGQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "e-sleep/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ren.sakurako.e-sleep";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C15F946B2369BAC9007F3B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C25825A99A218CB43F1612D /* Pods-e-sleepTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3WSFBFNGQ;
+				INFOPLIST_FILE = "e-sleepTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ren.e-sleepTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/e-sleep.app/e-sleep";
+			};
+			name = Debug;
+		};
+		C15F946C2369BAC9007F3B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCC0B5E3214DACFA584422C8 /* Pods-e-sleepTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3WSFBFNGQ;
+				INFOPLIST_FILE = "e-sleepTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ren.e-sleepTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/e-sleep.app/e-sleep";
+			};
+			name = Release;
+		};
+		C15F946E2369BAC9007F3B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33A83FCBD641211BE907D47E /* Pods-e-sleep-e-sleepUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3WSFBFNGQ;
+				INFOPLIST_FILE = "e-sleepUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ren.e-sleepUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "e-sleep";
+			};
+			name = Debug;
+		};
+		C15F946F2369BAC9007F3B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD1D75DD87975FFDA139667F /* Pods-e-sleep-e-sleepUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3WSFBFNGQ;
+				INFOPLIST_FILE = "e-sleepUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ren.e-sleepUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "e-sleep";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C15F94382369BAC8007F3B68 /* Build configuration list for PBXProject "e-sleep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C15F94652369BAC9007F3B68 /* Debug */,
+				C15F94662369BAC9007F3B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C15F94672369BAC9007F3B68 /* Build configuration list for PBXNativeTarget "e-sleep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C15F94682369BAC9007F3B68 /* Debug */,
+				C15F94692369BAC9007F3B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C15F946A2369BAC9007F3B68 /* Build configuration list for PBXNativeTarget "e-sleepTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C15F946B2369BAC9007F3B68 /* Debug */,
+				C15F946C2369BAC9007F3B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C15F946D2369BAC9007F3B68 /* Build configuration list for PBXNativeTarget "e-sleepUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C15F946E2369BAC9007F3B68 /* Debug */,
+				C15F946F2369BAC9007F3B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C15F94352369BAC8007F3B68 /* Project object */;
+}

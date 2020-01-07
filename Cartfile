@@ -1,0 +1,12 @@
+github "ReactiveX/RxSwift" 
+github "RxSwiftCommunity/RxOptional"
+github "RxSwiftCommunity/RxGesture"
+github "RxSwiftCommunity/RxRealm"
+
+github "ashleymills/Reachability.swift"
+
+github "realm/realm-cocoa"
+
+github "sgr-ksmt/Alertift"
+github "SnapKit/SnapKit"
+github "onevcat/Kingfisher"

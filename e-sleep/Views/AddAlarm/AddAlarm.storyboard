@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ml4-es-FEE">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Title-->
+        <scene sceneID="0uO-0L-qsJ">
+            <objects>
+                <viewController storyboardIdentifier="AddAlarm" id="ml4-es-FEE" customClass="AddAlarmViewController" customModule="e_sleep" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bmY-sN-TAG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BKA-lo-h5I">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="q3O-fb-aM7"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Add Alarm" id="bS0-mU-x7f">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="bS6-Sy-Oz6"/>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="lLo-ki-rds"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="10" translatesAutoresizingMaskIntoConstraints="NO" id="i84-j9-o9w">
+                                <rect key="frame" x="0.0" y="88" width="414" height="248"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="i84-j9-o9w" secondAttribute="height" multiplier="5:3" id="PYD-aX-5gt"/>
+                                </constraints>
+                            </datePicker>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="i84-j9-o9w" firstAttribute="leading" secondItem="5Jo-mJ-A5i" secondAttribute="leading" id="34I-WE-1lI"/>
+                            <constraint firstItem="i84-j9-o9w" firstAttribute="trailing" secondItem="5Jo-mJ-A5i" secondAttribute="trailing" id="7Rt-Br-nzN"/>
+                            <constraint firstItem="BKA-lo-h5I" firstAttribute="trailing" secondItem="5Jo-mJ-A5i" secondAttribute="trailing" id="SL8-gx-8Hg"/>
+                            <constraint firstItem="BKA-lo-h5I" firstAttribute="top" secondItem="5Jo-mJ-A5i" secondAttribute="top" id="Z3N-ji-5bd"/>
+                            <constraint firstItem="BKA-lo-h5I" firstAttribute="leading" secondItem="5Jo-mJ-A5i" secondAttribute="leading" id="ZBH-NX-PLC"/>
+                            <constraint firstItem="i84-j9-o9w" firstAttribute="top" secondItem="BKA-lo-h5I" secondAttribute="bottom" id="hY0-DE-A6I"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5Jo-mJ-A5i"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="6C8-OK-286"/>
+                    <connections>
+                        <outlet property="cancelButton" destination="bS6-Sy-Oz6" id="pko-Gf-J4p"/>
+                        <outlet property="datePicker" destination="i84-j9-o9w" id="dyX-k4-uY1"/>
+                        <outlet property="saveButton" destination="lLo-ki-rds" id="dBE-im-7DH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QzI-Wi-6HP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="286.95652173913044" y="127.90178571428571"/>
+        </scene>
+    </scenes>
+</document>

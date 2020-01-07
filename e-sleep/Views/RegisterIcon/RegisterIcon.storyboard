@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="e1l-Nn-QBh">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--SignUp-->
+        <scene sceneID="gou-wL-JBb">
+            <objects>
+                <viewController storyboardIdentifier="RegisterIcon" id="uQQ-vN-nvZ" customClass="RegisterIconViewController" customModule="e_sleep" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZfN-ms-JhE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="あなたのアイコンを設定" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qPd-on-hr1">
+                                <rect key="frame" x="20" y="123.00000000000001" width="256.66666666666669" height="27.666666666666671"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="23"/>
+                                <color key="textColor" red="0.25882352941176467" green="0.52156862745098043" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="qPd-on-hr1" firstAttribute="leading" secondItem="UlY-Zf-1Wc" secondAttribute="leading" constant="20" id="N1w-6v-1O1"/>
+                            <constraint firstItem="qPd-on-hr1" firstAttribute="top" secondItem="UlY-Zf-1Wc" secondAttribute="top" constant="35" id="Q5e-qK-kgL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="UlY-Zf-1Wc"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="SignUp" id="2L3-P7-jmX"/>
+                    <connections>
+                        <outlet property="titleLabel" destination="qPd-on-hr1" id="UbD-g3-NF4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dUQ-Fa-Tqq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2599.1999999999998" y="-108.62068965517241"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fiG-h7-IqJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="e1l-Nn-QBh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lCf-C7-LGg">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="uQQ-vN-nvZ" kind="relationship" relationship="rootViewController" id="UrI-HM-zG2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="77i-8i-oIa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1656.8" y="-108.62068965517241"/>
+        </scene>
+    </scenes>
+</document>
