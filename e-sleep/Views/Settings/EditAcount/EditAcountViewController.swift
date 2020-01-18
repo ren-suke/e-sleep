@@ -69,10 +69,10 @@ final class EditAcountViewController: UIViewController {
         }
         
         iconImageView.layer.cornerRadius = self.view.bounds.width * 0.125
-        iconImageView.layer.borderColor = Colors.main.cgColor
+        iconImageView.layer.borderColor = Color.main.cgColor
         iconImageView.layer.borderWidth = 2
         iconImageView.clipsToBounds = true
-        iconImageView.image = Images.addPhoto
+        iconImageView.image = R.image.addPhoto()
     }
     
     private func nameTextFieldConfigure() {
@@ -94,7 +94,7 @@ final class EditAcountViewController: UIViewController {
             make.height.equalTo(30)
         }
         
-        nameTextField.layer.borderColor = Colors.main.cgColor
+        nameTextField.layer.borderColor = Color.main.cgColor
         nameTextField.layer.borderWidth = 2
         
     }

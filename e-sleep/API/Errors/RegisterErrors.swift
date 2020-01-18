@@ -14,9 +14,7 @@ enum RegisterErrors: Error {
     case unknown
     case undefindName
     case undefindImage
-}
-
-extension RegisterErrors {
+    
     var description: String {
         switch self {
         case .comunicate:
