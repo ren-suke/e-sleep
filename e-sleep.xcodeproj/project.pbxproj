@@ -56,6 +56,7 @@
 		C12D1F662370107000A5A6FB /* RegisterIconViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D1F652370107000A5A6FB /* RegisterIconViewModel.swift */; };
 		C12D1F682370113D00A5A6FB /* RegisterIconModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D1F672370113D00A5A6FB /* RegisterIconModel.swift */; };
 		C12D1F6A2370129500A5A6FB /* RegisterErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D1F692370129500A5A6FB /* RegisterErrors.swift */; };
+		C142B16E23C47951006860F5 /* WakeUpResult.xib in Resources */ = {isa = PBXBuildFile; fileRef = C142B16D23C47951006860F5 /* WakeUpResult.xib */; };
 		C152F95023AA066C00719044 /* LevelBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C152F94F23AA066C00719044 /* LevelBarViewModel.swift */; };
 		C152F95223AA067A00719044 /* LevelBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C152F95123AA067A00719044 /* LevelBarModel.swift */; };
 		C15F94412369BAC8007F3B68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F94402369BAC8007F3B68 /* AppDelegate.swift */; };
@@ -200,6 +201,7 @@
 		C12D1F652370107000A5A6FB /* RegisterIconViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterIconViewModel.swift; sourceTree = "<group>"; };
 		C12D1F672370113D00A5A6FB /* RegisterIconModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterIconModel.swift; sourceTree = "<group>"; };
 		C12D1F692370129500A5A6FB /* RegisterErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterErrors.swift; sourceTree = "<group>"; };
+		C142B16D23C47951006860F5 /* WakeUpResult.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WakeUpResult.xib; sourceTree = "<group>"; };
 		C152F94F23AA066C00719044 /* LevelBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelBarViewModel.swift; sourceTree = "<group>"; };
 		C152F95123AA067A00719044 /* LevelBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelBarModel.swift; sourceTree = "<group>"; };
 		C15F943D2369BAC8007F3B68 /* e-sleep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "e-sleep.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -550,6 +552,8 @@
 		C142B16C23C46F2B006860F5 /* WakeUpResultView */ = {
 			isa = PBXGroup;
 			children = (
+				C142B16D23C47951006860F5 /* WakeUpResult.xib */,
+				C12D1F46236FE2CD00A5A6FB /* ResultView.swift */,
 			);
 			path = WakeUpResultView;
 			sourceTree = "<group>";
@@ -558,7 +562,6 @@
 			isa = PBXGroup;
 			children = (
 				C142B16C23C46F2B006860F5 /* WakeUpResultView */,
-				C12D1F46236FE2CD00A5A6FB /* ResultView.swift */,
 				C12D1F44236FE28400A5A6FB /* WakeUpButton.swift */,
 				C12D1F4E236FF15800A5A6FB /* LevelBar.swift */,
 				C152F94F23AA066C00719044 /* LevelBarViewModel.swift */,
@@ -780,6 +783,7 @@
 				C12D1F3A236FE16B00A5A6FB /* RoomSettings.storyboard in Resources */,
 				C12D1F36236FE15A00A5A6FB /* CreateRoom.storyboard in Resources */,
 				C12D1F30236FE13500A5A6FB /* Ranking.storyboard in Resources */,
+				C142B16E23C47951006860F5 /* WakeUpResult.xib in Resources */,
 				C12D1F2E236FE12700A5A6FB /* RegisterIcon.storyboard in Resources */,
 				FA894B142398E1A100077616 /* AlarmTableViewCell.xib in Resources */,
 				C12D1F32236FE14B00A5A6FB /* Rooms.storyboard in Resources */,
@@ -1154,6 +1158,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ren.sakurako.e-sleep";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1178,6 +1183,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ren.sakurako.e-sleep";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
