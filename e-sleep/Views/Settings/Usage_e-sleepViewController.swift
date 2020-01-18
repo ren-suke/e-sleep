@@ -8,10 +8,10 @@
 
 import UIKit
 
-class Usage_e_sleepViewController: UIViewController {
+class UsageEsleepViewController: UIViewController {
     
     static func make() -> UINavigationController {
-        return UINavigationController(rootViewController: Usage_e_sleepViewController())
+        return UINavigationController(rootViewController: UsageEsleepViewController())
     }
 
     override func viewDidLoad() {

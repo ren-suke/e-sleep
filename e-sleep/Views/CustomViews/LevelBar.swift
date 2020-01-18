@@ -34,7 +34,7 @@ final class LevelBar: UIView {
             .drive(progressView.rx.progress)
             .disposed(by: disposeBag)
         
-        backgroundColor = Colors.main
+        backgroundColor = Color.main
     }
     
     required init?(coder: NSCoder) {
