@@ -1,6 +1,0 @@
-framework module Pods_e_sleepTests {
-  umbrella header "Pods-e-sleepTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
