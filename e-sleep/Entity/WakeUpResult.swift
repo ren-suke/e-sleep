@@ -11,6 +11,4 @@ import Foundation
 struct WakeUpResult: Decodable {
     let todayRank: Int
     let allRank: Int
-    let previousLevel: Int
-    let newLevel: Int
 }

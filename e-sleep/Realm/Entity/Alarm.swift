@@ -10,6 +10,7 @@ import Foundation
 import RealmSwift
 
 class Alarm: Object {
+    @objc dynamic var notificationIdentifier: String = ""
     @objc dynamic var time: String = ""
-    @objc dynamic var isOn: Bool = false
+    @objc dynamic var isEnabled: Bool = false
 }

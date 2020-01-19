@@ -9,7 +9,7 @@
 import Foundation
 import RealmSwift
 
-final class ExperiencePointTable: Object {
+final class Experience: Object {
     @objc dynamic var level = 1
     @objc dynamic var requiredExperiencePoint = 100
     @objc dynamic var totalExperiencePoint = 0
