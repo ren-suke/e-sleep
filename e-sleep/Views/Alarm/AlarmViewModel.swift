@@ -12,7 +12,7 @@ import RxRelay
 
 class AlarmViewModel {
     
-    private let alarmsRelay = BehaviorRelay<[Alarm]>(value: [])
+    private let alarmsRelay: BehaviorRelay<[Alarm]> = BehaviorRelay<[Alarm]>(value: [])
     var alarms: Observable<[Alarm]> {
         return alarmsRelay.asObservable()
     }
@@ -20,14 +20,6 @@ class AlarmViewModel {
     private let disposeBag: DisposeBag = DisposeBag()
     
     init(model: AlarmModelProtocol = AlarmModel()) {
-        
-        model.getAlarms()
-            .subscribe(onNext: { [weak self] alarmResults in
-                guard let me = self else { return}
-                var alarms: [Alarm] = []
-                _ = alarmResults.map { alarms.append($0) }
-                me.alarmsRelay.accept(alarms)
-            })
-            .disposed(by: disposeBag)
+ 
     }
 }

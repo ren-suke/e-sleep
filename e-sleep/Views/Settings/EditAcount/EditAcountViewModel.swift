@@ -12,13 +12,12 @@ import RxRelay
 
 class EditAcountViewModel {
     
-    let newIconImageRelay = PublishRelay<UIImage>()
+    let newIconImageRelay: PublishRelay<UIImage> = PublishRelay<UIImage>()
     
     var oldIconImageData: Data?
     var oldName: String?
     
     init(nameTextChanged: Observable<String?>, cancelButtonTapped: Observable<Void>, saveButtonTapped: Observable<Void>) {
-        
         
     }
 }

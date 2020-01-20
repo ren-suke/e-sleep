@@ -27,10 +27,10 @@ final class RankingTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
     }
     
-    func configure(with rankingDetailData: RankingDetailData) {
-        rankLabel.text = rankingDetailData.rank
-        iconImageView.kf.setImage(with: rankingDetailData.iconImageURL, placeholder: UIImage(named: "user-45"))
+    func configure(with rankingDetailData: TodayRankingDetailData) {
+//        rankLabel.text = rankingDetailData.rank
+//        iconImageView.kf.setImage(with: rankingDetailData.iconImageURL, placeholder: UIImage(named: "user-45"))
         nameLabel.text = rankingDetailData.name
-        scoreLabel.text = rankingDetailData.score
+        scoreLabel.text = String(rankingDetailData.score)
     }
 }

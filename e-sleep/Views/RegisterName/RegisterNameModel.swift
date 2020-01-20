@@ -14,8 +14,12 @@ protocol RegisterNameModelProtocol {
 
 final class RegisterNameModel: RegisterNameModelProtocol {
     func validation(nameText: String) -> Observable<Void> {
-        guard !nameText.isEmpty else { return Observable.error(RegisterNameValidationErrors.empty) }
-        guard nameText.count <= 10 else { return Observable.error(RegisterNameValidationErrors.long)}
+        guard !nameText.isEmpty else {
+            return Observable.error(RegisterNameValidationErrors.empty)
+        }
+        guard nameText.count <= 10 else {
+            return Observable.error(RegisterNameValidationErrors.long)
+        }
         
         return Observable.just(())
     }
@@ -25,5 +29,3 @@ enum RegisterNameValidationErrors: Error {
     case empty
     case long
 }
-
-

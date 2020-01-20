@@ -8,7 +8,8 @@
 
 import UIKit
 
-@IBDesignable final class PaddingTextField: UITextField {
+@IBDesignable
+final class PaddingTextField: UITextField {
   
     @IBInspectable var padding: CGPoint = CGPoint(x: 6.0, y: 0.0)
 

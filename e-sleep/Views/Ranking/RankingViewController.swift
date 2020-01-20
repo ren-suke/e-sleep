@@ -12,18 +12,18 @@ import RxCocoa
 
 final class RankingViewController: UIViewController {
     
-    private var levelBar: LevelBar!
+    private var levelBar: UIView = LevelBar()
     
     @IBOutlet private weak var rankingLabel: UILabel!
     @IBOutlet private weak var segmentedControl: UISegmentedControl!
     
     @IBOutlet private weak var tableView: UITableView!
     
-    private var refreshControl = UIRefreshControl()
+    private var refreshControl: UIRefreshControl = UIRefreshControl()
     
-    private let disposeBag = DisposeBag()
+    private let disposeBag: DisposeBag = DisposeBag()
     
-    private lazy var viewModel = RankingViewModel(
+    private lazy var viewModel: RankingViewModel = RankingViewModel(
         with: RankingViewModelInputs(
             segmentedControl: self.segmentedControl.rx.value.asObservable(),
             refreshControl: self.refreshControl.rx.controlEvent(.valueChanged).asObservable()

@@ -14,12 +14,6 @@ final class User: Object {
     @objc dynamic var name: String = ""
     @objc dynamic var timeZone: String = "07:00"
     @objc dynamic var durationDays: Int = 0
-    @objc dynamic var total_experiencePoint: Int = 0
+    @objc dynamic var totalExperiencePoint: Int = 0
     @objc dynamic var iconImageData: Data?
-    
-    init(with userDetailData: UserDetailData, iconImageData: Data?) {
-        self.id = userDetailData.id
-        self.name = userDetailData.name
-        self.iconImageData = iconImageData
-    }
 }

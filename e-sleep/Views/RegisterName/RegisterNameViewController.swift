@@ -12,14 +12,14 @@ import RxCocoa
 
 final class RegisterNameViewController: UIViewController {
     
-    private var titleLabel: UILabel!
+    private var titleLabel: UILabel = UILabel()
     
-    private var stackView: UIStackView!
+    private var stackView: UIStackView = UIStackView()
 
-    private var nameTextField: UITextField!
-    private var nextButton: UIButton!
+    private var nameTextField: UITextField = UITextField()
+    private var nextButton: UIButton = UIButton()
     
-    private var validationLabel: UILabel!
+    private var validationLabel: UILabel = UILabel()
     
     private let disposeBag: DisposeBag = DisposeBag()
     
@@ -43,8 +43,10 @@ final class RegisterNameViewController: UIViewController {
     
         nextButton.rx.tap
             .subscribe { _ in
-                let storyboard = UIStoryboard(name: "RegisterIcon", bundle: nil)
-                guard let registerIconViewController = storyboard.instantiateViewController(withIdentifier: "RegisterIcon") as? RegisterIconViewController else { return }
+                let storyboard: UIStoryboard = UIStoryboard(name: "RegisterIcon", bundle: nil)
+                guard let registerIconViewController = storyboard.instantiateViewController(withIdentifier: "RegisterIcon") as? RegisterIconViewController else {
+                    return
+                }
                 self.navigationController?.pushViewController(registerIconViewController, animated: true)
             }
             .disposed(by: disposeBag)

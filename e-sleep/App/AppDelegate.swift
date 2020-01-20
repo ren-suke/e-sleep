@@ -21,10 +21,9 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func selectRootViewController() -> UIViewController {
-        let tabBarController = TabBarController()
+        let tabBarController: UIViewController = TabBarController()
         
 //        let editAcountViewController = EditAcountViewController.make()
         return tabBarController
     }
 }
-

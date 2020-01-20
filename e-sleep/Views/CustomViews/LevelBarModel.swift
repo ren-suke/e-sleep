@@ -10,13 +10,13 @@ import Foundation
 import RxSwift
 
 protocol LevelBarModelProtocol {
-    func getExperiencePointTable() -> [ExperiencePointTable]
+    func getExperiencePointTable() -> [Experience]
     func getUser() -> Observable<User>
 }
 
 class LevelBarModel: LevelBarModelProtocol {
-    func getExperiencePointTable() -> [ExperiencePointTable] {
-        return [ExperiencePointTable]()
+    func getExperiencePointTable() -> [Experience] {
+        return [Experience]()
     }
     
     func getUser() -> Observable<User> {

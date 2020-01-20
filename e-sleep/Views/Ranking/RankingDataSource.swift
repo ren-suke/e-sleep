@@ -11,7 +11,7 @@ import RxSwift
 import RxCocoa
 
 final class RankingDataSource: NSObject, UITableViewDataSource, RxTableViewDataSourceType {
-    typealias Element = [RankingDetailData]
+    typealias Element = [TodayRankingDetailData]
     private var items: Element = []
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -19,12 +19,14 @@ final class RankingDataSource: NSObject, UITableViewDataSource, RxTableViewDataS
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "RankingCell", for: indexPath) as? RankingTableViewCell else { return UITableViewCell() }
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "RankingCell", for: indexPath) as? RankingTableViewCell else {
+            return UITableViewCell()
+        }
         cell.configure(with: items[indexPath.row])
         return cell
     }
     
-    func tableView(_ tableView: UITableView, observedEvent: Event<[RankingDetailData]>) {
+    func tableView(_ tableView: UITableView, observedEvent: Event<[TodayRankingDetailData]>) {
         Binder<Element>(self) { dataSource, items in
             dataSource.items = items
             tableView.reloadData()

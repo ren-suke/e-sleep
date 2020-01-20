@@ -28,12 +28,34 @@
 		C10301002369BFEF00939C91 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10300F02369BFEE00939C91 /* Realm.framework */; };
 		C10301012369BFEF00939C91 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C10300F02369BFEE00939C91 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C105DA2423793F8200607832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C105DA2323793F8200607832 /* Assets.xcassets */; };
+		C117E5F323D430FF00A07CAB /* UserAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C117E5F223D430FF00A07CAB /* UserAPIClient.swift */; };
+		C117E5F523D434F600A07CAB /* URLMolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C117E5F423D434F600A07CAB /* URLMolder.swift */; };
+		C117E5F623D4404F00A07CAB /* UserDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C124CCDA23D41B2F006CE33B /* UserDetailData.swift */; };
+		C11AC6DB23D425D2007F846F /* RankingAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11AC6DA23D425D2007F846F /* RankingAPIClient.swift */; };
 		C124CCD923D419FC006CE33B /* PostUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C124CCD823D419FC006CE33B /* PostUser.swift */; };
 		C124CCDB23D41B2F006CE33B /* UserDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C124CCDA23D41B2F006CE33B /* UserDetailData.swift */; };
 		C124CCDD23D41C4F006CE33B /* WakeUpDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C124CCDC23D41C4F006CE33B /* WakeUpDetailData.swift */; };
 		C124CCDF23D41CFC006CE33B /* AllRankingDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C124CCDE23D41CFC006CE33B /* AllRankingDetailData.swift */; };
 		C124CCE223D41E15006CE33B /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C124CCE123D41E15006CE33B /* APIClient.swift */; };
-		C124CCE423D41E83006CE33B /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C124CCE323D41E83006CE33B /* APIResponse.swift */; };
+		C12A5E3323D5725800AD0947 /* AllRankingDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C124CCDE23D41CFC006CE33B /* AllRankingDetailData.swift */; };
+		C12A5E3423D5725800AD0947 /* RankingAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11AC6DA23D425D2007F846F /* RankingAPIClient.swift */; };
+		C12A5E3523D5727F00AD0947 /* URLMolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C117E5F423D434F600A07CAB /* URLMolder.swift */; };
+		C12A5E3623D5731E00AD0947 /* PostUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C124CCD823D419FC006CE33B /* PostUser.swift */; };
+		C12A5E3723D5731E00AD0947 /* WakeUpDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C124CCDC23D41C4F006CE33B /* WakeUpDetailData.swift */; };
+		C12A5E3823D5731E00AD0947 /* UserAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C117E5F223D430FF00A07CAB /* UserAPIClient.swift */; };
+		C12A5E3923D5731E00AD0947 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C124CCE123D41E15006CE33B /* APIClient.swift */; };
+		C12A5E3D23D5742400AD0947 /* ServerErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12A5E3C23D5742400AD0947 /* ServerErrors.swift */; };
+		C12A5E3F23D574B000AD0947 /* ClientErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12A5E3E23D574B000AD0947 /* ClientErrors.swift */; };
+		C12A5E4023D5756F00AD0947 /* ServerErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12A5E3C23D5742400AD0947 /* ServerErrors.swift */; };
+		C12A5E4123D5756F00AD0947 /* ClientErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12A5E3E23D574B000AD0947 /* ClientErrors.swift */; };
+		C12A5E4523D58CFC00AD0947 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12A5E4423D58CFC00AD0947 /* HTTPMethod.swift */; };
+		C12A5E4623D58D2200AD0947 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12A5E4423D58CFC00AD0947 /* HTTPMethod.swift */; };
+		C12A5E4823D5934300AD0947 /* ExperienceRealmOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12A5E4723D5934300AD0947 /* ExperienceRealmOperator.swift */; };
+		C12A5E4A23D5934B00AD0947 /* UserRealmOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12A5E4923D5934B00AD0947 /* UserRealmOperator.swift */; };
+		C12A5E4C23D5936A00AD0947 /* AlarmRealmOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12A5E4B23D5936A00AD0947 /* AlarmRealmOperator.swift */; };
+		C12A5E4D23D595CA00AD0947 /* ExperienceRealmOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12A5E4723D5934300AD0947 /* ExperienceRealmOperator.swift */; };
+		C12A5E4E23D595CA00AD0947 /* UserRealmOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12A5E4923D5934B00AD0947 /* UserRealmOperator.swift */; };
+		C12A5E4F23D595CA00AD0947 /* AlarmRealmOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12A5E4B23D5936A00AD0947 /* AlarmRealmOperator.swift */; };
 		C12D1F2B236FE0E200A5A6FB /* RegisterName.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F2A236FE0E200A5A6FB /* RegisterName.storyboard */; };
 		C12D1F2E236FE12700A5A6FB /* RegisterIcon.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F2D236FE12700A5A6FB /* RegisterIcon.storyboard */; };
 		C12D1F30236FE13500A5A6FB /* Ranking.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F2F236FE13500A5A6FB /* Ranking.storyboard */; };
@@ -275,12 +297,20 @@
 		C10300F02369BFEE00939C91 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		C10300F12369BFEF00939C91 /* NVActivityIndicatorViewAppExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NVActivityIndicatorViewAppExtension.framework; path = Carthage/Build/iOS/NVActivityIndicatorViewAppExtension.framework; sourceTree = "<group>"; };
 		C105DA2323793F8200607832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C117E5F223D430FF00A07CAB /* UserAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPIClient.swift; sourceTree = "<group>"; };
+		C117E5F423D434F600A07CAB /* URLMolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLMolder.swift; sourceTree = "<group>"; };
+		C11AC6DA23D425D2007F846F /* RankingAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingAPIClient.swift; sourceTree = "<group>"; };
 		C124CCD823D419FC006CE33B /* PostUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostUser.swift; sourceTree = "<group>"; };
 		C124CCDA23D41B2F006CE33B /* UserDetailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailData.swift; sourceTree = "<group>"; };
 		C124CCDC23D41C4F006CE33B /* WakeUpDetailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeUpDetailData.swift; sourceTree = "<group>"; };
 		C124CCDE23D41CFC006CE33B /* AllRankingDetailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRankingDetailData.swift; sourceTree = "<group>"; };
 		C124CCE123D41E15006CE33B /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
-		C124CCE323D41E83006CE33B /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		C12A5E3C23D5742400AD0947 /* ServerErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerErrors.swift; sourceTree = "<group>"; };
+		C12A5E3E23D574B000AD0947 /* ClientErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientErrors.swift; sourceTree = "<group>"; };
+		C12A5E4423D58CFC00AD0947 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		C12A5E4723D5934300AD0947 /* ExperienceRealmOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceRealmOperator.swift; sourceTree = "<group>"; };
+		C12A5E4923D5934B00AD0947 /* UserRealmOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRealmOperator.swift; sourceTree = "<group>"; };
+		C12A5E4B23D5936A00AD0947 /* AlarmRealmOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmRealmOperator.swift; sourceTree = "<group>"; };
 		C12D1F2A236FE0E200A5A6FB /* RegisterName.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegisterName.storyboard; sourceTree = "<group>"; };
 		C12D1F2D236FE12700A5A6FB /* RegisterIcon.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegisterIcon.storyboard; sourceTree = "<group>"; };
 		C12D1F2F236FE13500A5A6FB /* Ranking.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Ranking.storyboard; sourceTree = "<group>"; };
@@ -477,15 +507,20 @@
 		C124CCD723D419AA006CE33B /* Operator */ = {
 			isa = PBXGroup;
 			children = (
+				C12A5E4723D5934300AD0947 /* ExperienceRealmOperator.swift */,
+				C12A5E4923D5934B00AD0947 /* UserRealmOperator.swift */,
+				C12A5E4B23D5936A00AD0947 /* AlarmRealmOperator.swift */,
 			);
 			path = Operator;
 			sourceTree = "<group>";
 		};
-		C124CCE023D41DF4006CE33B /* APIClients */ = {
+		C124CCE023D41DF4006CE33B /* DetailAPIClients */ = {
 			isa = PBXGroup;
 			children = (
+				C11AC6DA23D425D2007F846F /* RankingAPIClient.swift */,
+				C117E5F223D430FF00A07CAB /* UserAPIClient.swift */,
 			);
-			path = APIClients;
+			path = DetailAPIClients;
 			sourceTree = "<group>";
 		};
 		C12D1F16236FDB0500A5A6FB /* Views */ = {
@@ -520,10 +555,11 @@
 		C12D1F18236FDBEB00A5A6FB /* API */ = {
 			isa = PBXGroup;
 			children = (
-				C124CCE023D41DF4006CE33B /* APIClients */,
+				C124CCE023D41DF4006CE33B /* DetailAPIClients */,
 				C12D1F1B236FDBFD00A5A6FB /* Errors */,
 				C124CCE123D41E15006CE33B /* APIClient.swift */,
-				C124CCE323D41E83006CE33B /* APIResponse.swift */,
+				C117E5F423D434F600A07CAB /* URLMolder.swift */,
+				C12A5E4423D58CFC00AD0947 /* HTTPMethod.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -541,6 +577,8 @@
 			isa = PBXGroup;
 			children = (
 				C12D1F692370129500A5A6FB /* RegisterErrors.swift */,
+				C12A5E3C23D5742400AD0947 /* ServerErrors.swift */,
+				C12A5E3E23D574B000AD0947 /* ClientErrors.swift */,
 			);
 			path = Errors;
 			sourceTree = "<group>";
@@ -800,7 +838,6 @@
 				C13CE85223D2FA3200046467 /* Run Script - Carthage */,
 				C13CE85323D2FA3200046467 /* Run Script - LicensePlist */,
 				C13CE85423D2FA3200046467 /* [CP] Embed Pods Frameworks */,
-				C13CE85A23D2FCB100046467 /* Run Script - SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -1217,24 +1254,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-e-sleep/Pods-e-sleep-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C13CE85A23D2FCB100046467 /* Run Script - SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Run Script - SwiftLint";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"SwiftLint does not exist, download from https://github.com/realm/SwiftLint\"\nfi\n";
-		};
 		D9D57C64C343601C1CF9F55F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1281,6 +1300,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C12A5E4D23D595CA00AD0947 /* ExperienceRealmOperator.swift in Sources */,
+				C12A5E4E23D595CA00AD0947 /* UserRealmOperator.swift in Sources */,
+				C12A5E4F23D595CA00AD0947 /* AlarmRealmOperator.swift in Sources */,
+				C12A5E4623D58D2200AD0947 /* HTTPMethod.swift in Sources */,
+				C12A5E4023D5756F00AD0947 /* ServerErrors.swift in Sources */,
+				C12A5E4123D5756F00AD0947 /* ClientErrors.swift in Sources */,
+				C12A5E3623D5731E00AD0947 /* PostUser.swift in Sources */,
+				C12A5E3723D5731E00AD0947 /* WakeUpDetailData.swift in Sources */,
+				C12A5E3823D5731E00AD0947 /* UserAPIClient.swift in Sources */,
+				C12A5E3923D5731E00AD0947 /* APIClient.swift in Sources */,
+				C12A5E3523D5727F00AD0947 /* URLMolder.swift in Sources */,
+				C12A5E3323D5725800AD0947 /* AllRankingDetailData.swift in Sources */,
+				C12A5E3423D5725800AD0947 /* RankingAPIClient.swift in Sources */,
+				C117E5F623D4404F00A07CAB /* UserDetailData.swift in Sources */,
 				C13CE7F223D2FA3200046467 /* AlarmDataSource.swift in Sources */,
 				C13CE7F323D2FA3200046467 /* RegisterIconViewController.swift in Sources */,
 				C13CE7F523D2FA3200046467 /* PaddingTextField.swift in Sources */,
@@ -1339,8 +1372,10 @@
 				FA894B1E2398F4DE00077616 /* AlarmViewModel.swift in Sources */,
 				C189240E23A24A1B001D3F54 /* Usage_e-sleepViewController.swift in Sources */,
 				C1E1AF33238D2766008BFBFB /* Data.swift in Sources */,
+				C117E5F523D434F600A07CAB /* URLMolder.swift in Sources */,
 				FA894B132398E1A100077616 /* AlarmTableViewCell.swift in Sources */,
 				C152F95223AA067A00719044 /* LevelBarModel.swift in Sources */,
+				C12A5E4523D58CFC00AD0947 /* HTTPMethod.swift in Sources */,
 				FAD8A2AA2398CFA7007AFC3F /* RankingModel.swift in Sources */,
 				C17B614823865E8000B0221D /* RegisterNameModel.swift in Sources */,
 				C19C386523792B9F00216A3F /* UITextFieldExtensions.swift in Sources */,
@@ -1355,19 +1390,23 @@
 				FA5E726D2399FE1400AC435C /* AddAlarmViewModel.swift in Sources */,
 				C12D1F6A2370129500A5A6FB /* RegisterErrors.swift in Sources */,
 				C1BF61F52384EA8F00B58578 /* TabBarController.swift in Sources */,
-				C124CCE423D41E83006CE33B /* APIResponse.swift in Sources */,
 				C12D1F682370113D00A5A6FB /* RegisterIconModel.swift in Sources */,
+				C11AC6DB23D425D2007F846F /* RankingAPIClient.swift in Sources */,
 				C1E1AF26238B7949008BFBFB /* UIImagePickerSourceType+ErrorText.swift in Sources */,
 				C1006FDC238566A700921E3B /* AddAlarmViewController.swift in Sources */,
 				C13CE7E923D2F2C400046467 /* R.generated.swift in Sources */,
+				C12A5E4A23D5934B00AD0947 /* UserRealmOperator.swift in Sources */,
 				FAD8A2AC2398D072007AFC3F /* TodayRankingDetailData.swift in Sources */,
+				C117E5F323D430FF00A07CAB /* UserAPIClient.swift in Sources */,
 				C1006FDA238565F300921E3B /* AlarmViewController.swift in Sources */,
 				FA894B182398EC0500077616 /* Alarm.swift in Sources */,
 				C124CCE223D41E15006CE33B /* APIClient.swift in Sources */,
 				C16D938E2377B53B00DFC21A /* Experience.swift in Sources */,
 				C1006FE123856A8600921E3B /* RankingViewController.swift in Sources */,
 				C12D1F52236FF3E600A5A6FB /* RankingTableViewCell.swift in Sources */,
+				C12A5E3F23D574B000AD0947 /* ClientErrors.swift in Sources */,
 				C189241223A24B6F001D3F54 /* EditAcountViewModel.swift in Sources */,
+				C12A5E3D23D5742400AD0947 /* ServerErrors.swift in Sources */,
 				FAD8A2B02398D6C6007AFC3F /* RankingDataSource.swift in Sources */,
 				C12D1F4F236FF15800A5A6FB /* LevelBar.swift in Sources */,
 				C12D1F5F2370023900A5A6FB /* Colors.swift in Sources */,
@@ -1382,6 +1421,8 @@
 				C189240C23A24A0F001D3F54 /* About_e-sleepViewController.swift in Sources */,
 				C1006FD8238564A200921E3B /* SettingsViewController.swift in Sources */,
 				C124CCDD23D41C4F006CE33B /* WakeUpDetailData.swift in Sources */,
+				C12A5E4823D5934300AD0947 /* ExperienceRealmOperator.swift in Sources */,
+				C12A5E4C23D5936A00AD0947 /* AlarmRealmOperator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

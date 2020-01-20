@@ -14,18 +14,18 @@ import Alertift
 
 final class AddAlarmViewController: UIViewController {
     
-    private var cancelButton = UIBarButtonItem(barButtonSystemItem: .cancel, target: nil, action: nil)
-    private var saveButton = UIBarButtonItem(barButtonSystemItem: .save, target: nil, action: nil)
+    private var cancelButton: UIBarButtonItem = UIBarButtonItem(barButtonSystemItem: .cancel, target: nil, action: nil)
+    private var saveButton: UIBarButtonItem = UIBarButtonItem(barButtonSystemItem: .save, target: nil, action: nil)
     
-    private var datePicker = UIDatePicker()
+    private var datePicker: UIDatePicker = UIDatePicker()
     
-    private let disposeBag = DisposeBag()
+    private let disposeBag: DisposeBag = DisposeBag()
     
     static func make() -> UINavigationController {
         return UINavigationController(rootViewController: AddAlarmViewController())
     }
     
-    private lazy var viewModel = AddAlarmViewModel(
+    private lazy var viewModel: AddAlarmViewModel = AddAlarmViewModel(
         saveButtonTapped: self.saveButton.rx.tap.asObservable()
     )
 
@@ -85,7 +85,7 @@ extension AddAlarmViewController {
             Alertift
                 .alert(title: "エラー", message: message)
                 .action(.default("OK"))
-                .show()
+                .show(on: me, completion: nil)
         }
     }
 }

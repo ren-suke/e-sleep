@@ -18,8 +18,8 @@ class AddAlarmModel: AddAlarmModelProtocol {
     
     func save(date: Date) -> Observable<Void> {
         return Observable.create { observer in
-            
-            Disposables.create()
+            observer.onNext(())
+            return Disposables.create()
         }
     }
 }

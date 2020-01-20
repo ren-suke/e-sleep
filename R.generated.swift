@@ -89,7 +89,7 @@ struct R: Rswift.Validatable {
   }
 
   #if os(iOS) || os(tvOS)
-  /// This `R.storyboard` struct is generated, and contains static references to 13 storyboards.
+  /// This `R.storyboard` struct is generated, and contains static references to 11 storyboards.
   struct storyboard {
     /// Storyboard `AddAlarm`.
     static let addAlarm = _R.storyboard.addAlarm()
@@ -111,10 +111,6 @@ struct R: Rswift.Validatable {
     static let registerName = _R.storyboard.registerName()
     /// Storyboard `RoomSettings`.
     static let roomSettings = _R.storyboard.roomSettings()
-    /// Storyboard `Room`.
-    static let room = _R.storyboard.room()
-    /// Storyboard `Rooms`.
-    static let rooms = _R.storyboard.rooms()
     /// Storyboard `Settings`.
     static let settings = _R.storyboard.settings()
 
@@ -182,23 +178,9 @@ struct R: Rswift.Validatable {
     #endif
 
     #if os(iOS) || os(tvOS)
-    /// `UIStoryboard(name: "Room", bundle: ...)`
-    static func room(_: Void = ()) -> UIKit.UIStoryboard {
-      return UIKit.UIStoryboard(resource: R.storyboard.room)
-    }
-    #endif
-
-    #if os(iOS) || os(tvOS)
     /// `UIStoryboard(name: "RoomSettings", bundle: ...)`
     static func roomSettings(_: Void = ()) -> UIKit.UIStoryboard {
       return UIKit.UIStoryboard(resource: R.storyboard.roomSettings)
-    }
-    #endif
-
-    #if os(iOS) || os(tvOS)
-    /// `UIStoryboard(name: "Rooms", bundle: ...)`
-    static func rooms(_: Void = ()) -> UIKit.UIStoryboard {
-      return UIKit.UIStoryboard(resource: R.storyboard.rooms)
     }
     #endif
 
@@ -386,14 +368,12 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
 
-  /// This `R.nib` struct is generated, and contains static references to 4 nibs.
+  /// This `R.nib` struct is generated, and contains static references to 3 nibs.
   struct nib {
     /// Nib `AlarmTableViewCell`.
     static let alarmTableViewCell = _R.nib._AlarmTableViewCell()
     /// Nib `RankingTableViewCell`.
     static let rankingTableViewCell = _R.nib._RankingTableViewCell()
-    /// Nib `RoomCollectionViewCell`.
-    static let roomCollectionViewCell = _R.nib._RoomCollectionViewCell()
     /// Nib `WakeUpResult`.
     static let wakeUpResult = _R.nib._WakeUpResult()
 
@@ -414,14 +394,6 @@ struct R: Rswift.Validatable {
     #endif
 
     #if os(iOS) || os(tvOS)
-    /// `UINib(name: "RoomCollectionViewCell", in: bundle)`
-    @available(*, deprecated, message: "Use UINib(resource: R.nib.roomCollectionViewCell) instead")
-    static func roomCollectionViewCell(_: Void = ()) -> UIKit.UINib {
-      return UIKit.UINib(resource: R.nib.roomCollectionViewCell)
-    }
-    #endif
-
-    #if os(iOS) || os(tvOS)
     /// `UINib(name: "WakeUpResult", in: bundle)`
     @available(*, deprecated, message: "Use UINib(resource: R.nib.wakeUpResult) instead")
     static func wakeUpResult(_: Void = ()) -> UIKit.UINib {
@@ -437,10 +409,6 @@ struct R: Rswift.Validatable {
       return R.nib.rankingTableViewCell.instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? RankingTableViewCell
     }
 
-    static func roomCollectionViewCell(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> RoomCollectionViewCell? {
-      return R.nib.roomCollectionViewCell.instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? RoomCollectionViewCell
-    }
-
     static func wakeUpResult(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> UIKit.UIView? {
       return R.nib.wakeUpResult.instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? UIKit.UIView
     }
@@ -448,14 +416,12 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
 
-  /// This `R.reuseIdentifier` struct is generated, and contains static references to 3 reuse identifiers.
+  /// This `R.reuseIdentifier` struct is generated, and contains static references to 2 reuse identifiers.
   struct reuseIdentifier {
     /// Reuse identifier `AlarmCell`.
     static let alarmCell: Rswift.ReuseIdentifier<AlarmTableViewCell> = Rswift.ReuseIdentifier(identifier: "AlarmCell")
     /// Reuse identifier `RankingCell`.
     static let rankingCell: Rswift.ReuseIdentifier<RankingTableViewCell> = Rswift.ReuseIdentifier(identifier: "RankingCell")
-    /// Reuse identifier `RoomCell`.
-    static let roomCell: Rswift.ReuseIdentifier<RoomCollectionViewCell> = Rswift.ReuseIdentifier(identifier: "RoomCell")
 
     fileprivate init() {}
   }
@@ -510,20 +476,6 @@ struct _R: Rswift.Validatable {
       fileprivate init() {}
     }
 
-    struct _RoomCollectionViewCell: Rswift.NibResourceType, Rswift.ReuseIdentifierType {
-      typealias ReusableType = RoomCollectionViewCell
-
-      let bundle = R.hostingBundle
-      let identifier = "RoomCell"
-      let name = "RoomCollectionViewCell"
-
-      func firstView(owner ownerOrNil: AnyObject?, options optionsOrNil: [UINib.OptionsKey : Any]? = nil) -> RoomCollectionViewCell? {
-        return instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? RoomCollectionViewCell
-      }
-
-      fileprivate init() {}
-    }
-
     struct _WakeUpResult: Rswift.NibResourceType {
       let bundle = R.hostingBundle
       let name = "WakeUpResult"
@@ -570,13 +522,7 @@ struct _R: Rswift.Validatable {
       try registerName.validate()
       #endif
       #if os(iOS) || os(tvOS)
-      try room.validate()
-      #endif
-      #if os(iOS) || os(tvOS)
       try roomSettings.validate()
-      #endif
-      #if os(iOS) || os(tvOS)
-      try rooms.validate()
       #endif
       #if os(iOS) || os(tvOS)
       try settings.validate()
@@ -746,22 +692,6 @@ struct _R: Rswift.Validatable {
     #endif
 
     #if os(iOS) || os(tvOS)
-    struct room: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
-      typealias InitialController = UIKit.UINavigationController
-
-      let bundle = R.hostingBundle
-      let name = "Room"
-
-      static func validate() throws {
-        if #available(iOS 11.0, tvOS 11.0, *) {
-        }
-      }
-
-      fileprivate init() {}
-    }
-    #endif
-
-    #if os(iOS) || os(tvOS)
     struct roomSettings: Rswift.StoryboardResourceType, Rswift.Validatable {
       let bundle = R.hostingBundle
       let name = "RoomSettings"
@@ -769,28 +699,6 @@ struct _R: Rswift.Validatable {
       static func validate() throws {
         if #available(iOS 11.0, tvOS 11.0, *) {
         }
-      }
-
-      fileprivate init() {}
-    }
-    #endif
-
-    #if os(iOS) || os(tvOS)
-    struct rooms: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
-      typealias InitialController = RoomsViewController
-
-      let bundle = R.hostingBundle
-      let name = "Rooms"
-      let rooms = StoryboardViewControllerResource<RoomsViewController>(identifier: "Rooms")
-
-      func rooms(_: Void = ()) -> RoomsViewController? {
-        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: rooms)
-      }
-
-      static func validate() throws {
-        if #available(iOS 11.0, tvOS 11.0, *) {
-        }
-        if _R.storyboard.rooms().rooms() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'rooms' could not be loaded from storyboard 'Rooms' as 'RoomsViewController'.") }
       }
 
       fileprivate init() {}

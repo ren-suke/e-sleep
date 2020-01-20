@@ -17,6 +17,8 @@ extension UIImagePickerController.SourceType {
             return "フォトライブラリへのアクセスを許可してください"
         case .savedPhotosAlbum:
             return ""
+        @unknown default:
+            fatalError("fatal error")
         }
     }
 }

@@ -14,11 +14,11 @@ class AlarmsViewController: UIViewController {
     
     @IBOutlet private weak var addButton: UIButton!
     @IBOutlet private weak var tableView: UITableView!
-    let dataSource = AlarmDataSource()
+    let dataSource: AlarmDataSource = AlarmDataSource()
     
-    private let disposeBag = DisposeBag()
+    private let disposeBag: DisposeBag = DisposeBag()
     
-    private let viewModel = AlarmViewModel()
+    private let viewModel: AlarmViewModel = AlarmViewModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()

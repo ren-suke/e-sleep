@@ -12,18 +12,17 @@ import RxRelay
 
 final class RegisterIconViewModel {
     
-    private let uploadStatusRelay = BehaviorRelay<UploadStatus>(value: .isNotUploading)
+    private let uploadStatusRelay: BehaviorRelay<UploadStatus> = BehaviorRelay<UploadStatus>(value: .isNotUploading)
     var uploadStatus: Observable<UploadStatus> {
         return uploadStatusRelay.asObservable()
     }
 
-    private let disposeBag = DisposeBag()
+    private let disposeBag: DisposeBag = DisposeBag()
     
     init(startButtonTapped: Observable<Void>,
          nameText: String?,
          model: RegisterIconModelProtocol = RegisterIconModel()) {
         
-       
     }
 }
 

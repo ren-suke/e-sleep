@@ -13,14 +13,14 @@ import RxOptional
 
 class RegisterNameViewModel {
     
-    private let disposeBag = DisposeBag()
+    private let disposeBag: DisposeBag = DisposeBag()
     
     let validationText: Observable<String>
     let canRegister: Observable<Bool>
     
     init(nameText: Observable<String?>, nextButtonTapped: Observable<Void>, model: RegisterNameModelProtocol = RegisterNameModel()) {
         
-        let textInputEvent = nameText
+        let textInputEvent: Observable<Event<Void>> = nameText
             .skip(2)
             .filterNil()
             .flatMap { nameText -> Observable<Event<Void>> in

@@ -17,16 +17,15 @@ struct RankingViewModelInputs {
 
 class RankingViewModel {
     
-    private let rankingRelay = BehaviorRelay<[RankingDetailData]>(value: [])
-    var ranking: Driver<[RankingDetailData]> {
+    private let rankingRelay: BehaviorRelay<[TodayRankingDetailData]> = BehaviorRelay<[TodayRankingDetailData]>(value: [])
+    var ranking: Driver<[TodayRankingDetailData]> {
         return rankingRelay.asDriver(onErrorJustReturn: [])
     }
     
-    private let todayRankingRelay = BehaviorSubject<[RankingDetailData]>(value: [])
-    private let allRankingRelay = BehaviorSubject<[RankingDetailData]>(value: [])
+    private let todayRankingRelay: BehaviorSubject<[TodayRankingDetailData]> = BehaviorSubject<[TodayRankingDetailData]>(value: [])
+    private let allRankingRelay: BehaviorSubject<[TodayRankingDetailData]> = BehaviorSubject<[TodayRankingDetailData]>(value: [])
     
     init(with input: RankingViewModelInputs, model: RankingModelProtocol = RankingModel()) {
-        
         
     }
 }

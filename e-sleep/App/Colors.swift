@@ -10,10 +10,10 @@ import UIKit
 
 struct Color {
     static var main: UIColor {
-        return UIColor(red: 66 / 255, green: 133 / 255, blue: 244 / 255, alpha: 1)
+        return #colorLiteral(red: 0.2588235294, green: 0.5215686275, blue: 0.9568627451, alpha: 1)
     }
     
     static var dark: UIColor {
-        return UIColor(red: 51 / 255, green: 51 / 255, blue: 51 / 255, alpha: 1)
+        return #colorLiteral(red: 0.2, green: 0.2, blue: 0.2, alpha: 1)
     }
 }

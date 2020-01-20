@@ -13,16 +13,16 @@ import RxCocoa
 
 final class EditAcountViewController: UIViewController {
     
-    private let cancelButton = UIBarButtonItem(barButtonSystemItem: .cancel, target: nil, action: nil)
-    private let saveButton = UIBarButtonItem(barButtonSystemItem: .save, target: nil, action: nil)
+    private let cancelButton: UIBarButtonItem = UIBarButtonItem(barButtonSystemItem: .cancel, target: nil, action: nil)
+    private let saveButton: UIBarButtonItem = UIBarButtonItem(barButtonSystemItem: .save, target: nil, action: nil)
     
-    private let iconImageViewContainer = UIView()
-    private let iconImageView = UIImageView()
-    private let userNameLabel = UILabel()
-    private let nameTextField = UITextField()
+    private let iconImageViewContainer: UIView = UIView()
+    private let iconImageView: UIImageView = UIImageView()
+    private let userNameLabel: UILabel = UILabel()
+    private let nameTextField: UITextField = UITextField()
     
     private let disposeBag: DisposeBag = DisposeBag()
-    private lazy var viewModel = EditAcountViewModel(
+    private lazy var viewModel: EditAcountViewModel = EditAcountViewModel(
         nameTextChanged: self.nameTextField.rx.text.asObservable(),
         cancelButtonTapped: self.cancelButton.rx.tap.asObservable(),
         saveButtonTapped: self.saveButton.rx.tap.asObservable()
@@ -83,7 +83,7 @@ final class EditAcountViewController: UIViewController {
         }
         
         userNameLabel.text = "user name"
-        userNameLabel.textColor = UIColor.init(red: 51/255, green: 51/255, blue: 51/255, alpha: 1)
+        userNameLabel.textColor = Color.dark
         userNameLabel.textAlignment = .center
         userNameLabel.font = .systemFont(ofSize: 40, weight: .semibold)
         

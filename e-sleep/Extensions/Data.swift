@@ -11,8 +11,9 @@ import UIKit
 extension Data {
     /// Data型の変数が画像データかどうかを判断しそうであればSelf, そうでなければnilを返す
     func imageCastable() -> Data? {
-        guard UIImage(data: self) != nil else { return nil }
+        guard UIImage(data: self) != nil else {
+            return nil
+        }
         return self
     }
 }
-

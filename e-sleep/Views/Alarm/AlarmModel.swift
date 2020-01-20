@@ -12,21 +12,16 @@ import RealmSwift
 
 protocol AlarmModelProtocol {
     func wakeUp() -> Observable<WakeUpResult>
-    func getAlarms() -> Observable<Results<Alarm>>
+//    func getAlarms() -> Observable<Results<Alarm>>
 }
 
 final class AlarmModel: AlarmModelProtocol {
     
     func wakeUp() -> Observable<WakeUpResult> {
         return Observable.create { observer in
-            DispatchQueue.main.asyncAfter(deadline: .now() + 1, execute: {
-//                observer.onNext(WakeUpResult(score: 11.11, todayRank: 3, allRank: 10))
-            })
+            //仮
+            observer.onError(RegisterErrors.cancel)
             return Disposables.create()
         }
-    }
-    
-    func getAlarms() -> Observable<Results<Alarm>> {
-        return AlarmController.get()
     }
 }

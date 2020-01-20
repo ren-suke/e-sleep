@@ -17,7 +17,7 @@ final class RegisterIconViewController: UIViewController {
     
     @IBOutlet private weak var titleLabel: UILabel!
     
-    private var imageViewContainer = UIView()
+    private var imageViewContainer: UIView = UIView()
     private var iconImageView: UIImageView = UIImageView(image: R.image.addPhoto())
     
 //    private var startButton: TransitionButton = TransitionButton()
@@ -109,7 +109,7 @@ extension RegisterIconViewController {
             Alertift
                 .alert(title: "エラー", message: errorMessage)
                 .action(.default("OK"))
-                .show()
+                .show(on: me, completion: nil)
         }
     }
 }
@@ -117,7 +117,7 @@ extension RegisterIconViewController {
 extension RegisterIconViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     func imagePicker(_ sourceType: UIImagePickerController.SourceType) {
-        let imagePickerController = UIImagePickerController()
+        let imagePickerController: UIImagePickerController = UIImagePickerController()
         imagePickerController.sourceType = sourceType
         imagePickerController.allowsEditing = true
         imagePickerController.delegate = self
@@ -125,8 +125,11 @@ extension RegisterIconViewController: UIImagePickerControllerDelegate, UINavigat
         present(imagePickerController, animated: true, completion: nil)
     }
     
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        guard let image = info[.editedImage] as? UIImage else { return }
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey: Any]) {
+        guard let image = info[.editedImage] as? UIImage else {
+            return
+        }
+        
         iconImageView.image = image
         
 //        viewModel.iconImageData = image.jpegData(compressionQuality: 0.5)

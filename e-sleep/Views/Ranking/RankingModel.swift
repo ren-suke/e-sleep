@@ -10,13 +10,13 @@ import Foundation
 import RxSwift
 
 protocol RankingModelProtocol {
-    func fetchToadyRanking() -> Observable<[RankingDetailData]>
-    func fetchAllRanking() -> Observable<[RankingDetailData]>
+    func fetchToadyRanking() -> Observable<[TodayRankingDetailData]>
+    func fetchAllRanking() -> Observable<[TodayRankingDetailData]>
 }
 
 final class RankingModel: RankingModelProtocol {
-    func fetchToadyRanking() -> Observable<[RankingDetailData]> {
-        return Observable<[RankingDetailData]>.create { observer in
+    func fetchToadyRanking() -> Observable<[TodayRankingDetailData]> {
+        return Observable<[TodayRankingDetailData]>.create { observer in
             DispatchQueue.main.asyncAfter(deadline: .now() + 1, execute: {
                 observer.onNext(TodayDummyData.item)
             })
@@ -24,8 +24,8 @@ final class RankingModel: RankingModelProtocol {
         }
     }
     
-    func fetchAllRanking() -> Observable<[RankingDetailData]> {
-        return Observable<[RankingDetailData]>.create { observer in
+    func fetchAllRanking() -> Observable<[TodayRankingDetailData]> {
+        return Observable<[TodayRankingDetailData]>.create { observer in
             DispatchQueue.main.asyncAfter(deadline: .now() + 1.1, execute: {
                 observer.onNext(AllDummyData.item)
             })
@@ -35,21 +35,13 @@ final class RankingModel: RankingModelProtocol {
 }
 
 struct TodayDummyData {
-    static let item: [RankingDetailData] = [
-        RankingDetailData(rank: "1", iconImageURL: URL(string: "http://super-beaver.com/wp/wp-content/uploads/2018/10/9796f58fcdf53596266e06faa07f0ba5.png")!, name: "name", score: "score"),
-        RankingDetailData(rank: "1", iconImageURL: URL(string: "http://super-beaver.com/wp/wp-content/uploads/2018/10/9796f58fcdf53596266e06faa07f0ba5.png")!, name: "name", score: "score"),
-        RankingDetailData(rank: "1", iconImageURL: URL(string: "http://super-beaver.com/wp/wp-content/uploads/2018/10/9796f58fcdf53596266e06faa07f0ba5.png")!, name: "name", score: "score"),
-        RankingDetailData(rank: "1", iconImageURL: URL(string: "http://super-beaver.com/wp/wp-content/uploads/2018/10/9796f58fcdf53596266e06faa07f0ba5.png")!, name: "name", score: "score"),
-        RankingDetailData(rank: "1", iconImageURL: URL(string: "http://super-beaver.com/wp/wp-content/uploads/2018/10/9796f58fcdf53596266e06faa07f0ba5.png")!, name: "name", score: "score")
+    static let item: [TodayRankingDetailData] = [
+        
     ]
 }
 
 struct AllDummyData {
-    static let item: [RankingDetailData] = [
-        RankingDetailData(rank: "2", iconImageURL: URL(string: "http://super-beaver.com/wp/wp-content/uploads/2018/10/f4c26fbb3eb211b05e32a3f8e3a33bae.png")!, name: "nnn", score: "xxx"),
-        RankingDetailData(rank: "2", iconImageURL: URL(string: "http://super-beaver.com/wp/wp-content/uploads/2018/10/f4c26fbb3eb211b05e32a3f8e3a33bae.png")!, name: "nnn", score: "xxx"),
-        RankingDetailData(rank: "2", iconImageURL: URL(string: "http://super-beaver.com/wp/wp-content/uploads/2018/10/f4c26fbb3eb211b05e32a3f8e3a33bae.png")!, name: "nnn", score: "xxx"),
-        RankingDetailData(rank: "2", iconImageURL: URL(string: "http://super-beaver.com/wp/wp-content/uploads/2018/10/f4c26fbb3eb211b05e32a3f8e3a33bae.png")!, name: "nnn", score: "xxx"),
-        RankingDetailData(rank: "2", iconImageURL: URL(string: "http://super-beaver.com/wp/wp-content/uploads/2018/10/f4c26fbb3eb211b05e32a3f8e3a33bae.png")!, name: "nnn", score: "xxx")
+    static let item: [TodayRankingDetailData] = [
+       
     ]
 }

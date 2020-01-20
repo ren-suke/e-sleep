@@ -13,15 +13,15 @@ import RxCocoa
 
 final class LevelBar: UIView {
     
-    private let imageView = UIImageView()
+    private let imageView: UIImageView = UIImageView()
     
-    private let statusLabel = UILabel()
-    private let levelLabel = UILabel()
-    private let progressLabel = UILabel()
-    private let progressView = UIProgressView()
+    private let statusLabel: UILabel = UILabel()
+    private let levelLabel: UILabel = UILabel()
+    private let progressLabel: UILabel = UILabel()
+    private let progressView: UIProgressView = UIProgressView()
     
-    private let viewModel = LevelBarViewModel()
-    private let disposeBag = DisposeBag()
+    private let viewModel: LevelBarViewModel = LevelBarViewModel()
+    private let disposeBag: DisposeBag = DisposeBag()
     
     override init(frame: CGRect) {
         super.init(frame: frame)

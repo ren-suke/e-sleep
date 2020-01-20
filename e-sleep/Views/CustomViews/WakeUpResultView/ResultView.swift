@@ -9,9 +9,9 @@
 import UIKit
 
 final class ResultView: UIView {
-    private var todayRankLabel = UILabel()
-    private var allRankLabel = UILabel()
-    private var changeLevelLabel = UILabel()
+    private var todayRankLabel: UILabel = UILabel()
+    private var allRankLabel: UILabel = UILabel()
+    private var changeLevelLabel: UILabel = UILabel()
     
     init(frame: CGRect, with wakeUpResult: WakeUpResult) {
         super.init(frame: frame)

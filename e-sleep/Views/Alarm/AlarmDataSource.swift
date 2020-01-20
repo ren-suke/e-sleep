@@ -20,7 +20,10 @@ final class AlarmDataSource: NSObject, UITableViewDataSource, RxTableViewDataSou
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "AlarmCell", for: indexPath) as? AlarmTableViewCell else { return UITableViewCell() }
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "AlarmCell", for: indexPath) as? AlarmTableViewCell else {
+            return UITableViewCell()
+        }
+        
         cell.configure(with: items[indexPath.row])
         return cell
     }
