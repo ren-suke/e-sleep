@@ -10,7 +10,7 @@ import Foundation
 import RealmSwift
 
 final class User: Object {
-    @objc dynamic var id: Int
+    @objc dynamic var id: Int = 0
     @objc dynamic var name: String = ""
     @objc dynamic var timeZone: String = "07:00"
     @objc dynamic var durationDays: Int = 0
