@@ -8,7 +8,7 @@
 
 import Foundation
 
-class URLMolder {
+final class URLMolder {
     static var baseURL: String {
         #if RELEASE
             return "https://e-sleep.herokuapp.com/v1"

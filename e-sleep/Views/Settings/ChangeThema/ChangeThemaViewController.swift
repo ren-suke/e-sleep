@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ChangeThemaViewController: UIViewController {
+final class ChangeThemaViewController: UIViewController {
     
     static func make() -> UINavigationController {
         return UINavigationController(rootViewController: ChangeThemaViewController())

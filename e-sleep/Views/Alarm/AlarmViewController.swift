@@ -10,7 +10,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-class AlarmsViewController: UIViewController {
+final class AlarmsViewController: UIViewController {
     
     @IBOutlet private weak var addButton: UIButton!
     @IBOutlet private weak var tableView: UITableView!

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AlarmTableViewCell: UITableViewCell {
+final class AlarmTableViewCell: UITableViewCell {
     
     @IBOutlet private weak var timeLabel: UILabel!
 

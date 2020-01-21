@@ -10,12 +10,16 @@ import Foundation
 import RealmSwift
 
 protocol UserRealmOperatorProtocol {
+    /// ユーザー登録時のローカル保存
+    /// - Parameter user: ユーザーデータ
     func set(user: User)
+    /// ユーザー情報を取得
     func get() -> User
+    /// ユーザー情報を更新
     func update(newUser: User)
 }
 
-class UserRealmOperator: UserRealmOperatorProtocol {
+final class UserRealmOperator: UserRealmOperatorProtocol {
     
     func set(user: User) {
         do {

@@ -10,7 +10,7 @@ import Foundation
 import RxSwift
 import RxCocoa
 
-class LevelBarViewModel {
+final class LevelBarViewModel {
     
     private let levelRelay: BehaviorSubject<Int> = BehaviorSubject<Int>(value: 0)
     var level: Observable<Int> {

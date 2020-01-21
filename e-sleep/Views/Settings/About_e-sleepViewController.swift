@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AboutEsleepViewController: UIViewController {
+final class AboutEsleepViewController: UIViewController {
     
     static func make() -> UINavigationController {
         return UINavigationController(rootViewController: AboutEsleepViewController())

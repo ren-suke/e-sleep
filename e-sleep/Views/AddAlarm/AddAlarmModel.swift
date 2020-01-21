@@ -14,7 +14,7 @@ protocol AddAlarmModelProtocol {
     func save(date: Date) -> Observable<Void>
 }
 
-class AddAlarmModel: AddAlarmModelProtocol {
+final class AddAlarmModel: AddAlarmModelProtocol {
     
     func save(date: Date) -> Observable<Void> {
         return Observable.create { observer in

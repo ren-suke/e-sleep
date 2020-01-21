@@ -13,13 +13,20 @@ import RealmSwift
 //realmとのやり取りのみ行う
 
 protocol AlarmRealmOperatorProtocol {
+    /// アラームをセットする
+    /// - Parameter alarm:
     func set(alarm: Alarm)
+    /// アラーム一覧を取得
     func get() -> [Alarm]
+    /// アラームを更新する
+    /// - Parameter newAlarm:
     func update(newAlarm: Alarm)
+    /// アラームを削除
+    /// - Parameter alarm: Q
     func delete(alarm: Alarm)
 }
 
-class AlarmRealmOperator: AlarmRealmOperatorProtocol {
+final class AlarmRealmOperator: AlarmRealmOperatorProtocol {
     func set(alarm: Alarm) {
         do {
             let realm = try Realm()

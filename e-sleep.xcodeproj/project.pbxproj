@@ -59,12 +59,8 @@
 		C12D1F2B236FE0E200A5A6FB /* RegisterName.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F2A236FE0E200A5A6FB /* RegisterName.storyboard */; };
 		C12D1F2E236FE12700A5A6FB /* RegisterIcon.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F2D236FE12700A5A6FB /* RegisterIcon.storyboard */; };
 		C12D1F30236FE13500A5A6FB /* Ranking.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F2F236FE13500A5A6FB /* Ranking.storyboard */; };
-		C12D1F36236FE15A00A5A6FB /* CreateRoom.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F35236FE15A00A5A6FB /* CreateRoom.storyboard */; };
-		C12D1F38236FE16300A5A6FB /* JoinRoom.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F37236FE16300A5A6FB /* JoinRoom.storyboard */; };
-		C12D1F3A236FE16B00A5A6FB /* RoomSettings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F39236FE16B00A5A6FB /* RoomSettings.storyboard */; };
 		C12D1F3C236FE17100A5A6FB /* Alarm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F3B236FE17100A5A6FB /* Alarm.storyboard */; };
 		C12D1F3E236FE17800A5A6FB /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F3D236FE17800A5A6FB /* Settings.storyboard */; };
-		C12D1F41236FE1F500A5A6FB /* CreateRoomSetIcon.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F40236FE1F500A5A6FB /* CreateRoomSetIcon.storyboard */; };
 		C12D1F45236FE28400A5A6FB /* WakeUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D1F44236FE28400A5A6FB /* WakeUpButton.swift */; };
 		C12D1F47236FE2CD00A5A6FB /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D1F46236FE2CD00A5A6FB /* ResultView.swift */; };
 		C12D1F49236FE34700A5A6FB /* RegisterNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D1F48236FE34700A5A6FB /* RegisterNameViewController.swift */; };
@@ -138,20 +134,16 @@
 		C13CE83023D2FA3200046467 /* Pods_e_sleep.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5359C7D0AB564D83F55C91D1 /* Pods_e_sleep.framework */; };
 		C13CE83223D2FA3200046467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C15F944B2369BAC9007F3B68 /* LaunchScreen.storyboard */; };
 		C13CE83323D2FA3200046467 /* RegisterName.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F2A236FE0E200A5A6FB /* RegisterName.storyboard */; };
-		C13CE83423D2FA3200046467 /* CreateRoomSetIcon.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F40236FE1F500A5A6FB /* CreateRoomSetIcon.storyboard */; };
 		C13CE83623D2FA3200046467 /* Alarm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F3B236FE17100A5A6FB /* Alarm.storyboard */; };
 		C13CE83823D2FA3200046467 /* AddAlarm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1006FDE238566DD00921E3B /* AddAlarm.storyboard */; };
 		C13CE83923D2FA3200046467 /* RankingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F51236FF3E600A5A6FB /* RankingTableViewCell.xib */; };
 		C13CE83A23D2FA3200046467 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F3D236FE17800A5A6FB /* Settings.storyboard */; };
-		C13CE83B23D2FA3200046467 /* RoomSettings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F39236FE16B00A5A6FB /* RoomSettings.storyboard */; };
-		C13CE83C23D2FA3200046467 /* CreateRoom.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F35236FE15A00A5A6FB /* CreateRoom.storyboard */; };
 		C13CE83D23D2FA3200046467 /* Ranking.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F2F236FE13500A5A6FB /* Ranking.storyboard */; };
 		C13CE83E23D2FA3200046467 /* WakeUpResult.xib in Resources */ = {isa = PBXBuildFile; fileRef = C142B16D23C47951006860F5 /* WakeUpResult.xib */; };
 		C13CE83F23D2FA3200046467 /* RegisterIcon.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F2D236FE12700A5A6FB /* RegisterIcon.storyboard */; };
 		C13CE84023D2FA3200046467 /* AlarmTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA894B122398E1A100077616 /* AlarmTableViewCell.xib */; };
 		C13CE84223D2FA3200046467 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C1EB0F9A23728428008A042B /* Settings.bundle */; };
 		C13CE84323D2FA3200046467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C105DA2323793F8200607832 /* Assets.xcassets */; };
-		C13CE84423D2FA3200046467 /* JoinRoom.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F37236FE16300A5A6FB /* JoinRoom.storyboard */; };
 		C13CE84623D2FA3200046467 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C10300EA2369BFEE00939C91 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C13CE84723D2FA3200046467 /* Alertift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C12D1F6223700ED100A5A6FB /* Alertift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C13CE84823D2FA3200046467 /* RxGesture.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C1E1AF29238B7FBA008BFBFB /* RxGesture.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -314,12 +306,8 @@
 		C12D1F2A236FE0E200A5A6FB /* RegisterName.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegisterName.storyboard; sourceTree = "<group>"; };
 		C12D1F2D236FE12700A5A6FB /* RegisterIcon.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegisterIcon.storyboard; sourceTree = "<group>"; };
 		C12D1F2F236FE13500A5A6FB /* Ranking.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Ranking.storyboard; sourceTree = "<group>"; };
-		C12D1F35236FE15A00A5A6FB /* CreateRoom.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateRoom.storyboard; sourceTree = "<group>"; };
-		C12D1F37236FE16300A5A6FB /* JoinRoom.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JoinRoom.storyboard; sourceTree = "<group>"; };
-		C12D1F39236FE16B00A5A6FB /* RoomSettings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RoomSettings.storyboard; sourceTree = "<group>"; };
 		C12D1F3B236FE17100A5A6FB /* Alarm.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alarm.storyboard; sourceTree = "<group>"; };
 		C12D1F3D236FE17800A5A6FB /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
-		C12D1F40236FE1F500A5A6FB /* CreateRoomSetIcon.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateRoomSetIcon.storyboard; sourceTree = "<group>"; };
 		C12D1F44236FE28400A5A6FB /* WakeUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeUpButton.swift; sourceTree = "<group>"; };
 		C12D1F46236FE2CD00A5A6FB /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		C12D1F48236FE34700A5A6FB /* RegisterNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterNameViewController.swift; sourceTree = "<group>"; };
@@ -531,10 +519,6 @@
 				C12D1F1E236FE02D00A5A6FB /* RegisterName */,
 				C12D1F1F236FE03400A5A6FB /* RegisterIcon */,
 				C12D1F21236FE04700A5A6FB /* Ranking */,
-				C12D1F25236FE05400A5A6FB /* CreateRoom */,
-				C12D1F3F236FE1D300A5A6FB /* CreateRoomSetIcon */,
-				C12D1F26236FE05900A5A6FB /* JoinRoom */,
-				C12D1F27236FE06900A5A6FB /* RoomSettings */,
 				C12D1F22236FE04B00A5A6FB /* Alarm */,
 				C1006FDD238566AF00921E3B /* AddAlarm */,
 				C12D1F28236FE06F00A5A6FB /* Settings */,
@@ -655,30 +639,6 @@
 			path = Alarm;
 			sourceTree = "<group>";
 		};
-		C12D1F25236FE05400A5A6FB /* CreateRoom */ = {
-			isa = PBXGroup;
-			children = (
-				C12D1F35236FE15A00A5A6FB /* CreateRoom.storyboard */,
-			);
-			path = CreateRoom;
-			sourceTree = "<group>";
-		};
-		C12D1F26236FE05900A5A6FB /* JoinRoom */ = {
-			isa = PBXGroup;
-			children = (
-				C12D1F37236FE16300A5A6FB /* JoinRoom.storyboard */,
-			);
-			path = JoinRoom;
-			sourceTree = "<group>";
-		};
-		C12D1F27236FE06900A5A6FB /* RoomSettings */ = {
-			isa = PBXGroup;
-			children = (
-				C12D1F39236FE16B00A5A6FB /* RoomSettings.storyboard */,
-			);
-			path = RoomSettings;
-			sourceTree = "<group>";
-		};
 		C12D1F28236FE06F00A5A6FB /* Settings */ = {
 			isa = PBXGroup;
 			children = (
@@ -690,14 +650,6 @@
 				C189240D23A24A1B001D3F54 /* Usage_e-sleepViewController.swift */,
 			);
 			path = Settings;
-			sourceTree = "<group>";
-		};
-		C12D1F3F236FE1D300A5A6FB /* CreateRoomSetIcon */ = {
-			isa = PBXGroup;
-			children = (
-				C12D1F40236FE1F500A5A6FB /* CreateRoomSetIcon.storyboard */,
-			);
-			path = CreateRoomSetIcon;
 			sourceTree = "<group>";
 		};
 		C13CE7ED23D2F5C700046467 /* Entity */ = {
@@ -961,20 +913,16 @@
 			files = (
 				C13CE83223D2FA3200046467 /* LaunchScreen.storyboard in Resources */,
 				C13CE83323D2FA3200046467 /* RegisterName.storyboard in Resources */,
-				C13CE83423D2FA3200046467 /* CreateRoomSetIcon.storyboard in Resources */,
 				C13CE83623D2FA3200046467 /* Alarm.storyboard in Resources */,
 				C13CE83823D2FA3200046467 /* AddAlarm.storyboard in Resources */,
 				C13CE83923D2FA3200046467 /* RankingTableViewCell.xib in Resources */,
 				C13CE83A23D2FA3200046467 /* Settings.storyboard in Resources */,
-				C13CE83B23D2FA3200046467 /* RoomSettings.storyboard in Resources */,
-				C13CE83C23D2FA3200046467 /* CreateRoom.storyboard in Resources */,
 				C13CE83D23D2FA3200046467 /* Ranking.storyboard in Resources */,
 				C13CE83E23D2FA3200046467 /* WakeUpResult.xib in Resources */,
 				C13CE83F23D2FA3200046467 /* RegisterIcon.storyboard in Resources */,
 				C13CE84023D2FA3200046467 /* AlarmTableViewCell.xib in Resources */,
 				C13CE84223D2FA3200046467 /* Settings.bundle in Resources */,
 				C13CE84323D2FA3200046467 /* Assets.xcassets in Resources */,
-				C13CE84423D2FA3200046467 /* JoinRoom.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -984,20 +932,16 @@
 			files = (
 				C15F944D2369BAC9007F3B68 /* LaunchScreen.storyboard in Resources */,
 				C12D1F2B236FE0E200A5A6FB /* RegisterName.storyboard in Resources */,
-				C12D1F41236FE1F500A5A6FB /* CreateRoomSetIcon.storyboard in Resources */,
 				C12D1F3C236FE17100A5A6FB /* Alarm.storyboard in Resources */,
 				C1006FDF238566DD00921E3B /* AddAlarm.storyboard in Resources */,
 				C12D1F53236FF3E600A5A6FB /* RankingTableViewCell.xib in Resources */,
 				C12D1F3E236FE17800A5A6FB /* Settings.storyboard in Resources */,
-				C12D1F3A236FE16B00A5A6FB /* RoomSettings.storyboard in Resources */,
-				C12D1F36236FE15A00A5A6FB /* CreateRoom.storyboard in Resources */,
 				C12D1F30236FE13500A5A6FB /* Ranking.storyboard in Resources */,
 				C142B16E23C47951006860F5 /* WakeUpResult.xib in Resources */,
 				C12D1F2E236FE12700A5A6FB /* RegisterIcon.storyboard in Resources */,
 				FA894B142398E1A100077616 /* AlarmTableViewCell.xib in Resources */,
 				C1EB0F9B23728428008A042B /* Settings.bundle in Resources */,
 				C105DA2423793F8200607832 /* Assets.xcassets in Resources */,
-				C12D1F38236FE16300A5A6FB /* JoinRoom.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

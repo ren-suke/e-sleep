@@ -8,7 +8,7 @@
 
 import Foundation
 
-class APIClient {
+final class APIClient {
     typealias Success = (Data) -> Void
     typealias Failed = (Int, Error) -> Void
     

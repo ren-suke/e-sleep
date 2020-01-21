@@ -9,7 +9,7 @@
 import Foundation
 import RealmSwift
 
-class Alarm: Object {
+final class Alarm: Object {
     @objc dynamic var notificationIdentifier: String = ""
     @objc dynamic var time: String = ""
     @objc dynamic var isEnabled: Bool = false

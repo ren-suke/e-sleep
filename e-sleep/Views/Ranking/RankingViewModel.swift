@@ -15,7 +15,7 @@ struct RankingViewModelInputs {
     let refreshControl: Observable<Void>
 }
 
-class RankingViewModel {
+final class RankingViewModel {
     
     private let rankingRelay: BehaviorRelay<[TodayRankingDetailData]> = BehaviorRelay<[TodayRankingDetailData]>(value: [])
     var ranking: Driver<[TodayRankingDetailData]> {

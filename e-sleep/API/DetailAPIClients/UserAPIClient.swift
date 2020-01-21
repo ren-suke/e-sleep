@@ -15,7 +15,7 @@ protocol UserAPIClientProtocol {
     func wakeUp(with wakeUpDetailData: WakeUpDetailData) -> Single<WakeUpResult>
 }
 
-class UserAPIClient: UserAPIClientProtocol {
+final class UserAPIClient: UserAPIClientProtocol {
     func create(with postUser: PostUser) -> Single<UserDetailData> {
         let url = URLMolder.mold(with: "/users")
         var request = URLRequest(url: url)

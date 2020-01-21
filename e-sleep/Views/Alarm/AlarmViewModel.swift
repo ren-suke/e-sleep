@@ -10,7 +10,7 @@ import Foundation
 import RxSwift
 import RxRelay
 
-class AlarmViewModel {
+final class AlarmViewModel {
     
     private let alarmsRelay: BehaviorRelay<[Alarm]> = BehaviorRelay<[Alarm]>(value: [])
     var alarms: Observable<[Alarm]> {

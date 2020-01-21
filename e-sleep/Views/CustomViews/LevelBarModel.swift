@@ -14,7 +14,7 @@ protocol LevelBarModelProtocol {
     func getUser() -> Observable<User>
 }
 
-class LevelBarModel: LevelBarModelProtocol {
+final class LevelBarModel: LevelBarModelProtocol {
     func getExperiencePointTable() -> [Experience] {
         return [Experience]()
     }

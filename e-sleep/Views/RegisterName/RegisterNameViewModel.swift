@@ -11,7 +11,7 @@ import RxSwift
 import RxRelay
 import RxOptional
 
-class RegisterNameViewModel {
+final class RegisterNameViewModel {
     
     private let disposeBag: DisposeBag = DisposeBag()
     

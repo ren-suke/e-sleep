@@ -10,7 +10,7 @@ import UIKit
 import RxSwift
 import RxRelay
 
-class EditAcountViewModel {
+final class EditAcountViewModel {
     
     let newIconImageRelay: PublishRelay<UIImage> = PublishRelay<UIImage>()
     

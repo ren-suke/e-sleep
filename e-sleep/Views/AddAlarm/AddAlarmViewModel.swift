@@ -10,7 +10,7 @@ import Foundation
 import RxSwift
 import RxRelay
 
-class AddAlarmViewModel {
+final class AddAlarmViewModel {
     
     let dateRelay: BehaviorRelay<Date> = BehaviorRelay<Date>(value: Date())
     
