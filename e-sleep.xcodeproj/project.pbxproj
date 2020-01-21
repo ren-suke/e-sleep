@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49BAEA75077255F7297986C1 /* Pods_e_sleep.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5359C7D0AB564D83F55C91D1 /* Pods_e_sleep.framework */; };
 		4D3E8DBD6C2A82E411793750 /* Pods_e_sleep_e_sleepUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2DA78011984FFBF3F09F3F /* Pods_e_sleep_e_sleepUITests.framework */; };
 		C1006FD8238564A200921E3B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1006FD7238564A200921E3B /* SettingsViewController.swift */; };
 		C1006FDA238565F300921E3B /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1006FD9238565F300921E3B /* AlarmViewController.swift */; };
@@ -32,6 +33,7 @@
 		C117E5F523D434F600A07CAB /* URLMolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C117E5F423D434F600A07CAB /* URLMolder.swift */; };
 		C117E5F623D4404F00A07CAB /* UserDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C124CCDA23D41B2F006CE33B /* UserDetailData.swift */; };
 		C11AC6DB23D425D2007F846F /* RankingAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11AC6DA23D425D2007F846F /* RankingAPIClient.swift */; };
+		C11EE53623D6BEE900A99D40 /* EditProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C11EE53523D6BEE900A99D40 /* EditProfile.storyboard */; };
 		C124CCD923D419FC006CE33B /* PostUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C124CCD823D419FC006CE33B /* PostUser.swift */; };
 		C124CCDB23D41B2F006CE33B /* UserDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C124CCDA23D41B2F006CE33B /* UserDetailData.swift */; };
 		C124CCDD23D41C4F006CE33B /* WakeUpDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C124CCDC23D41C4F006CE33B /* WakeUpDetailData.swift */; };
@@ -74,7 +76,6 @@
 		C12D1F662370107000A5A6FB /* RegisterIconViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D1F652370107000A5A6FB /* RegisterIconViewModel.swift */; };
 		C12D1F682370113D00A5A6FB /* RegisterIconModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D1F672370113D00A5A6FB /* RegisterIconModel.swift */; };
 		C12D1F6A2370129500A5A6FB /* RegisterErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D1F692370129500A5A6FB /* RegisterErrors.swift */; };
-		C13CE7E923D2F2C400046467 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13CE7E823D2F2C400046467 /* R.generated.swift */; };
 		C13CE7F223D2FA3200046467 /* AlarmDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA894B1F2398F4ED00077616 /* AlarmDataSource.swift */; };
 		C13CE7F323D2FA3200046467 /* RegisterIconViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D1F4C236FEC7500A5A6FB /* RegisterIconViewController.swift */; };
 		C13CE7F523D2FA3200046467 /* PaddingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19C38662379376800216A3F /* PaddingTextField.swift */; };
@@ -92,21 +93,20 @@
 		C13CE80223D2FA3200046467 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F94402369BAC8007F3B68 /* AppDelegate.swift */; };
 		C13CE80323D2FA3200046467 /* RankingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8A2AD2398D3BF007AFC3F /* RankingViewModel.swift */; };
 		C13CE80423D2FA3200046467 /* AlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA894B1B2398F4CD00077616 /* AlarmModel.swift */; };
-		C13CE80523D2FA3200046467 /* EditAcountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C189240923A249DE001D3F54 /* EditAcountViewController.swift */; };
+		C13CE80523D2FA3200046467 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C189240923A249DE001D3F54 /* EditProfileViewController.swift */; };
 		C13CE80623D2FA3200046467 /* AddAlarmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E726C2399FE1400AC435C /* AddAlarmViewModel.swift */; };
 		C13CE80723D2FA3200046467 /* RegisterErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D1F692370129500A5A6FB /* RegisterErrors.swift */; };
 		C13CE80823D2FA3200046467 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF61F42384EA8F00B58578 /* TabBarController.swift */; };
 		C13CE80923D2FA3200046467 /* RegisterIconModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D1F672370113D00A5A6FB /* RegisterIconModel.swift */; };
 		C13CE80A23D2FA3200046467 /* UIImagePickerSourceType+ErrorText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1AF25238B7949008BFBFB /* UIImagePickerSourceType+ErrorText.swift */; };
 		C13CE80B23D2FA3200046467 /* AddAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1006FDB238566A700921E3B /* AddAlarmViewController.swift */; };
-		C13CE80C23D2FA3200046467 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13CE7E823D2F2C400046467 /* R.generated.swift */; };
 		C13CE80E23D2FA3200046467 /* TodayRankingDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8A2AB2398D072007AFC3F /* TodayRankingDetailData.swift */; };
 		C13CE80F23D2FA3200046467 /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1006FD9238565F300921E3B /* AlarmViewController.swift */; };
 		C13CE81023D2FA3200046467 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA894B172398EC0500077616 /* Alarm.swift */; };
 		C13CE81123D2FA3200046467 /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16D938D2377B53B00DFC21A /* Experience.swift */; };
 		C13CE81223D2FA3200046467 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1006FE023856A8600921E3B /* RankingViewController.swift */; };
 		C13CE81323D2FA3200046467 /* RankingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D1F50236FF3E600A5A6FB /* RankingTableViewCell.swift */; };
-		C13CE81423D2FA3200046467 /* EditAcountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C189241123A24B6F001D3F54 /* EditAcountViewModel.swift */; };
+		C13CE81423D2FA3200046467 /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C189241123A24B6F001D3F54 /* EditProfileViewModel.swift */; };
 		C13CE81523D2FA3200046467 /* RankingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8A2AF2398D6C6007AFC3F /* RankingDataSource.swift */; };
 		C13CE81623D2FA3200046467 /* LevelBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D1F4E236FF15800A5A6FB /* LevelBar.swift */; };
 		C13CE81723D2FA3200046467 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D1F5E2370023900A5A6FB /* Colors.swift */; };
@@ -121,9 +121,7 @@
 		C13CE82223D2FA3200046467 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1006FD7238564A200921E3B /* SettingsViewController.swift */; };
 		C13CE82423D2FA3200046467 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10300F02369BFEE00939C91 /* Realm.framework */; };
 		C13CE82523D2FA3200046467 /* RxOptional.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10300EE2369BFEE00939C91 /* RxOptional.framework */; };
-		C13CE82623D2FA3200046467 /* RxRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA894B2323990EF100077616 /* RxRealm.framework */; };
 		C13CE82723D2FA3200046467 /* Alertift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12D1F6223700ED100A5A6FB /* Alertift.framework */; };
-		C13CE82823D2FA3200046467 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E1AF2F238BAD8E008BFBFB /* SnapKit.framework */; };
 		C13CE82923D2FA3200046467 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10300EB2369BFEE00939C91 /* RxRelay.framework */; };
 		C13CE82A23D2FA3200046467 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10300ED2369BFEE00939C91 /* Reachability.framework */; };
 		C13CE82B23D2FA3200046467 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10300E92369BFEE00939C91 /* RxSwift.framework */; };
@@ -131,7 +129,6 @@
 		C13CE82D23D2FA3200046467 /* RxGesture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E1AF29238B7FBA008BFBFB /* RxGesture.framework */; };
 		C13CE82E23D2FA3200046467 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10300EF2369BFEE00939C91 /* RxCocoa.framework */; };
 		C13CE82F23D2FA3200046467 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10300EA2369BFEE00939C91 /* RealmSwift.framework */; };
-		C13CE83023D2FA3200046467 /* Pods_e_sleep.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5359C7D0AB564D83F55C91D1 /* Pods_e_sleep.framework */; };
 		C13CE83223D2FA3200046467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C15F944B2369BAC9007F3B68 /* LaunchScreen.storyboard */; };
 		C13CE83323D2FA3200046467 /* RegisterName.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F2A236FE0E200A5A6FB /* RegisterName.storyboard */; };
 		C13CE83623D2FA3200046467 /* Alarm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F3B236FE17100A5A6FB /* Alarm.storyboard */; };
@@ -148,14 +145,12 @@
 		C13CE84723D2FA3200046467 /* Alertift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C12D1F6223700ED100A5A6FB /* Alertift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C13CE84823D2FA3200046467 /* RxGesture.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C1E1AF29238B7FBA008BFBFB /* RxGesture.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C13CE84923D2FA3200046467 /* Kingfisher.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA894B2623990F0300077616 /* Kingfisher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C13CE84A23D2FA3200046467 /* RxRealm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA894B2323990EF100077616 /* RxRealm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C13CE84B23D2FA3200046467 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C10300E92369BFEE00939C91 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C13CE84C23D2FA3200046467 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C10300EF2369BFEE00939C91 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C13CE84D23D2FA3200046467 /* Reachability.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C10300ED2369BFEE00939C91 /* Reachability.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C13CE84E23D2FA3200046467 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C10300F02369BFEE00939C91 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C13CE84F23D2FA3200046467 /* RxOptional.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C10300EE2369BFEE00939C91 /* RxOptional.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C13CE85023D2FA3200046467 /* RxRelay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C10300EB2369BFEE00939C91 /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C13CE85123D2FA3200046467 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C1E1AF2F238BAD8E008BFBFB /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C142B16E23C47951006860F5 /* WakeUpResult.xib in Resources */ = {isa = PBXBuildFile; fileRef = C142B16D23C47951006860F5 /* WakeUpResult.xib */; };
 		C152F95023AA066C00719044 /* LevelBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C152F94F23AA066C00719044 /* LevelBarViewModel.swift */; };
 		C152F95223AA067A00719044 /* LevelBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C152F95123AA067A00719044 /* LevelBarModel.swift */; };
@@ -168,18 +163,16 @@
 		C17B614623865B2300B0221D /* RegisterNameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17B614523865B2300B0221D /* RegisterNameViewModel.swift */; };
 		C17B614823865E8000B0221D /* RegisterNameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17B614723865E8000B0221D /* RegisterNameModel.swift */; };
 		C189240823A249D5001D3F54 /* ChangeThemaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C189240723A249D5001D3F54 /* ChangeThemaViewController.swift */; };
-		C189240A23A249DE001D3F54 /* EditAcountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C189240923A249DE001D3F54 /* EditAcountViewController.swift */; };
+		C189240A23A249DE001D3F54 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C189240923A249DE001D3F54 /* EditProfileViewController.swift */; };
 		C189240C23A24A0F001D3F54 /* About_e-sleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C189240B23A24A0F001D3F54 /* About_e-sleepViewController.swift */; };
 		C189240E23A24A1B001D3F54 /* Usage_e-sleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C189240D23A24A1B001D3F54 /* Usage_e-sleepViewController.swift */; };
-		C189241223A24B6F001D3F54 /* EditAcountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C189241123A24B6F001D3F54 /* EditAcountViewModel.swift */; };
+		C189241223A24B6F001D3F54 /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C189241123A24B6F001D3F54 /* EditProfileViewModel.swift */; };
 		C19C386523792B9F00216A3F /* UITextFieldExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19C386423792B9F00216A3F /* UITextFieldExtensions.swift */; };
 		C19C38672379376800216A3F /* PaddingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19C38662379376800216A3F /* PaddingTextField.swift */; };
 		C1BF61F52384EA8F00B58578 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF61F42384EA8F00B58578 /* TabBarController.swift */; };
 		C1E1AF26238B7949008BFBFB /* UIImagePickerSourceType+ErrorText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1AF25238B7949008BFBFB /* UIImagePickerSourceType+ErrorText.swift */; };
 		C1E1AF2B238B7FBA008BFBFB /* RxGesture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E1AF29238B7FBA008BFBFB /* RxGesture.framework */; };
 		C1E1AF2C238B7FBA008BFBFB /* RxGesture.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C1E1AF29238B7FBA008BFBFB /* RxGesture.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C1E1AF30238BAD8E008BFBFB /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E1AF2F238BAD8E008BFBFB /* SnapKit.framework */; };
-		C1E1AF31238BAD8E008BFBFB /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C1E1AF2F238BAD8E008BFBFB /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C1E1AF33238D2766008BFBFB /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1AF32238D2766008BFBFB /* Data.swift */; };
 		C1EB0F9B23728428008A042B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C1EB0F9A23728428008A042B /* Settings.bundle */; };
 		D5767A8D1AD41140D56C6658 /* Pods_e_sleepTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD1025E8F4B37465FC16FC4 /* Pods_e_sleepTests.framework */; };
@@ -193,8 +186,6 @@
 		FA894B1E2398F4DE00077616 /* AlarmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA894B1D2398F4DE00077616 /* AlarmViewModel.swift */; };
 		FA894B202398F4ED00077616 /* AlarmDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA894B1F2398F4ED00077616 /* AlarmDataSource.swift */; };
 		FA894B222398FFA300077616 /* WakeUpResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA894B212398FFA300077616 /* WakeUpResult.swift */; };
-		FA894B2423990EF100077616 /* RxRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA894B2323990EF100077616 /* RxRealm.framework */; };
-		FA894B2523990EF100077616 /* RxRealm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA894B2323990EF100077616 /* RxRealm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FA894B2723990F0300077616 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA894B2623990F0300077616 /* Kingfisher.framework */; };
 		FA894B2823990F0300077616 /* Kingfisher.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FA894B2623990F0300077616 /* Kingfisher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FAD8A2AA2398CFA7007AFC3F /* RankingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8A2A92398CFA7007AFC3F /* RankingModel.swift */; };
@@ -231,14 +222,12 @@
 				C12D1F6423700ED100A5A6FB /* Alertift.framework in Embed Frameworks */,
 				C1E1AF2C238B7FBA008BFBFB /* RxGesture.framework in Embed Frameworks */,
 				FA894B2823990F0300077616 /* Kingfisher.framework in Embed Frameworks */,
-				FA894B2523990EF100077616 /* RxRealm.framework in Embed Frameworks */,
 				C10300F32369BFEF00939C91 /* RxSwift.framework in Embed Frameworks */,
 				C10300FF2369BFEF00939C91 /* RxCocoa.framework in Embed Frameworks */,
 				C10300FB2369BFEF00939C91 /* Reachability.framework in Embed Frameworks */,
 				C10301012369BFEF00939C91 /* Realm.framework in Embed Frameworks */,
 				C10300FD2369BFEF00939C91 /* RxOptional.framework in Embed Frameworks */,
 				C10300F72369BFEF00939C91 /* RxRelay.framework in Embed Frameworks */,
-				C1E1AF31238BAD8E008BFBFB /* SnapKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +242,12 @@
 				C13CE84723D2FA3200046467 /* Alertift.framework in Embed Frameworks */,
 				C13CE84823D2FA3200046467 /* RxGesture.framework in Embed Frameworks */,
 				C13CE84923D2FA3200046467 /* Kingfisher.framework in Embed Frameworks */,
-				C13CE84A23D2FA3200046467 /* RxRealm.framework in Embed Frameworks */,
 				C13CE84B23D2FA3200046467 /* RxSwift.framework in Embed Frameworks */,
 				C13CE84C23D2FA3200046467 /* RxCocoa.framework in Embed Frameworks */,
 				C13CE84D23D2FA3200046467 /* Reachability.framework in Embed Frameworks */,
 				C13CE84E23D2FA3200046467 /* Realm.framework in Embed Frameworks */,
 				C13CE84F23D2FA3200046467 /* RxOptional.framework in Embed Frameworks */,
 				C13CE85023D2FA3200046467 /* RxRelay.framework in Embed Frameworks */,
-				C13CE85123D2FA3200046467 /* SnapKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,11 +255,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0C15F6445DF4A6FC4F560E71 /* Pods-e-sleep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-sleep.release.xcconfig"; path = "Target Support Files/Pods-e-sleep/Pods-e-sleep.release.xcconfig"; sourceTree = "<group>"; };
 		1C25825A99A218CB43F1612D /* Pods-e-sleepTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-sleepTests.debug.xcconfig"; path = "Target Support Files/Pods-e-sleepTests/Pods-e-sleepTests.debug.xcconfig"; sourceTree = "<group>"; };
 		33A83FCBD641211BE907D47E /* Pods-e-sleep-e-sleepUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-sleep-e-sleepUITests.debug.xcconfig"; path = "Target Support Files/Pods-e-sleep-e-sleepUITests/Pods-e-sleep-e-sleepUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4989617D64F8A18AA7D2A704 /* Pods-e-sleep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-sleep.debug.xcconfig"; path = "Target Support Files/Pods-e-sleep/Pods-e-sleep.debug.xcconfig"; sourceTree = "<group>"; };
 		5359C7D0AB564D83F55C91D1 /* Pods_e_sleep.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_e_sleep.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8171244B12C41C62CF773B21 /* Pods-e-sleep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-sleep.release.xcconfig"; path = "Target Support Files/Pods-e-sleep/Pods-e-sleep.release.xcconfig"; sourceTree = "<group>"; };
-		82791FFFA7A4D195D6C478BD /* Pods-e-sleep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-sleep.debug.xcconfig"; path = "Target Support Files/Pods-e-sleep/Pods-e-sleep.debug.xcconfig"; sourceTree = "<group>"; };
 		8F2DA78011984FFBF3F09F3F /* Pods_e_sleep_e_sleepUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_e_sleep_e_sleepUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1006FD7238564A200921E3B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		C1006FD9238565F300921E3B /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
@@ -292,6 +279,7 @@
 		C117E5F223D430FF00A07CAB /* UserAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPIClient.swift; sourceTree = "<group>"; };
 		C117E5F423D434F600A07CAB /* URLMolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLMolder.swift; sourceTree = "<group>"; };
 		C11AC6DA23D425D2007F846F /* RankingAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingAPIClient.swift; sourceTree = "<group>"; };
+		C11EE53523D6BEE900A99D40 /* EditProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EditProfile.storyboard; sourceTree = "<group>"; };
 		C124CCD823D419FC006CE33B /* PostUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostUser.swift; sourceTree = "<group>"; };
 		C124CCDA23D41B2F006CE33B /* UserDetailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailData.swift; sourceTree = "<group>"; };
 		C124CCDC23D41C4F006CE33B /* WakeUpDetailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeUpDetailData.swift; sourceTree = "<group>"; };
@@ -320,7 +308,6 @@
 		C12D1F652370107000A5A6FB /* RegisterIconViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterIconViewModel.swift; sourceTree = "<group>"; };
 		C12D1F672370113D00A5A6FB /* RegisterIconModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterIconModel.swift; sourceTree = "<group>"; };
 		C12D1F692370129500A5A6FB /* RegisterErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterErrors.swift; sourceTree = "<group>"; };
-		C13CE7E823D2F2C400046467 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		C13CE85823D2FA3200046467 /* e-sleep_dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "e-sleep_dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C142B16D23C47951006860F5 /* WakeUpResult.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WakeUpResult.xib; sourceTree = "<group>"; };
 		C152F94F23AA066C00719044 /* LevelBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelBarViewModel.swift; sourceTree = "<group>"; };
@@ -340,17 +327,16 @@
 		C17B614523865B2300B0221D /* RegisterNameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterNameViewModel.swift; sourceTree = "<group>"; };
 		C17B614723865E8000B0221D /* RegisterNameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterNameModel.swift; sourceTree = "<group>"; };
 		C189240723A249D5001D3F54 /* ChangeThemaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeThemaViewController.swift; sourceTree = "<group>"; };
-		C189240923A249DE001D3F54 /* EditAcountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAcountViewController.swift; sourceTree = "<group>"; };
+		C189240923A249DE001D3F54 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 		C189240B23A24A0F001D3F54 /* About_e-sleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "About_e-sleepViewController.swift"; sourceTree = "<group>"; };
 		C189240D23A24A1B001D3F54 /* Usage_e-sleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Usage_e-sleepViewController.swift"; sourceTree = "<group>"; };
-		C189241123A24B6F001D3F54 /* EditAcountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAcountViewModel.swift; sourceTree = "<group>"; };
+		C189241123A24B6F001D3F54 /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
 		C19C386423792B9F00216A3F /* UITextFieldExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtensions.swift; sourceTree = "<group>"; };
 		C19C38662379376800216A3F /* PaddingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTextField.swift; sourceTree = "<group>"; };
 		C1BF61F42384EA8F00B58578 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		C1E1AF25238B7949008BFBFB /* UIImagePickerSourceType+ErrorText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImagePickerSourceType+ErrorText.swift"; sourceTree = "<group>"; };
 		C1E1AF29238B7FBA008BFBFB /* RxGesture.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxGesture.framework; path = Carthage/Build/iOS/RxGesture.framework; sourceTree = "<group>"; };
 		C1E1AF2A238B7FBA008BFBFB /* TransitionButton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TransitionButton.framework; path = Carthage/Build/iOS/TransitionButton.framework; sourceTree = "<group>"; };
-		C1E1AF2F238BAD8E008BFBFB /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 		C1E1AF32238D2766008BFBFB /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		C1EB0F9A23728428008A042B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		CCC0B5E3214DACFA584422C8 /* Pods-e-sleepTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-sleepTests.release.xcconfig"; path = "Target Support Files/Pods-e-sleepTests/Pods-e-sleepTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -364,7 +350,6 @@
 		FA894B1D2398F4DE00077616 /* AlarmViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewModel.swift; sourceTree = "<group>"; };
 		FA894B1F2398F4ED00077616 /* AlarmDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmDataSource.swift; sourceTree = "<group>"; };
 		FA894B212398FFA300077616 /* WakeUpResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WakeUpResult.swift; path = "e-sleep/Entity/WakeUpResult.swift"; sourceTree = SOURCE_ROOT; };
-		FA894B2323990EF100077616 /* RxRealm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRealm.framework; path = Carthage/Build/iOS/RxRealm.framework; sourceTree = "<group>"; };
 		FA894B2623990F0300077616 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
 		FAD8A2A92398CFA7007AFC3F /* RankingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingModel.swift; sourceTree = "<group>"; };
 		FAD8A2AB2398D072007AFC3F /* TodayRankingDetailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TodayRankingDetailData.swift; path = "e-sleep/Entity/TodayRankingDetailData.swift"; sourceTree = SOURCE_ROOT; };
@@ -380,9 +365,7 @@
 			files = (
 				C13CE82423D2FA3200046467 /* Realm.framework in Frameworks */,
 				C13CE82523D2FA3200046467 /* RxOptional.framework in Frameworks */,
-				C13CE82623D2FA3200046467 /* RxRealm.framework in Frameworks */,
 				C13CE82723D2FA3200046467 /* Alertift.framework in Frameworks */,
-				C13CE82823D2FA3200046467 /* SnapKit.framework in Frameworks */,
 				C13CE82923D2FA3200046467 /* RxRelay.framework in Frameworks */,
 				C13CE82A23D2FA3200046467 /* Reachability.framework in Frameworks */,
 				C13CE82B23D2FA3200046467 /* RxSwift.framework in Frameworks */,
@@ -390,7 +373,6 @@
 				C13CE82D23D2FA3200046467 /* RxGesture.framework in Frameworks */,
 				C13CE82E23D2FA3200046467 /* RxCocoa.framework in Frameworks */,
 				C13CE82F23D2FA3200046467 /* RealmSwift.framework in Frameworks */,
-				C13CE83023D2FA3200046467 /* Pods_e_sleep.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,9 +382,7 @@
 			files = (
 				C10301002369BFEF00939C91 /* Realm.framework in Frameworks */,
 				C10300FC2369BFEF00939C91 /* RxOptional.framework in Frameworks */,
-				FA894B2423990EF100077616 /* RxRealm.framework in Frameworks */,
 				C12D1F6323700ED100A5A6FB /* Alertift.framework in Frameworks */,
-				C1E1AF30238BAD8E008BFBFB /* SnapKit.framework in Frameworks */,
 				C10300F62369BFEF00939C91 /* RxRelay.framework in Frameworks */,
 				C10300FA2369BFEF00939C91 /* Reachability.framework in Frameworks */,
 				C10300F22369BFEF00939C91 /* RxSwift.framework in Frameworks */,
@@ -411,6 +391,7 @@
 				C10300FE2369BFEF00939C91 /* RxCocoa.framework in Frameworks */,
 				C10300F42369BFEF00939C91 /* RealmSwift.framework in Frameworks */,
 				F6418E09A005E84AF65DCDE8 /* Pods_e_sleep.framework in Frameworks */,
+				49BAEA75077255F7297986C1 /* Pods_e_sleep.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,8 +418,6 @@
 			isa = PBXGroup;
 			children = (
 				FA894B2623990F0300077616 /* Kingfisher.framework */,
-				FA894B2323990EF100077616 /* RxRealm.framework */,
-				C1E1AF2F238BAD8E008BFBFB /* SnapKit.framework */,
 				C1E1AF29238B7FBA008BFBFB /* RxGesture.framework */,
 				C1E1AF2A238B7FBA008BFBFB /* TransitionButton.framework */,
 				C12D1F6223700ED100A5A6FB /* Alertift.framework */,
@@ -461,12 +440,12 @@
 		BFCBF5EC98E2F0B324E7507F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				82791FFFA7A4D195D6C478BD /* Pods-e-sleep.debug.xcconfig */,
-				8171244B12C41C62CF773B21 /* Pods-e-sleep.release.xcconfig */,
 				33A83FCBD641211BE907D47E /* Pods-e-sleep-e-sleepUITests.debug.xcconfig */,
 				FD1D75DD87975FFDA139667F /* Pods-e-sleep-e-sleepUITests.release.xcconfig */,
 				1C25825A99A218CB43F1612D /* Pods-e-sleepTests.debug.xcconfig */,
 				CCC0B5E3214DACFA584422C8 /* Pods-e-sleepTests.release.xcconfig */,
+				4989617D64F8A18AA7D2A704 /* Pods-e-sleep.debug.xcconfig */,
+				0C15F6445DF4A6FC4F560E71 /* Pods-e-sleep.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -583,7 +562,6 @@
 				C1EB0F9A23728428008A042B /* Settings.bundle */,
 				C15F944B2369BAC9007F3B68 /* LaunchScreen.storyboard */,
 				C105DA2323793F8200607832 /* Assets.xcassets */,
-				C13CE7E823D2F2C400046467 /* R.generated.swift */,
 				C15F944E2369BAC9007F3B68 /* Info.plist */,
 			);
 			path = Resources;
@@ -644,7 +622,7 @@
 			children = (
 				C12D1F3D236FE17800A5A6FB /* Settings.storyboard */,
 				C1006FD7238564A200921E3B /* SettingsViewController.swift */,
-				C189240F23A24B0F001D3F54 /* EditAcount */,
+				C189240F23A24B0F001D3F54 /* EditProfile */,
 				C189241023A24B17001D3F54 /* ChangeThema */,
 				C189240B23A24A0F001D3F54 /* About_e-sleepViewController.swift */,
 				C189240D23A24A1B001D3F54 /* Usage_e-sleepViewController.swift */,
@@ -741,13 +719,14 @@
 			path = "e-sleepUITests";
 			sourceTree = "<group>";
 		};
-		C189240F23A24B0F001D3F54 /* EditAcount */ = {
+		C189240F23A24B0F001D3F54 /* EditProfile */ = {
 			isa = PBXGroup;
 			children = (
-				C189240923A249DE001D3F54 /* EditAcountViewController.swift */,
-				C189241123A24B6F001D3F54 /* EditAcountViewModel.swift */,
+				C11EE53523D6BEE900A99D40 /* EditProfile.storyboard */,
+				C189240923A249DE001D3F54 /* EditProfileViewController.swift */,
+				C189241123A24B6F001D3F54 /* EditProfileViewModel.swift */,
 			);
-			path = EditAcount;
+			path = EditProfile;
 			sourceTree = "<group>";
 		};
 		C189241023A24B17001D3F54 /* ChangeThema */ = {
@@ -781,7 +760,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C13CE85523D2FA3200046467 /* Build configuration list for PBXNativeTarget "e-sleep_dev" */;
 			buildPhases = (
-				C13CE7EF23D2FA3200046467 /* [CP] Check Pods Manifest.lock */,
 				C13CE7F023D2FA3200046467 /* R.swift */,
 				C13CE7F123D2FA3200046467 /* Sources */,
 				C13CE82323D2FA3200046467 /* Frameworks */,
@@ -789,7 +767,6 @@
 				C13CE84523D2FA3200046467 /* Embed Frameworks */,
 				C13CE85223D2FA3200046467 /* Run Script - Carthage */,
 				C13CE85323D2FA3200046467 /* Run Script - LicensePlist */,
-				C13CE85423D2FA3200046467 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -933,6 +910,7 @@
 				C15F944D2369BAC9007F3B68 /* LaunchScreen.storyboard in Resources */,
 				C12D1F2B236FE0E200A5A6FB /* RegisterName.storyboard in Resources */,
 				C12D1F3C236FE17100A5A6FB /* Alarm.storyboard in Resources */,
+				C11EE53623D6BEE900A99D40 /* EditProfile.storyboard in Resources */,
 				C1006FDF238566DD00921E3B /* AddAlarm.storyboard in Resources */,
 				C12D1F53236FF3E600A5A6FB /* RankingTableViewCell.xib in Resources */,
 				C12D1F3E236FE17800A5A6FB /* Settings.storyboard in Resources */,
@@ -1040,8 +1018,6 @@
 				"$(SRCROOT)/Carthage/Build/iOS/RxRelay.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Alertift.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxGesture.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxRealm.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
 			);
 			name = "Run Script - Carthage";
@@ -1091,28 +1067,6 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
 		};
-		C13CE7EF23D2FA3200046467 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-e-sleep-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C13CE7F023D2FA3200046467 /* R.swift */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1131,7 +1085,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/$PROJECT_NAME/R.generated.swift\"\n\n";
 		};
 		C13CE85223D2FA3200046467 /* Run Script - Carthage */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1150,8 +1104,6 @@
 				"$(SRCROOT)/Carthage/Build/iOS/RxRelay.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Alertift.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxGesture.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxRealm.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
 			);
 			name = "Run Script - Carthage";
@@ -1180,23 +1132,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [ $CONFIGURATION = \"Debug\" ]; then\n${PODS_ROOT}/LicensePlist/license-plist --output-path $PRODUCT_NAME/Settings.bundle\nfi\n\n";
-		};
-		C13CE85423D2FA3200046467 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-e-sleep/Pods-e-sleep-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-e-sleep/Pods-e-sleep-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-e-sleep/Pods-e-sleep-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		D9D57C64C343601C1CF9F55F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1275,21 +1210,20 @@
 				C13CE80223D2FA3200046467 /* AppDelegate.swift in Sources */,
 				C13CE80323D2FA3200046467 /* RankingViewModel.swift in Sources */,
 				C13CE80423D2FA3200046467 /* AlarmModel.swift in Sources */,
-				C13CE80523D2FA3200046467 /* EditAcountViewController.swift in Sources */,
+				C13CE80523D2FA3200046467 /* EditProfileViewController.swift in Sources */,
 				C13CE80623D2FA3200046467 /* AddAlarmViewModel.swift in Sources */,
 				C13CE80723D2FA3200046467 /* RegisterErrors.swift in Sources */,
 				C13CE80823D2FA3200046467 /* TabBarController.swift in Sources */,
 				C13CE80923D2FA3200046467 /* RegisterIconModel.swift in Sources */,
 				C13CE80A23D2FA3200046467 /* UIImagePickerSourceType+ErrorText.swift in Sources */,
 				C13CE80B23D2FA3200046467 /* AddAlarmViewController.swift in Sources */,
-				C13CE80C23D2FA3200046467 /* R.generated.swift in Sources */,
 				C13CE80E23D2FA3200046467 /* TodayRankingDetailData.swift in Sources */,
 				C13CE80F23D2FA3200046467 /* AlarmViewController.swift in Sources */,
 				C13CE81023D2FA3200046467 /* Alarm.swift in Sources */,
 				C13CE81123D2FA3200046467 /* Experience.swift in Sources */,
 				C13CE81223D2FA3200046467 /* RankingViewController.swift in Sources */,
 				C13CE81323D2FA3200046467 /* RankingTableViewCell.swift in Sources */,
-				C13CE81423D2FA3200046467 /* EditAcountViewModel.swift in Sources */,
+				C13CE81423D2FA3200046467 /* EditProfileViewModel.swift in Sources */,
 				C13CE81523D2FA3200046467 /* RankingDataSource.swift in Sources */,
 				C13CE81623D2FA3200046467 /* LevelBar.swift in Sources */,
 				C13CE81723D2FA3200046467 /* Colors.swift in Sources */,
@@ -1330,7 +1264,7 @@
 				C124CCD923D419FC006CE33B /* PostUser.swift in Sources */,
 				FAD8A2AE2398D3BF007AFC3F /* RankingViewModel.swift in Sources */,
 				FA894B1C2398F4CD00077616 /* AlarmModel.swift in Sources */,
-				C189240A23A249DE001D3F54 /* EditAcountViewController.swift in Sources */,
+				C189240A23A249DE001D3F54 /* EditProfileViewController.swift in Sources */,
 				FA5E726D2399FE1400AC435C /* AddAlarmViewModel.swift in Sources */,
 				C12D1F6A2370129500A5A6FB /* RegisterErrors.swift in Sources */,
 				C1BF61F52384EA8F00B58578 /* TabBarController.swift in Sources */,
@@ -1338,7 +1272,6 @@
 				C11AC6DB23D425D2007F846F /* RankingAPIClient.swift in Sources */,
 				C1E1AF26238B7949008BFBFB /* UIImagePickerSourceType+ErrorText.swift in Sources */,
 				C1006FDC238566A700921E3B /* AddAlarmViewController.swift in Sources */,
-				C13CE7E923D2F2C400046467 /* R.generated.swift in Sources */,
 				C12A5E4A23D5934B00AD0947 /* UserRealmOperator.swift in Sources */,
 				FAD8A2AC2398D072007AFC3F /* TodayRankingDetailData.swift in Sources */,
 				C117E5F323D430FF00A07CAB /* UserAPIClient.swift in Sources */,
@@ -1349,7 +1282,7 @@
 				C1006FE123856A8600921E3B /* RankingViewController.swift in Sources */,
 				C12D1F52236FF3E600A5A6FB /* RankingTableViewCell.swift in Sources */,
 				C12A5E3F23D574B000AD0947 /* ClientErrors.swift in Sources */,
-				C189241223A24B6F001D3F54 /* EditAcountViewModel.swift in Sources */,
+				C189241223A24B6F001D3F54 /* EditProfileViewModel.swift in Sources */,
 				C12A5E3D23D5742400AD0947 /* ServerErrors.swift in Sources */,
 				FAD8A2B02398D6C6007AFC3F /* RankingDataSource.swift in Sources */,
 				C12D1F4F236FF15800A5A6FB /* LevelBar.swift in Sources */,
@@ -1415,7 +1348,6 @@
 /* Begin XCBuildConfiguration section */
 		C13CE85623D2FA3200046467 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82791FFFA7A4D195D6C478BD /* Pods-e-sleep.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1440,7 +1372,6 @@
 		};
 		C13CE85723D2FA3200046467 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8171244B12C41C62CF773B21 /* Pods-e-sleep.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1579,7 +1510,7 @@
 		};
 		C15F94682369BAC9007F3B68 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82791FFFA7A4D195D6C478BD /* Pods-e-sleep.debug.xcconfig */;
+			baseConfigurationReference = 4989617D64F8A18AA7D2A704 /* Pods-e-sleep.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1604,7 +1535,7 @@
 		};
 		C15F94692369BAC9007F3B68 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8171244B12C41C62CF773B21 /* Pods-e-sleep.release.xcconfig */;
+			baseConfigurationReference = 0C15F6445DF4A6FC4F560E71 /* Pods-e-sleep.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

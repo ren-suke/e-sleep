@@ -12,14 +12,10 @@ import RxCocoa
 
 final class RegisterNameViewController: UIViewController {
     
-    private var titleLabel: UILabel = UILabel()
+    @IBOutlet private weak var nameTextField: UITextField!
+    @IBOutlet private weak var nextButton: UIButton!
     
-    private var stackView: UIStackView = UIStackView()
-
-    private var nameTextField: UITextField = UITextField()
-    private var nextButton: UIButton = UIButton()
-    
-    private var validationLabel: UILabel = UILabel()
+    @IBOutlet private weak var validationLabel: UILabel!
     
     private let disposeBag: DisposeBag = DisposeBag()
     

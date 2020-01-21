@@ -11,23 +11,17 @@ import RxSwift
 import RxCocoa
 import RxGesture
 import Alertift
-import SnapKit
 
 final class RegisterIconViewController: UIViewController {
     
-    @IBOutlet private weak var titleLabel: UILabel!
+    @IBOutlet private weak var iconImageView: UIImageView!
     
-    private var imageViewContainer: UIView = UIView()
-    private var iconImageView: UIImageView = UIImageView(image: R.image.addPhoto())
-    
-//    private var startButton: TransitionButton = TransitionButton()
-    private var startButton: UIButton = UIButton()
+    @IBOutlet private weak var startButton: UIButton!
     var name: String?
     
     private let disposeBag: DisposeBag = DisposeBag()
     
     private lazy var viewModel: RegisterIconViewModel = RegisterIconViewModel(
-//        startButtonTapped: self.startButton.rx.tap.asObservable(),
         startButtonTapped: self.startButton.rx.tap.asObservable(),
         nameText: self.name
     )
@@ -36,10 +30,6 @@ final class RegisterIconViewController: UIViewController {
         super.viewDidLoad()
         
         configure()
-        
-//        viewModel.uploadStatus
-//            .bind(to: indicatorAnimate)
-//            .disposed(by: disposeBag)
 
         iconImageView.rx.tapGesture()
             .subscribe { _ in
@@ -51,54 +41,16 @@ final class RegisterIconViewController: UIViewController {
                     .show()
             }
             .disposed(by: disposeBag)
+        
+        startButton.rx.tap
+            .subscribe { _ in
+                self.present(TabBarController(), animated: true, completion: nil)
+            }
+        .disposed(by: disposeBag)
     }
     
     private func configure() {
-        view.addSubview(imageViewContainer)
         
-        imageViewContainerConfigure()
-    }
-    
-//    private func startButtonConfigure() {
-//        startButton.snp.makeConstraints { make in
-//            make.centerX.equalToSuperview()
-//            make.centerY.equalToSuperview()
-//            make.width.equalToSuperview().multipliedBy(0.4)
-//            make.height.equalTo(startButton.snp.width).multipliedBy(0.3)
-//        }
-//
-//        startButton.backgroundColor = Colors.main
-//        startButton.setTitle("Start", for: .normal)
-//        startButton.titleLabel?.textColor = .white
-//        startButton.cornerRadius = view.frame.width * 0.06
-//        startButton.clipsToBounds = true
-//    }
-    
-    private func imageViewContainerConfigure() {
-        imageViewContainer.addSubview(iconImageView)
-        iconImageViewConfigure()
-        
-        imageViewContainer.snp.makeConstraints { make in
-            make.top.equalTo(titleLabel.snp.bottom)
-//            make.bottom.equalTo(startButton.snp.top)
-            make.left.equalToSuperview()
-            make.right.equalToSuperview()
-        }
-    }
-    
-    private func iconImageViewConfigure() {
-        iconImageView.snp.makeConstraints { make in
-            make.centerX.equalToSuperview()
-            make.centerY.equalToSuperview()
-//            make.width.equalTo(startButton)
-//            make.height.equalTo(startButton.snp.width)
-        }
-        
-        iconImageView.clipsToBounds = true
-        iconImageView.layer.cornerRadius = view.frame.width * 0.2
-        iconImageView.layer.borderWidth = 1
-        iconImageView.layer.borderColor = Color.main.cgColor
-        iconImageView.contentMode = .scaleAspectFit
     }
 }
 

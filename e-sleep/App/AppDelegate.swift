@@ -22,7 +22,7 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func selectRootViewController() -> UIViewController {
         let tabBarController: UIViewController = TabBarController()
-        
+//        let registerNameViewController = R.storyboard.registerName.instantiateInitialViewController()
 //        let editAcountViewController = EditAcountViewController.make()
         return tabBarController
     }

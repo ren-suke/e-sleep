@@ -71,9 +71,9 @@
                     </view>
                     <navigationItem key="navigationItem" title="Sign Up" id="utU-La-HWv"/>
                     <connections>
-                        <outlet property="nameTextField" destination="W9f-Wa-jud" id="W3W-aO-4Rl"/>
-                        <outlet property="nextButton" destination="mVY-dr-3cg" id="Eh0-Mc-5bp"/>
-                        <outlet property="validationLabel" destination="VUb-kG-oVq" id="KXz-Ev-zAO"/>
+                        <outlet property="nameTextField" destination="W9f-Wa-jud" id="lon-cY-MxW"/>
+                        <outlet property="nextButton" destination="mVY-dr-3cg" id="e8p-Pq-UX4"/>
+                        <outlet property="validationLabel" destination="VUb-kG-oVq" id="MSY-0N-hkJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5z2-Nk-cId" sceneMemberID="firstResponder"/>

@@ -9,15 +9,14 @@
 import UIKit
 import RxSwift
 import RxCocoa
-import SnapKit
 import Alertift
 
 final class AddAlarmViewController: UIViewController {
     
-    private var cancelButton: UIBarButtonItem = UIBarButtonItem(barButtonSystemItem: .cancel, target: nil, action: nil)
-    private var saveButton: UIBarButtonItem = UIBarButtonItem(barButtonSystemItem: .save, target: nil, action: nil)
+    @IBOutlet private weak var cancelButton: UIBarButtonItem!
+    @IBOutlet private weak var saveButton: UIBarButtonItem!
     
-    private var datePicker: UIDatePicker = UIDatePicker()
+    @IBOutlet private weak var datePicker: UIDatePicker!
     
     private let disposeBag: DisposeBag = DisposeBag()
     
@@ -32,8 +31,6 @@ final class AddAlarmViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        configure()
-        
         cancelButton.rx.tap
             .subscribe { _ in
                 self.dismiss(animated: true, completion: nil)
@@ -47,29 +44,6 @@ final class AddAlarmViewController: UIViewController {
 //        viewModel.dismissHandler
 //            .bind(to: dismissMe)
 //            .disposed(by: disposeBag)
-    }
-    
-    private func configure() {
-        view.backgroundColor = .white
-            
-        navigationItem.title = "Add Alarm"
-        navigationItem.leftBarButtonItem = cancelButton
-        navigationItem.rightBarButtonItem = saveButton
-        
-        view.addSubview(datePicker)
-        datePickerConfigure()
-    }
-    
-    private func datePickerConfigure() {
-        datePicker.datePickerMode = .time
-        datePicker.minuteInterval = 10
-        
-        datePicker.snp.makeConstraints { make in
-            make.top.equalToSuperview().offset(44)
-            make.centerX.equalToSuperview()
-            make.width.equalToSuperview()
-            make.height.equalTo(datePicker.snp.width).multipliedBy(0.6)
-        }
     }
 }
 
