@@ -15,15 +15,15 @@ final class TabBarController: UITabBarController {
         
         let rankingStoryboard: UIStoryboard = UIStoryboard(name: "Ranking", bundle: nil)
         let rankingViewController: UIViewController = rankingStoryboard.instantiateViewController(withIdentifier: "Ranking")
-        rankingViewController.tabBarItem = UITabBarItem(title: "Ranking", image: R.image.crown30(), tag: 1)
+        rankingViewController.tabBarItem = UITabBarItem(title: "Ranking", image: Images.crown30, tag: 1)
     
         let alarmsStoryboard: UIStoryboard = UIStoryboard(name: "Alarm", bundle: nil)
         let alarmsViewController: UIViewController = alarmsStoryboard.instantiateViewController(withIdentifier: "Alarm")
-        alarmsViewController.tabBarItem = UITabBarItem(title: "Alarm", image: R.image.alarm30(), tag: 3)
+        alarmsViewController.tabBarItem = UITabBarItem(title: "Alarm", image: Images.alarm30, tag: 3)
         
         let settingsStoryboard: UIStoryboard = UIStoryboard(name: "Settings", bundle: nil)
         let settingsViewController: UIViewController = settingsStoryboard.instantiateViewController(withIdentifier: "Settings")
-        settingsViewController.tabBarItem = UITabBarItem(title: "Settings", image: R.image.settings30(), tag: 4)
+        settingsViewController.tabBarItem = UITabBarItem(title: "Settings", image: Images.settings30, tag: 4)
         
         let viewControllers: [UIViewController] = [
             rankingViewController,

@@ -7,7 +7,6 @@ target 'e-sleep' do
 
   # Pods for e-sleep
   pod 'LicensePlist'
-  pod 'R.swift'
 
   target 'e-sleepTests' do
     inherit! :search_paths

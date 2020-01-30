@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		49BAEA75077255F7297986C1 /* Pods_e_sleep.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5359C7D0AB564D83F55C91D1 /* Pods_e_sleep.framework */; };
 		4D3E8DBD6C2A82E411793750 /* Pods_e_sleep_e_sleepUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2DA78011984FFBF3F09F3F /* Pods_e_sleep_e_sleepUITests.framework */; };
 		C1006FD8238564A200921E3B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1006FD7238564A200921E3B /* SettingsViewController.swift */; };
 		C1006FDA238565F300921E3B /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1006FD9238565F300921E3B /* AlarmViewController.swift */; };
@@ -82,7 +81,6 @@
 		C13CE7F623D2FA3200046467 /* LevelBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C152F94F23AA066C00719044 /* LevelBarViewModel.swift */; };
 		C13CE7F823D2FA3200046467 /* AlarmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA894B1D2398F4DE00077616 /* AlarmViewModel.swift */; };
 		C13CE7F923D2FA3200046467 /* Usage_e-sleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C189240D23A24A1B001D3F54 /* Usage_e-sleepViewController.swift */; };
-		C13CE7FA23D2FA3200046467 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1AF32238D2766008BFBFB /* Data.swift */; };
 		C13CE7FB23D2FA3200046467 /* AlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA894B112398E1A100077616 /* AlarmTableViewCell.swift */; };
 		C13CE7FC23D2FA3200046467 /* LevelBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C152F95123AA067A00719044 /* LevelBarModel.swift */; };
 		C13CE7FD23D2FA3200046467 /* RankingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8A2A92398CFA7007AFC3F /* RankingModel.swift */; };
@@ -136,7 +134,6 @@
 		C13CE83923D2FA3200046467 /* RankingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F51236FF3E600A5A6FB /* RankingTableViewCell.xib */; };
 		C13CE83A23D2FA3200046467 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F3D236FE17800A5A6FB /* Settings.storyboard */; };
 		C13CE83D23D2FA3200046467 /* Ranking.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F2F236FE13500A5A6FB /* Ranking.storyboard */; };
-		C13CE83E23D2FA3200046467 /* WakeUpResult.xib in Resources */ = {isa = PBXBuildFile; fileRef = C142B16D23C47951006860F5 /* WakeUpResult.xib */; };
 		C13CE83F23D2FA3200046467 /* RegisterIcon.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12D1F2D236FE12700A5A6FB /* RegisterIcon.storyboard */; };
 		C13CE84023D2FA3200046467 /* AlarmTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA894B122398E1A100077616 /* AlarmTableViewCell.xib */; };
 		C13CE84223D2FA3200046467 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C1EB0F9A23728428008A042B /* Settings.bundle */; };
@@ -151,7 +148,6 @@
 		C13CE84E23D2FA3200046467 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C10300F02369BFEE00939C91 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C13CE84F23D2FA3200046467 /* RxOptional.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C10300EE2369BFEE00939C91 /* RxOptional.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C13CE85023D2FA3200046467 /* RxRelay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C10300EB2369BFEE00939C91 /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C142B16E23C47951006860F5 /* WakeUpResult.xib in Resources */ = {isa = PBXBuildFile; fileRef = C142B16D23C47951006860F5 /* WakeUpResult.xib */; };
 		C152F95023AA066C00719044 /* LevelBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C152F94F23AA066C00719044 /* LevelBarViewModel.swift */; };
 		C152F95223AA067A00719044 /* LevelBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C152F95123AA067A00719044 /* LevelBarModel.swift */; };
 		C15F94412369BAC8007F3B68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F94402369BAC8007F3B68 /* AppDelegate.swift */; };
@@ -160,6 +156,8 @@
 		C15F94632369BAC9007F3B68 /* e_sleepUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F94622369BAC9007F3B68 /* e_sleepUITests.swift */; };
 		C16D938E2377B53B00DFC21A /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16D938D2377B53B00DFC21A /* Experience.swift */; };
 		C16D93902377B87300DFC21A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16D938F2377B87300DFC21A /* User.swift */; };
+		C173FAF523D7F10B0020100D /* Result.xib in Resources */ = {isa = PBXBuildFile; fileRef = C173FAF423D7F10B0020100D /* Result.xib */; };
+		C17A978C23E29829002BD2DB /* UIView+NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17A978B23E29829002BD2DB /* UIView+NibLoadable.swift */; };
 		C17B614623865B2300B0221D /* RegisterNameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17B614523865B2300B0221D /* RegisterNameViewModel.swift */; };
 		C17B614823865E8000B0221D /* RegisterNameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17B614723865E8000B0221D /* RegisterNameModel.swift */; };
 		C189240823A249D5001D3F54 /* ChangeThemaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C189240723A249D5001D3F54 /* ChangeThemaViewController.swift */; };
@@ -170,10 +168,12 @@
 		C19C386523792B9F00216A3F /* UITextFieldExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19C386423792B9F00216A3F /* UITextFieldExtensions.swift */; };
 		C19C38672379376800216A3F /* PaddingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19C38662379376800216A3F /* PaddingTextField.swift */; };
 		C1BF61F52384EA8F00B58578 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF61F42384EA8F00B58578 /* TabBarController.swift */; };
+		C1DB042823E29B7000992207 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB042723E29B7000992207 /* Images.swift */; };
+		C1DB042923E29D3300992207 /* UIView+NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17A978B23E29829002BD2DB /* UIView+NibLoadable.swift */; };
+		C1DB042A23E29D3300992207 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB042723E29B7000992207 /* Images.swift */; };
 		C1E1AF26238B7949008BFBFB /* UIImagePickerSourceType+ErrorText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1AF25238B7949008BFBFB /* UIImagePickerSourceType+ErrorText.swift */; };
 		C1E1AF2B238B7FBA008BFBFB /* RxGesture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E1AF29238B7FBA008BFBFB /* RxGesture.framework */; };
 		C1E1AF2C238B7FBA008BFBFB /* RxGesture.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C1E1AF29238B7FBA008BFBFB /* RxGesture.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C1E1AF33238D2766008BFBFB /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1AF32238D2766008BFBFB /* Data.swift */; };
 		C1EB0F9B23728428008A042B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C1EB0F9A23728428008A042B /* Settings.bundle */; };
 		D5767A8D1AD41140D56C6658 /* Pods_e_sleepTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD1025E8F4B37465FC16FC4 /* Pods_e_sleepTests.framework */; };
 		F6418E09A005E84AF65DCDE8 /* Pods_e_sleep.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5359C7D0AB564D83F55C91D1 /* Pods_e_sleep.framework */; };
@@ -309,7 +309,6 @@
 		C12D1F672370113D00A5A6FB /* RegisterIconModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterIconModel.swift; sourceTree = "<group>"; };
 		C12D1F692370129500A5A6FB /* RegisterErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterErrors.swift; sourceTree = "<group>"; };
 		C13CE85823D2FA3200046467 /* e-sleep_dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "e-sleep_dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C142B16D23C47951006860F5 /* WakeUpResult.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WakeUpResult.xib; sourceTree = "<group>"; };
 		C152F94F23AA066C00719044 /* LevelBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelBarViewModel.swift; sourceTree = "<group>"; };
 		C152F95123AA067A00719044 /* LevelBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelBarModel.swift; sourceTree = "<group>"; };
 		C15F943D2369BAC8007F3B68 /* e-sleep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "e-sleep.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -324,6 +323,8 @@
 		C15F94642369BAC9007F3B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C16D938D2377B53B00DFC21A /* Experience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
 		C16D938F2377B87300DFC21A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C173FAF423D7F10B0020100D /* Result.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Result.xib; sourceTree = "<group>"; };
+		C17A978B23E29829002BD2DB /* UIView+NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+NibLoadable.swift"; sourceTree = "<group>"; };
 		C17B614523865B2300B0221D /* RegisterNameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterNameViewModel.swift; sourceTree = "<group>"; };
 		C17B614723865E8000B0221D /* RegisterNameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterNameModel.swift; sourceTree = "<group>"; };
 		C189240723A249D5001D3F54 /* ChangeThemaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeThemaViewController.swift; sourceTree = "<group>"; };
@@ -334,10 +335,10 @@
 		C19C386423792B9F00216A3F /* UITextFieldExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtensions.swift; sourceTree = "<group>"; };
 		C19C38662379376800216A3F /* PaddingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTextField.swift; sourceTree = "<group>"; };
 		C1BF61F42384EA8F00B58578 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		C1DB042723E29B7000992207 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		C1E1AF25238B7949008BFBFB /* UIImagePickerSourceType+ErrorText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImagePickerSourceType+ErrorText.swift"; sourceTree = "<group>"; };
 		C1E1AF29238B7FBA008BFBFB /* RxGesture.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxGesture.framework; path = Carthage/Build/iOS/RxGesture.framework; sourceTree = "<group>"; };
 		C1E1AF2A238B7FBA008BFBFB /* TransitionButton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TransitionButton.framework; path = Carthage/Build/iOS/TransitionButton.framework; sourceTree = "<group>"; };
-		C1E1AF32238D2766008BFBFB /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		C1EB0F9A23728428008A042B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		CCC0B5E3214DACFA584422C8 /* Pods-e-sleepTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-sleepTests.release.xcconfig"; path = "Target Support Files/Pods-e-sleepTests/Pods-e-sleepTests.release.xcconfig"; sourceTree = "<group>"; };
 		CDD1025E8F4B37465FC16FC4 /* Pods_e_sleepTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_e_sleepTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -391,7 +392,6 @@
 				C10300FE2369BFEF00939C91 /* RxCocoa.framework in Frameworks */,
 				C10300F42369BFEF00939C91 /* RealmSwift.framework in Frameworks */,
 				F6418E09A005E84AF65DCDE8 /* Pods_e_sleep.framework in Frameworks */,
-				49BAEA75077255F7297986C1 /* Pods_e_sleep.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,7 +510,6 @@
 			isa = PBXGroup;
 			children = (
 				C15F94402369BAC8007F3B68 /* AppDelegate.swift */,
-				C12D1F5E2370023900A5A6FB /* Colors.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -549,9 +548,9 @@
 		C12D1F1C236FDC0300A5A6FB /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				C1E1AF32238D2766008BFBFB /* Data.swift */,
 				C1E1AF25238B7949008BFBFB /* UIImagePickerSourceType+ErrorText.swift */,
 				C19C386423792B9F00216A3F /* UITextFieldExtensions.swift */,
+				C17A978B23E29829002BD2DB /* UIView+NibLoadable.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -559,6 +558,8 @@
 		C12D1F1D236FDC0700A5A6FB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C12D1F5E2370023900A5A6FB /* Colors.swift */,
+				C1DB042723E29B7000992207 /* Images.swift */,
 				C1EB0F9A23728428008A042B /* Settings.bundle */,
 				C15F944B2369BAC9007F3B68 /* LaunchScreen.storyboard */,
 				C105DA2323793F8200607832 /* Assets.xcassets */,
@@ -643,19 +644,19 @@
 			path = Entity;
 			sourceTree = "<group>";
 		};
-		C142B16C23C46F2B006860F5 /* WakeUpResultView */ = {
+		C142B16C23C46F2B006860F5 /* ResultView */ = {
 			isa = PBXGroup;
 			children = (
-				C142B16D23C47951006860F5 /* WakeUpResult.xib */,
 				C12D1F46236FE2CD00A5A6FB /* ResultView.swift */,
+				C173FAF423D7F10B0020100D /* Result.xib */,
 			);
-			path = WakeUpResultView;
+			path = ResultView;
 			sourceTree = "<group>";
 		};
 		C1589AE523A42498001F0AA3 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
-				C142B16C23C46F2B006860F5 /* WakeUpResultView */,
+				C142B16C23C46F2B006860F5 /* ResultView */,
 				C12D1F44236FE28400A5A6FB /* WakeUpButton.swift */,
 				C12D1F4E236FF15800A5A6FB /* LevelBar.swift */,
 				C152F94F23AA066C00719044 /* LevelBarViewModel.swift */,
@@ -760,7 +761,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C13CE85523D2FA3200046467 /* Build configuration list for PBXNativeTarget "e-sleep_dev" */;
 			buildPhases = (
-				C13CE7F023D2FA3200046467 /* R.swift */,
 				C13CE7F123D2FA3200046467 /* Sources */,
 				C13CE82323D2FA3200046467 /* Frameworks */,
 				C13CE83123D2FA3200046467 /* Resources */,
@@ -789,7 +789,6 @@
 				C10301042369BFEF00939C91 /* Embed Frameworks */,
 				C10301052369BFF800939C91 /* Run Script - Carthage */,
 				C12D1F7D23705B6B00A5A6FB /* Run Script - LicensePlist */,
-				E8E96455F54D6FE48766F4EC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -827,7 +826,6 @@
 				C15F945A2369BAC9007F3B68 /* Sources */,
 				C15F945B2369BAC9007F3B68 /* Frameworks */,
 				C15F945C2369BAC9007F3B68 /* Resources */,
-				BEA648A45BC06914EE9753EC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -846,7 +844,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1110;
-				LastUpgradeCheck = 1110;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Ren Matsushita";
 				TargetAttributes = {
 					C15F943C2369BAC8007F3B68 = {
@@ -895,7 +893,6 @@
 				C13CE83923D2FA3200046467 /* RankingTableViewCell.xib in Resources */,
 				C13CE83A23D2FA3200046467 /* Settings.storyboard in Resources */,
 				C13CE83D23D2FA3200046467 /* Ranking.storyboard in Resources */,
-				C13CE83E23D2FA3200046467 /* WakeUpResult.xib in Resources */,
 				C13CE83F23D2FA3200046467 /* RegisterIcon.storyboard in Resources */,
 				C13CE84023D2FA3200046467 /* AlarmTableViewCell.xib in Resources */,
 				C13CE84223D2FA3200046467 /* Settings.bundle in Resources */,
@@ -915,8 +912,8 @@
 				C12D1F53236FF3E600A5A6FB /* RankingTableViewCell.xib in Resources */,
 				C12D1F3E236FE17800A5A6FB /* Settings.storyboard in Resources */,
 				C12D1F30236FE13500A5A6FB /* Ranking.storyboard in Resources */,
-				C142B16E23C47951006860F5 /* WakeUpResult.xib in Resources */,
 				C12D1F2E236FE12700A5A6FB /* RegisterIcon.storyboard in Resources */,
+				C173FAF523D7F10B0020100D /* Result.xib in Resources */,
 				FA894B142398E1A100077616 /* AlarmTableViewCell.xib in Resources */,
 				C1EB0F9B23728428008A042B /* Settings.bundle in Resources */,
 				C105DA2423793F8200607832 /* Assets.xcassets in Resources */,
@@ -984,23 +981,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BEA648A45BC06914EE9753EC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-e-sleep-e-sleepUITests/Pods-e-sleep-e-sleepUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-e-sleep-e-sleepUITests/Pods-e-sleep-e-sleepUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-e-sleep-e-sleepUITests/Pods-e-sleep-e-sleepUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C10301052369BFF800939C91 /* Run Script - Carthage */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1066,26 +1046,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
-		};
-		C13CE7F023D2FA3200046467 /* R.swift */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$TEMP_DIR/rswift-lastrun",
-			);
-			name = R.swift;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				$SRCROOT/R.generated.swift,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/$PROJECT_NAME/R.generated.swift\"\n\n";
 		};
 		C13CE85223D2FA3200046467 /* Run Script - Carthage */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1155,23 +1115,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E8E96455F54D6FE48766F4EC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-e-sleep/Pods-e-sleep-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-e-sleep/Pods-e-sleep-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-e-sleep/Pods-e-sleep-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1179,6 +1122,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1DB042923E29D3300992207 /* UIView+NibLoadable.swift in Sources */,
+				C1DB042A23E29D3300992207 /* Images.swift in Sources */,
 				C12A5E4D23D595CA00AD0947 /* ExperienceRealmOperator.swift in Sources */,
 				C12A5E4E23D595CA00AD0947 /* UserRealmOperator.swift in Sources */,
 				C12A5E4F23D595CA00AD0947 /* AlarmRealmOperator.swift in Sources */,
@@ -1199,7 +1144,6 @@
 				C13CE7F623D2FA3200046467 /* LevelBarViewModel.swift in Sources */,
 				C13CE7F823D2FA3200046467 /* AlarmViewModel.swift in Sources */,
 				C13CE7F923D2FA3200046467 /* Usage_e-sleepViewController.swift in Sources */,
-				C13CE7FA23D2FA3200046467 /* Data.swift in Sources */,
 				C13CE7FB23D2FA3200046467 /* AlarmTableViewCell.swift in Sources */,
 				C13CE7FC23D2FA3200046467 /* LevelBarModel.swift in Sources */,
 				C13CE7FD23D2FA3200046467 /* RankingModel.swift in Sources */,
@@ -1247,9 +1191,9 @@
 				C12D1F4D236FEC7500A5A6FB /* RegisterIconViewController.swift in Sources */,
 				C19C38672379376800216A3F /* PaddingTextField.swift in Sources */,
 				C152F95023AA066C00719044 /* LevelBarViewModel.swift in Sources */,
+				C17A978C23E29829002BD2DB /* UIView+NibLoadable.swift in Sources */,
 				FA894B1E2398F4DE00077616 /* AlarmViewModel.swift in Sources */,
 				C189240E23A24A1B001D3F54 /* Usage_e-sleepViewController.swift in Sources */,
-				C1E1AF33238D2766008BFBFB /* Data.swift in Sources */,
 				C117E5F523D434F600A07CAB /* URLMolder.swift in Sources */,
 				FA894B132398E1A100077616 /* AlarmTableViewCell.swift in Sources */,
 				C152F95223AA067A00719044 /* LevelBarModel.swift in Sources */,
@@ -1282,6 +1226,7 @@
 				C1006FE123856A8600921E3B /* RankingViewController.swift in Sources */,
 				C12D1F52236FF3E600A5A6FB /* RankingTableViewCell.swift in Sources */,
 				C12A5E3F23D574B000AD0947 /* ClientErrors.swift in Sources */,
+				C1DB042823E29B7000992207 /* Images.swift in Sources */,
 				C189241223A24B6F001D3F54 /* EditProfileViewModel.swift in Sources */,
 				C12A5E3D23D5742400AD0947 /* ServerErrors.swift in Sources */,
 				FAD8A2B02398D6C6007AFC3F /* RankingDataSource.swift in Sources */,

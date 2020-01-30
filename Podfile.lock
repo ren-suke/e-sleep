@@ -1,24 +1,16 @@
 PODS:
   - LicensePlist (2.12.0)
-  - R.swift (5.1.0):
-    - R.swift.Library (~> 5.1.0)
-  - R.swift.Library (5.1.0)
 
 DEPENDENCIES:
   - LicensePlist
-  - R.swift
 
 SPEC REPOS:
   trunk:
     - LicensePlist
-    - R.swift
-    - R.swift.Library
 
 SPEC CHECKSUMS:
   LicensePlist: 58cf605015acb4397095c8e7115c786d37ad8fbc
-  R.swift: 8cbc4fc69b740305b6a17c8a8ed968eb788962d9
-  R.swift.Library: fa85ce1e0d0b7e818cd9e080df910ba54d2776cc
 
-PODFILE CHECKSUM: db8faab79550c369ec9aeb1b45923f31f541462c
+PODFILE CHECKSUM: 01d6758ff47400602c2c3d58e8a33a397e0c088d
 
 COCOAPODS: 1.8.4
