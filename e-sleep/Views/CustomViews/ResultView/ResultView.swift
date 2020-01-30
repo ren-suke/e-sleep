@@ -36,6 +36,4 @@ final class ResultView: UIView {
         self.layer.cornerRadius = 12
         self.clipsToBounds = true
     }
-    
-    
 }

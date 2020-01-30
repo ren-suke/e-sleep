@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D3E8DBD6C2A82E411793750 /* Pods_e_sleep_e_sleepUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2DA78011984FFBF3F09F3F /* Pods_e_sleep_e_sleepUITests.framework */; };
+		288D48F79C525E982911358A /* Pods_e_sleep_e_sleepUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B93E6889E966CE33CEE9E05 /* Pods_e_sleep_e_sleepUITests.framework */; };
+		AB240F9E4E85F337E13B19B8 /* Pods_e_sleep.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553BB9A37C470030B546B1E2 /* Pods_e_sleep.framework */; };
 		C1006FD8238564A200921E3B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1006FD7238564A200921E3B /* SettingsViewController.swift */; };
 		C1006FDA238565F300921E3B /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1006FD9238565F300921E3B /* AlarmViewController.swift */; };
 		C1006FDC238566A700921E3B /* AddAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1006FDB238566A700921E3B /* AddAlarmViewController.swift */; };
@@ -156,7 +157,7 @@
 		C15F94632369BAC9007F3B68 /* e_sleepUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F94622369BAC9007F3B68 /* e_sleepUITests.swift */; };
 		C16D938E2377B53B00DFC21A /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16D938D2377B53B00DFC21A /* Experience.swift */; };
 		C16D93902377B87300DFC21A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16D938F2377B87300DFC21A /* User.swift */; };
-		C173FAF523D7F10B0020100D /* Result.xib in Resources */ = {isa = PBXBuildFile; fileRef = C173FAF423D7F10B0020100D /* Result.xib */; };
+		C173FAF523D7F10B0020100D /* ResultView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C173FAF423D7F10B0020100D /* ResultView.xib */; };
 		C17A978C23E29829002BD2DB /* UIView+NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17A978B23E29829002BD2DB /* UIView+NibLoadable.swift */; };
 		C17B614623865B2300B0221D /* RegisterNameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17B614523865B2300B0221D /* RegisterNameViewModel.swift */; };
 		C17B614823865E8000B0221D /* RegisterNameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17B614723865E8000B0221D /* RegisterNameModel.swift */; };
@@ -168,6 +169,8 @@
 		C19C386523792B9F00216A3F /* UITextFieldExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19C386423792B9F00216A3F /* UITextFieldExtensions.swift */; };
 		C19C38672379376800216A3F /* PaddingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19C38662379376800216A3F /* PaddingTextField.swift */; };
 		C1BF61F52384EA8F00B58578 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BF61F42384EA8F00B58578 /* TabBarController.swift */; };
+		C1CCAAC223E2A1CC008BC0D3 /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CCAAC123E2A1CC008BC0D3 /* NSObject+ClassName.swift */; };
+		C1CCAAC323E2A21C008BC0D3 /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CCAAC123E2A1CC008BC0D3 /* NSObject+ClassName.swift */; };
 		C1DB042823E29B7000992207 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB042723E29B7000992207 /* Images.swift */; };
 		C1DB042923E29D3300992207 /* UIView+NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17A978B23E29829002BD2DB /* UIView+NibLoadable.swift */; };
 		C1DB042A23E29D3300992207 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB042723E29B7000992207 /* Images.swift */; };
@@ -175,8 +178,7 @@
 		C1E1AF2B238B7FBA008BFBFB /* RxGesture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E1AF29238B7FBA008BFBFB /* RxGesture.framework */; };
 		C1E1AF2C238B7FBA008BFBFB /* RxGesture.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C1E1AF29238B7FBA008BFBFB /* RxGesture.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C1EB0F9B23728428008A042B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C1EB0F9A23728428008A042B /* Settings.bundle */; };
-		D5767A8D1AD41140D56C6658 /* Pods_e_sleepTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDD1025E8F4B37465FC16FC4 /* Pods_e_sleepTests.framework */; };
-		F6418E09A005E84AF65DCDE8 /* Pods_e_sleep.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5359C7D0AB564D83F55C91D1 /* Pods_e_sleep.framework */; };
+		F315815E28B197B2B373B78F /* Pods_e_sleepTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA35B1B44B80497FB62BA25 /* Pods_e_sleepTests.framework */; };
 		FA5E726D2399FE1400AC435C /* AddAlarmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E726C2399FE1400AC435C /* AddAlarmViewModel.swift */; };
 		FA5E726F239A039A00AC435C /* AddAlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5E726E239A039A00AC435C /* AddAlarmModel.swift */; };
 		FA894B132398E1A100077616 /* AlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA894B112398E1A100077616 /* AlarmTableViewCell.swift */; };
@@ -255,12 +257,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0C15F6445DF4A6FC4F560E71 /* Pods-e-sleep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-sleep.release.xcconfig"; path = "Target Support Files/Pods-e-sleep/Pods-e-sleep.release.xcconfig"; sourceTree = "<group>"; };
-		1C25825A99A218CB43F1612D /* Pods-e-sleepTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-sleepTests.debug.xcconfig"; path = "Target Support Files/Pods-e-sleepTests/Pods-e-sleepTests.debug.xcconfig"; sourceTree = "<group>"; };
-		33A83FCBD641211BE907D47E /* Pods-e-sleep-e-sleepUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-sleep-e-sleepUITests.debug.xcconfig"; path = "Target Support Files/Pods-e-sleep-e-sleepUITests/Pods-e-sleep-e-sleepUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		4989617D64F8A18AA7D2A704 /* Pods-e-sleep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-sleep.debug.xcconfig"; path = "Target Support Files/Pods-e-sleep/Pods-e-sleep.debug.xcconfig"; sourceTree = "<group>"; };
-		5359C7D0AB564D83F55C91D1 /* Pods_e_sleep.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_e_sleep.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F2DA78011984FFBF3F09F3F /* Pods_e_sleep_e_sleepUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_e_sleep_e_sleepUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D49E948F4FE401E684A17B /* Pods-e-sleep-e-sleepUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-sleep-e-sleepUITests.release.xcconfig"; path = "Target Support Files/Pods-e-sleep-e-sleepUITests/Pods-e-sleep-e-sleepUITests.release.xcconfig"; sourceTree = "<group>"; };
+		49ACB4CDAF66BEE41B278AEC /* Pods-e-sleep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-sleep.debug.xcconfig"; path = "Target Support Files/Pods-e-sleep/Pods-e-sleep.debug.xcconfig"; sourceTree = "<group>"; };
+		4EA35B1B44B80497FB62BA25 /* Pods_e_sleepTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_e_sleepTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		553BB9A37C470030B546B1E2 /* Pods_e_sleep.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_e_sleep.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C1E53834EDB0BE7C35F5242 /* Pods-e-sleepTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-sleepTests.debug.xcconfig"; path = "Target Support Files/Pods-e-sleepTests/Pods-e-sleepTests.debug.xcconfig"; sourceTree = "<group>"; };
+		70A9E298AB5C929E65723BCE /* Pods-e-sleepTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-sleepTests.release.xcconfig"; path = "Target Support Files/Pods-e-sleepTests/Pods-e-sleepTests.release.xcconfig"; sourceTree = "<group>"; };
+		79293F7596E9EC9BFC1D5E75 /* Pods-e-sleep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-sleep.release.xcconfig"; path = "Target Support Files/Pods-e-sleep/Pods-e-sleep.release.xcconfig"; sourceTree = "<group>"; };
+		8B93E6889E966CE33CEE9E05 /* Pods_e_sleep_e_sleepUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_e_sleep_e_sleepUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1006FD7238564A200921E3B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		C1006FD9238565F300921E3B /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
 		C1006FDB238566A700921E3B /* AddAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmViewController.swift; sourceTree = "<group>"; };
@@ -323,7 +327,7 @@
 		C15F94642369BAC9007F3B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C16D938D2377B53B00DFC21A /* Experience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
 		C16D938F2377B87300DFC21A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		C173FAF423D7F10B0020100D /* Result.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Result.xib; sourceTree = "<group>"; };
+		C173FAF423D7F10B0020100D /* ResultView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultView.xib; sourceTree = "<group>"; };
 		C17A978B23E29829002BD2DB /* UIView+NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+NibLoadable.swift"; sourceTree = "<group>"; };
 		C17B614523865B2300B0221D /* RegisterNameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterNameViewModel.swift; sourceTree = "<group>"; };
 		C17B614723865E8000B0221D /* RegisterNameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterNameModel.swift; sourceTree = "<group>"; };
@@ -335,13 +339,13 @@
 		C19C386423792B9F00216A3F /* UITextFieldExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtensions.swift; sourceTree = "<group>"; };
 		C19C38662379376800216A3F /* PaddingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTextField.swift; sourceTree = "<group>"; };
 		C1BF61F42384EA8F00B58578 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		C1CCAAC123E2A1CC008BC0D3 /* NSObject+ClassName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+ClassName.swift"; sourceTree = "<group>"; };
 		C1DB042723E29B7000992207 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		C1E1AF25238B7949008BFBFB /* UIImagePickerSourceType+ErrorText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImagePickerSourceType+ErrorText.swift"; sourceTree = "<group>"; };
 		C1E1AF29238B7FBA008BFBFB /* RxGesture.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxGesture.framework; path = Carthage/Build/iOS/RxGesture.framework; sourceTree = "<group>"; };
 		C1E1AF2A238B7FBA008BFBFB /* TransitionButton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TransitionButton.framework; path = Carthage/Build/iOS/TransitionButton.framework; sourceTree = "<group>"; };
 		C1EB0F9A23728428008A042B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
-		CCC0B5E3214DACFA584422C8 /* Pods-e-sleepTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-sleepTests.release.xcconfig"; path = "Target Support Files/Pods-e-sleepTests/Pods-e-sleepTests.release.xcconfig"; sourceTree = "<group>"; };
-		CDD1025E8F4B37465FC16FC4 /* Pods_e_sleepTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_e_sleepTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEF29A2C9023F71080E8E0A5 /* Pods-e-sleep-e-sleepUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-sleep-e-sleepUITests.debug.xcconfig"; path = "Target Support Files/Pods-e-sleep-e-sleepUITests/Pods-e-sleep-e-sleepUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FA5E726C2399FE1400AC435C /* AddAlarmViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmViewModel.swift; sourceTree = "<group>"; };
 		FA5E726E239A039A00AC435C /* AddAlarmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarmModel.swift; sourceTree = "<group>"; };
 		FA894B112398E1A100077616 /* AlarmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTableViewCell.swift; sourceTree = "<group>"; };
@@ -356,7 +360,6 @@
 		FAD8A2AB2398D072007AFC3F /* TodayRankingDetailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TodayRankingDetailData.swift; path = "e-sleep/Entity/TodayRankingDetailData.swift"; sourceTree = SOURCE_ROOT; };
 		FAD8A2AD2398D3BF007AFC3F /* RankingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewModel.swift; sourceTree = "<group>"; };
 		FAD8A2AF2398D6C6007AFC3F /* RankingDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingDataSource.swift; sourceTree = "<group>"; };
-		FD1D75DD87975FFDA139667F /* Pods-e-sleep-e-sleepUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-sleep-e-sleepUITests.release.xcconfig"; path = "Target Support Files/Pods-e-sleep-e-sleepUITests/Pods-e-sleep-e-sleepUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -391,7 +394,7 @@
 				C1E1AF2B238B7FBA008BFBFB /* RxGesture.framework in Frameworks */,
 				C10300FE2369BFEF00939C91 /* RxCocoa.framework in Frameworks */,
 				C10300F42369BFEF00939C91 /* RealmSwift.framework in Frameworks */,
-				F6418E09A005E84AF65DCDE8 /* Pods_e_sleep.framework in Frameworks */,
+				AB240F9E4E85F337E13B19B8 /* Pods_e_sleep.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,7 +402,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5767A8D1AD41140D56C6658 /* Pods_e_sleepTests.framework in Frameworks */,
+				F315815E28B197B2B373B78F /* Pods_e_sleepTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,7 +410,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D3E8DBD6C2A82E411793750 /* Pods_e_sleep_e_sleepUITests.framework in Frameworks */,
+				288D48F79C525E982911358A /* Pods_e_sleep_e_sleepUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,9 +433,9 @@
 				C10300EE2369BFEE00939C91 /* RxOptional.framework */,
 				C10300EB2369BFEE00939C91 /* RxRelay.framework */,
 				C10300E92369BFEE00939C91 /* RxSwift.framework */,
-				5359C7D0AB564D83F55C91D1 /* Pods_e_sleep.framework */,
-				8F2DA78011984FFBF3F09F3F /* Pods_e_sleep_e_sleepUITests.framework */,
-				CDD1025E8F4B37465FC16FC4 /* Pods_e_sleepTests.framework */,
+				553BB9A37C470030B546B1E2 /* Pods_e_sleep.framework */,
+				8B93E6889E966CE33CEE9E05 /* Pods_e_sleep_e_sleepUITests.framework */,
+				4EA35B1B44B80497FB62BA25 /* Pods_e_sleepTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -440,12 +443,12 @@
 		BFCBF5EC98E2F0B324E7507F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				33A83FCBD641211BE907D47E /* Pods-e-sleep-e-sleepUITests.debug.xcconfig */,
-				FD1D75DD87975FFDA139667F /* Pods-e-sleep-e-sleepUITests.release.xcconfig */,
-				1C25825A99A218CB43F1612D /* Pods-e-sleepTests.debug.xcconfig */,
-				CCC0B5E3214DACFA584422C8 /* Pods-e-sleepTests.release.xcconfig */,
-				4989617D64F8A18AA7D2A704 /* Pods-e-sleep.debug.xcconfig */,
-				0C15F6445DF4A6FC4F560E71 /* Pods-e-sleep.release.xcconfig */,
+				49ACB4CDAF66BEE41B278AEC /* Pods-e-sleep.debug.xcconfig */,
+				79293F7596E9EC9BFC1D5E75 /* Pods-e-sleep.release.xcconfig */,
+				EEF29A2C9023F71080E8E0A5 /* Pods-e-sleep-e-sleepUITests.debug.xcconfig */,
+				03D49E948F4FE401E684A17B /* Pods-e-sleep-e-sleepUITests.release.xcconfig */,
+				6C1E53834EDB0BE7C35F5242 /* Pods-e-sleepTests.debug.xcconfig */,
+				70A9E298AB5C929E65723BCE /* Pods-e-sleepTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -548,9 +551,8 @@
 		C12D1F1C236FDC0300A5A6FB /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				C1E1AF25238B7949008BFBFB /* UIImagePickerSourceType+ErrorText.swift */,
-				C19C386423792B9F00216A3F /* UITextFieldExtensions.swift */,
-				C17A978B23E29829002BD2DB /* UIView+NibLoadable.swift */,
+				C1CCAAC023E2A1A5008BC0D3 /* UIKit */,
+				C1CCAAC123E2A1CC008BC0D3 /* NSObject+ClassName.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -648,7 +650,7 @@
 			isa = PBXGroup;
 			children = (
 				C12D1F46236FE2CD00A5A6FB /* ResultView.swift */,
-				C173FAF423D7F10B0020100D /* Result.xib */,
+				C173FAF423D7F10B0020100D /* ResultView.xib */,
 			);
 			path = ResultView;
 			sourceTree = "<group>";
@@ -754,6 +756,16 @@
 			path = TabBarController;
 			sourceTree = "<group>";
 		};
+		C1CCAAC023E2A1A5008BC0D3 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				C1E1AF25238B7949008BFBFB /* UIImagePickerSourceType+ErrorText.swift */,
+				C19C386423792B9F00216A3F /* UITextFieldExtensions.swift */,
+				C17A978B23E29829002BD2DB /* UIView+NibLoadable.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -766,7 +778,6 @@
 				C13CE83123D2FA3200046467 /* Resources */,
 				C13CE84523D2FA3200046467 /* Embed Frameworks */,
 				C13CE85223D2FA3200046467 /* Run Script - Carthage */,
-				C13CE85323D2FA3200046467 /* Run Script - LicensePlist */,
 			);
 			buildRules = (
 			);
@@ -781,8 +792,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C15F94672369BAC9007F3B68 /* Build configuration list for PBXNativeTarget "e-sleep" */;
 			buildPhases = (
-				D9D57C64C343601C1CF9F55F /* [CP] Check Pods Manifest.lock */,
-				C13CE7E723D2F13F00046467 /* R.swift */,
+				68952DB51C22E3CDB6D00830 /* [CP] Check Pods Manifest.lock */,
 				C15F94392369BAC8007F3B68 /* Sources */,
 				C15F943A2369BAC8007F3B68 /* Frameworks */,
 				C15F943B2369BAC8007F3B68 /* Resources */,
@@ -803,7 +813,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C15F946A2369BAC9007F3B68 /* Build configuration list for PBXNativeTarget "e-sleepTests" */;
 			buildPhases = (
-				190FDBE7BCFDC8094496B30B /* [CP] Check Pods Manifest.lock */,
+				922CC885CEED277675A5D514 /* [CP] Check Pods Manifest.lock */,
 				C15F944F2369BAC9007F3B68 /* Sources */,
 				C15F94502369BAC9007F3B68 /* Frameworks */,
 				C15F94512369BAC9007F3B68 /* Resources */,
@@ -822,7 +832,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C15F946D2369BAC9007F3B68 /* Build configuration list for PBXNativeTarget "e-sleepUITests" */;
 			buildPhases = (
-				1ABA138D24430BB7FCED459D /* [CP] Check Pods Manifest.lock */,
+				5F94E2A74A9275CD49871D8A /* [CP] Check Pods Manifest.lock */,
 				C15F945A2369BAC9007F3B68 /* Sources */,
 				C15F945B2369BAC9007F3B68 /* Frameworks */,
 				C15F945C2369BAC9007F3B68 /* Resources */,
@@ -913,7 +923,7 @@
 				C12D1F3E236FE17800A5A6FB /* Settings.storyboard in Resources */,
 				C12D1F30236FE13500A5A6FB /* Ranking.storyboard in Resources */,
 				C12D1F2E236FE12700A5A6FB /* RegisterIcon.storyboard in Resources */,
-				C173FAF523D7F10B0020100D /* Result.xib in Resources */,
+				C173FAF523D7F10B0020100D /* ResultView.xib in Resources */,
 				FA894B142398E1A100077616 /* AlarmTableViewCell.xib in Resources */,
 				C1EB0F9B23728428008A042B /* Settings.bundle in Resources */,
 				C105DA2423793F8200607832 /* Assets.xcassets in Resources */,
@@ -937,29 +947,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		190FDBE7BCFDC8094496B30B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-e-sleepTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1ABA138D24430BB7FCED459D /* [CP] Check Pods Manifest.lock */ = {
+		5F94E2A74A9275CD49871D8A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -975,6 +963,50 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-e-sleep-e-sleepUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68952DB51C22E3CDB6D00830 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-e-sleep-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		922CC885CEED277675A5D514 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-e-sleepTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1027,26 +1059,6 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [ $CONFIGURATION = \"Debug\" ]; then\n${PODS_ROOT}/LicensePlist/license-plist --output-path $PRODUCT_NAME/Settings.bundle\nfi\n\n";
 		};
-		C13CE7E723D2F13F00046467 /* R.swift */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$TEMP_DIR/rswift-lastrun",
-			);
-			name = R.swift;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				$SRCROOT/R.generated.swift,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
-		};
 		C13CE85223D2FA3200046467 /* Run Script - Carthage */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1075,46 +1087,6 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
 		};
-		C13CE85323D2FA3200046467 /* Run Script - LicensePlist */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Run Script - LicensePlist";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [ $CONFIGURATION = \"Debug\" ]; then\n${PODS_ROOT}/LicensePlist/license-plist --output-path $PRODUCT_NAME/Settings.bundle\nfi\n\n";
-		};
-		D9D57C64C343601C1CF9F55F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-e-sleep-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1122,6 +1094,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1CCAAC323E2A21C008BC0D3 /* NSObject+ClassName.swift in Sources */,
 				C1DB042923E29D3300992207 /* UIView+NibLoadable.swift in Sources */,
 				C1DB042A23E29D3300992207 /* Images.swift in Sources */,
 				C12A5E4D23D595CA00AD0947 /* ExperienceRealmOperator.swift in Sources */,
@@ -1201,6 +1174,7 @@
 				FAD8A2AA2398CFA7007AFC3F /* RankingModel.swift in Sources */,
 				C17B614823865E8000B0221D /* RegisterNameModel.swift in Sources */,
 				C19C386523792B9F00216A3F /* UITextFieldExtensions.swift in Sources */,
+				C1CCAAC223E2A1CC008BC0D3 /* NSObject+ClassName.swift in Sources */,
 				C12D1F662370107000A5A6FB /* RegisterIconViewModel.swift in Sources */,
 				C12D1F49236FE34700A5A6FB /* RegisterNameViewController.swift in Sources */,
 				C15F94412369BAC8007F3B68 /* AppDelegate.swift in Sources */,
@@ -1455,7 +1429,7 @@
 		};
 		C15F94682369BAC9007F3B68 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4989617D64F8A18AA7D2A704 /* Pods-e-sleep.debug.xcconfig */;
+			baseConfigurationReference = 49ACB4CDAF66BEE41B278AEC /* Pods-e-sleep.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1480,7 +1454,7 @@
 		};
 		C15F94692369BAC9007F3B68 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C15F6445DF4A6FC4F560E71 /* Pods-e-sleep.release.xcconfig */;
+			baseConfigurationReference = 79293F7596E9EC9BFC1D5E75 /* Pods-e-sleep.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -1505,7 +1479,7 @@
 		};
 		C15F946B2369BAC9007F3B68 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C25825A99A218CB43F1612D /* Pods-e-sleepTests.debug.xcconfig */;
+			baseConfigurationReference = 6C1E53834EDB0BE7C35F5242 /* Pods-e-sleepTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1528,7 +1502,7 @@
 		};
 		C15F946C2369BAC9007F3B68 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCC0B5E3214DACFA584422C8 /* Pods-e-sleepTests.release.xcconfig */;
+			baseConfigurationReference = 70A9E298AB5C929E65723BCE /* Pods-e-sleepTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1551,7 +1525,7 @@
 		};
 		C15F946E2369BAC9007F3B68 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33A83FCBD641211BE907D47E /* Pods-e-sleep-e-sleepUITests.debug.xcconfig */;
+			baseConfigurationReference = EEF29A2C9023F71080E8E0A5 /* Pods-e-sleep-e-sleepUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1572,7 +1546,7 @@
 		};
 		C15F946F2369BAC9007F3B68 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD1D75DD87975FFDA139667F /* Pods-e-sleep-e-sleepUITests.release.xcconfig */;
+			baseConfigurationReference = 03D49E948F4FE401E684A17B /* Pods-e-sleep-e-sleepUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
